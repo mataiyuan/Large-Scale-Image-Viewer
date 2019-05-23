@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <mainTerm name="Neoplasm,benign" code="8000/0" check="">
+    <subTerm name="Tumor,benign" check=""/>
+    <subTerm name="Unclassified tumor,benign" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, uncertain whether benign or malignant" code="8000/1/1" check="">
+    <subTerm name="Neoplasm, NOS" check=""/>
+    <subTerm name="Tumor, NOS" check=""/>
+	<subTerm name="Unclassified tumor, uncertain whether benign or malignant" check=""/>
+	<subTerm name="Unclassified tumor, borderline malignancy" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, malignant" code="8000/3/1" check="">
+    <subTerm name="Tumor, malignant, NOS" check=""/>
+    <subTerm name="Malignancy" check=""/>
+	  <subTerm name="Cancer" check=""/>
+	  <subTerm name="Unclassified tumor, malignant" check=""/>
+	  <subTerm name="Blastoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, metastatic" code="8000/6/1" check="">
+    <subTerm name="Neoplasm, secondary" check=""/>
+    <subTerm name="Tumor, metastatic" check=""/>
+	  <subTerm name="Tumor, secondary" check=""/>
+	  <subTerm name="Tumor embolus" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, malignant, uncertain whether primary or metastatic" code="8000/9/1" check="">
+    <subTerm name="Unclassified tumor, malignant, uncertain whether primary or metastatic" check=""/>
+  </mainTerm>
+  <mainTerm name="Tumor cells, benign" code="8001/0" check="">
+  </mainTerm>
+  <mainTerm name="Tumor cells, uncertain whether benign or malignant" code="8001/1/1" check="">
+	  <subTerm name="Tumor cells, NOS" check=""/>
+  </mainTerm>
+</root>

@@ -1,0 +1,92 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:util="clr-namespace:Utilities;assembly=Utilities"
+        xmlns:local="clr-namespace:mSlideViewer" x:Class="mSlideViewer.OptionDialog"
+        xmlns:input="clr-namespace:System.Windows.Input;assembly=PresentationCore"
+        Title="Preferences" Height="600" Width="550" Icon="Resources/Icons/mSlideViewer-16X16.ico" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="521*"/>
+            <RowDefinition Height="48*"/>
+        </Grid.RowDefinitions>
+        <TabControl x:Name="tabControlOptions" Grid.RowSpan="2">
+            <TabItem Header="General">
+                <Grid Background="#FFE5E5E5" Margin="0,-1,0,51">
+                    <util:NumericUpDown HorizontalAlignment="Left" Margin="32,196,0,0" VerticalAlignment="Top" Height="20" Width="90" RenderTransformOrigin="0.5,0.5" input:InputMethod.IsInputMethodEnabled="False">
+
+                    </util:NumericUpDown>
+                    <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="32,171,0,0" VerticalAlignment="Top" Width="75"/>
+                    <CheckBox x:Name="cbSaveSnapShotWhenExit" Content="Save SnapShot When Exit." HorizontalAlignment="Left" Margin="32,117,0,0" VerticalAlignment="Top"/>
+                    <CheckBox x:Name="cbCTRLforScale" Content="CTRL is used to scale image viewer." HorizontalAlignment="Left" Margin="32,135,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Annotation">
+                <Grid Background="#FFE5E5E5">
+                    <CheckBox x:Name="checkBox" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="487" Height="35">
+                        <TextBlock TextWrapping="Wrap" 
+                   Text="When open the slide Image, opening the relative annotation file with the same filename in the same file folder. "/>
+                    </CheckBox>
+                    <CheckBox x:Name="checkBox1" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="487" Height="35">
+                        <TextBlock TextWrapping="Wrap" 
+                   Text="When application closed, save the relative annotation for the current slide. "/>
+                    </CheckBox>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="SMTP Server">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+
+            <TabItem Header="HTTP Proxy">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="mSlideTalk"  Header="mSlideTalk">
+                <Grid Background="#FFE5E5E5">
+                    <GroupBox x:Name="gbTalkServer" Header="Server Configuration" HorizontalAlignment="Left" Height="190" Margin="15,14,0,0" VerticalAlignment="Top" Width="507">
+                        <Grid HorizontalAlignment="Left" Height="175" Margin="4,-6,0,-16" VerticalAlignment="Top" Width="470">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Label x:Name="labelTalkApplication" Content="mSlideTalk Application:" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" Width="145"/>
+                            <TextBox x:Name="txTalkApplication" HorizontalAlignment="Left" Height="23" Margin="13,36,0,0" VerticalAlignment="Top" Width="420" IsReadOnly="True"/>
+                            <Button x:Name="tbTalkApplicationPath" HorizontalAlignment="Left" Height="20" Margin="435,38,0,0" VerticalAlignment="Top" Width="20" BorderThickness="0" Click="tbTalkApplicationPath_Click">
+                                <Image Source="Resources/Images/exe_24.png" />
+                            </Button>
+                            <Label x:Name="labelLoadParameters" Content="Load Parameters:" HorizontalAlignment="Left" Margin="13,59,0,0" VerticalAlignment="Top" Width="145" RenderTransformOrigin="0.448,7.462"/>
+                            <TextBox x:Name="tbTalkLoadParameters" HorizontalAlignment="Left" Height="23" Margin="13,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="420"/>
+                            <Label x:Name="labelTalkServer" Content="mSlideTalk Server:" HorizontalAlignment="Left" Margin="13,108,0,0" VerticalAlignment="Top" Width="145"/>
+                            <util:IPAddressControl x:Name="txTalkServerIP"  ToolTip="IP Address: 192.168.0.1" Margin="13,134,298,18" BorderThickness="1" BorderBrush="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" FontSize="10"/>
+                            <Button x:Name="tbServerConnectionTest" Content="Server Connection Test"  HorizontalAlignment="Left" Height="23" Margin="200,134,0,0" VerticalAlignment="Top" Width="140" Click="tbServerConnectionTest_Click"/>
+                            <Label x:Name="labelConnectionTestResult" Content="Result" HorizontalAlignment="Left" Height="23" Margin="357,134,0,0" VerticalAlignment="Top" Width="45"/>
+                        </Grid>
+                    </GroupBox>
+                    <Grid HorizontalAlignment="Left" Height="180" Margin="10,340,0,0" VerticalAlignment="Top" Width="512">
+                        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Width="75"/>
+                    </Grid>
+                    <GroupBox x:Name="groupBox" Header="GroupBox" HorizontalAlignment="Left" Margin="15,230,0,0" VerticalAlignment="Top" Height="85" Width="507"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Pathology Glossary">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,48">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition Height="209*"/>
+                    </Grid.RowDefinitions>
+
+
+                    <CheckBox x:Name="cbFavoriteItemsLoadOnStartup" Content="Load the default favorite glossary items on startup." Margin="40,9,159,0" Grid.Row="1" />
+                    <CheckBox x:Name="cbFavoriteItemsSaveOnExit" Content="Save the favorite glossary items on app exit." Margin="40,5,159,0" Grid.Row="2" />
+                </Grid>
+            </TabItem>
+
+
+        </TabControl>
+
+        <Button x:Name="btOk" Content="OK" Margin="356,10,112,15" IsDefault="True" Grid.Row="1" Click="btOk_Click"/>
+        <Button x:Name="btCancel"  Content="Cancel" Margin="444,10,0,15" IsCancel="True" Grid.Row="1" HorizontalAlignment="Left" Width="74" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mSlideViewer", "mSlideViewer\mSlideViewer.csproj", "{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawToolsLib", "DrawToolsLib\DrawToolsLib.csproj", "{04456DDE-AF72-4B83-9132-5AFC5F89CC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{A357694B-37A2-40B4-8F3C-537F19675612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RisCaptureLib", "RisCaptureLib\RisCaptureLib.csproj", "{DE79C6AB-B5A9-4BAF-80FA-22835452785F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Debug|x64.Build.0 = Debug|Any CPU
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Release|x64.ActiveCfg = Release|x64
+		{7C59573D-D80E-4BC8-AB3B-178DC4211FC4}.Release|x64.Build.0 = Release|x64
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Debug|x64.Build.0 = Debug|Any CPU
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04456DDE-AF72-4B83-9132-5AFC5F89CC76}.Release|x64.ActiveCfg = Release|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Debug|x64.Build.0 = Debug|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A357694B-37A2-40B4-8F3C-537F19675612}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE79C6AB-B5A9-4BAF-80FA-22835452785F}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

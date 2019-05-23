@@ -1,0 +1,36 @@
+//-------------20170812-----------------//
+修正Thumbnail功能
+
+//-------------20170720-----------------//
+OverView 功能恢复
+Magnifier 放大倍数缩小
+
+//-------------20161231-----------------//
+Graphic Object Draw with Rate 实现
+
+//-------------20161225-----------------//
+悬而未决！
+// Page 0 vCanvas.AddVirtualChild(shape) 耗时，已将 shap生成与shap加载分开
+
+ IList<TissueSlideTile> Page0_Shapes = new List<TissueSlideTile>();
+ IList<TissueSlideTile> Page1_Shapes = new List<TissueSlideTile>();
+ IList<TissueSlideTile> Page2_Shapes = new List<TissueSlideTile>();
+
+ private void AllocateShaps(TileTiffRead tiffReader, Tiff tiffFile)    --- Page0 75ms
+ public void AllocateNodes(ref VirtualCanvas vCanvas, TileTiffRead tiffReader, Tiff tiffFile, int page)     --- Page0 125ms
+
+//-------------20161223-----------------//
+解决一个异常问题
+
+异常: 引发了异常: mscorlib.dll 中的“System.IO.FileNotFoundException”(“Could not load file or assembly 'mSlideViewer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.”)
+
+//-------------20161221-----------------//
+DrawCanvas 增加属性 
+      // 用于主窗口向 DrawingCanvas 传递层信息
+        private int layer = 0;    // 标注定义的特定分类层
+        private int page = 0;     // 标注所处的物理图像层 
+
+
+//-------------20161201-----------------//
+肿瘤形态学术语
+(treeview，搜索，添加，删除)

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <mainTerm name="肿瘤,良性" code="8000/0" check="">
+    <subTerm name="肿块,良性" check=""/>
+    <subTerm name="无法分类 肿块,良性" check=""/>
+  </mainTerm>
+  <mainTerm name="肿瘤, 不确定 是 良性 还是 恶性" code="8000/1/1" check="">
+    <subTerm name="肿瘤, 一氧化氮合酶 " check=""/>
+    <subTerm name="肿块, 一氧化氮合酶 " check=""/>
+	<subTerm name="无法分类 肿块, 不确定 是 良性 还是 恶性" check=""/>
+	<subTerm name="无法分类 肿块, 还是衰退 恶性肿瘤" check=""/>
+  </mainTerm>
+  <mainTerm name="肿瘤, 恶性" code="8000/3/1" check="">
+    <subTerm name="肿块, 恶性, 一氧化氮合酶 " check=""/>
+    <subTerm name="恶性肿瘤" check=""/>
+	  <subTerm name="癌症" check=""/>
+	  <subTerm name="无法分类 肿块, 恶性" check=""/>
+	  <subTerm name="胚细胞瘤, 一氧化氮合酶 " check=""/>
+  </mainTerm>
+  <mainTerm name="肿瘤, 转移瘤" code="8000/6/1" check="">
+    <subTerm name="肿瘤, 次级" check=""/>
+    <subTerm name="肿块, 转移瘤" check=""/>
+	  <subTerm name="肿块, 次级" check=""/>
+	  <subTerm name="肿块 血栓" check=""/>
+  </mainTerm>
+  <mainTerm name="肿瘤, 恶性, 不确定 是 初级 还是 转移瘤" code="8000/9/1" check="">
+    <subTerm name="无法分类 肿块, 恶性, 不确定 是 初级 还是 转移瘤" check=""/>
+  </mainTerm>
+  <mainTerm name="肿块 细胞, 良性" code="8001/0" check="">
+  </mainTerm>
+  <mainTerm name="肿块 细胞, 不确定 是 良性 还是 恶性" code="8001/1/1" check="">
+	  <subTerm name="肿块 细胞, 一氧化氮合酶 " check=""/>
+  </mainTerm>
+</root>

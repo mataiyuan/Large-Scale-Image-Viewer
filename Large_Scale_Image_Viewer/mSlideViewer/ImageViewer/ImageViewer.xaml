@@ -1,0 +1,130 @@
+﻿<UserControl x:Class="mSlideViewer.ImageViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:DrawToolsLib="clr-namespace:DrawToolsLib;assembly=DrawToolsLib"
+             xmlns:VirtualCanvasLib="clr-namespace:VirtualCanvasLib"
+             xmlns:util="clr-namespace:Utilities;assembly=Utilities"
+             xmlns:libconvert="clr-namespace:Petzold.Converters;assembly=Utilities"
+             mc:Ignorable="d" Height="480" Width="500">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer x:Name="ScrollImageViewer" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden" CanContentScroll="True" PreviewKeyDown="ScrollImageViewer_PreviewKeyDown" >
+            <Grid x:Name="gridViewer" 
+                  Width="{Binding ElementName=ScrollImageViewer, Path=ViewportWidth, Mode=OneWay}"
+                  Height="{Binding ElementName=ScrollImageViewer, Path=ViewportHeight, Mode=OneWay}">
+                <Grid x:Name="gridContainer" PreviewMouseMove="OnPreviewMouseMove" >
+                    <VirtualCanvasLib:VirtualCanvas x:Name="imageCanvas" Focusable="True" />
+                    <DrawToolsLib:DrawingCanvas x:Name="annotationCanvas" Background="#00000000" />
+                </Grid>
+            <Canvas x:Name="magnifierCanvas" IsHitTestVisible="False" Width="160" Height="160" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,5,0,0" >
+                    <Border HorizontalAlignment="Center" VerticalAlignment="Center"
+                                Width="160" Height="160" CornerRadius="2"
+                                BorderBrush="#10A0FF" BorderThickness="2">
+                        <Rectangle Width="160" Height="160" Name="magnifierEllipse">
+                            <Rectangle.Fill>
+                                <VisualBrush x:Name="vbMagnifier" Visual="{Binding ElementName=imageCanvas}" Stretch="UniformToFill"   
+                                     ViewboxUnits="Absolute" Viewbox="0, 50, 100, 100"  
+                                     ViewportUnits="RelativeToBoundingBox" Viewport="0, 0, 1, 1">
+                                </VisualBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </Border>
+                </Canvas>
+                
+                <Canvas x:Name="labelImageCanvas" IsHitTestVisible="False" Width="166" Height="160" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0">
+                    <Border HorizontalAlignment="Center" VerticalAlignment="Center"
+                                Width="166" Height="160" CornerRadius="2"
+                                BorderBrush="#10A0FF" BorderThickness="2">                       
+                    </Border>
+                </Canvas>
+
+                <Canvas x:Name="zoombarCanvas" IsHitTestVisible="False" Width="80" Height="150" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,168,0,0" >
+                    <Border HorizontalAlignment="Center" VerticalAlignment="Center"
+                                Width="80" Height="150" CornerRadius="2"
+                                BorderBrush="#10A0FF" BorderThickness="2" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="64*"/>
+                                <RowDefinition Height="9*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Margin="0,0,43,5">
+                                <Button x:Name="btnZoomFit" Content="Fit" Height="16" Width="30" FontSize="10" Click="btnZoomFit_Click">
+                                    <Button.Margin>
+                                        <Thickness Top="3" Bottom="1"  />
+                                    </Button.Margin>
+                                </Button>
+                                <Button x:Name="btnZoom1x" Content="1.25X" Height="16" Width="30" FontSize="10" Click="btnZoom1x_Click">
+                                    <Button.Margin>
+                                        <Thickness Bottom="1" />
+                                    </Button.Margin>
+                                </Button>
+                                <Button x:Name="btnZoom2x" Content="2.5X" Height="16" Width="30" FontSize="10" Click="btnZoom2x_Click">
+                                    <Button.Margin>
+                                        <Thickness Bottom="1" />
+                                    </Button.Margin>
+                                </Button>
+                                <Button x:Name="btnZoom4x" Content="3.75X" Height="16" Width="30" FontSize="10" Click="btnZoom4x_Click">
+                                    <Button.Margin>
+                                        <Thickness Bottom="1" />
+                                    </Button.Margin>
+                                </Button>
+                                <Button x:Name="btnZoom5x" Content="5.0X" Height="16" Width="30" FontSize="10" Click="btnZoom5x_Click">
+                                    <Button.Margin>
+                                        <Thickness Bottom="1" />
+                                    </Button.Margin>
+                                </Button>
+                                <Button x:Name="btnZoom10x" Content="10.0X" Height="16" Width="30" FontSize="10" Click="btnZoom10x_Click">
+                                    <Button.Margin>
+                                        <Thickness Bottom="1" />
+                                    </Button.Margin>
+                                </Button>
+                                <Button x:Name="btnZoom20x" Content="20.0X" Height="16" Width="30" FontSize="10" Click="btnZoom20x_Click">
+                                    <Button.Margin>
+                                        <Thickness Bottom="3" />
+                                    </Button.Margin>
+                                </Button>
+
+                            </StackPanel>
+                            <Slider x:Name="zoomSlider" Margin="43,3,10,0" VerticalAlignment="Top" Orientation="Vertical" Height="120" TickPlacement="BottomRight" AutoToolTipPlacement="BottomRight" Maximum="17" Value="0" SmallChange="1" TickFrequency="5" MouseLeftButtonDown="zoomSlider_MouseLeftButtonDown"/>
+                            <Label x:Name="lbZoom" Content="0.25" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Width="76" Height="18" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionBrushKey}}" Padding="0"/>
+
+                        </Grid>
+
+                    </Border>
+                </Canvas>
+
+                <Canvas x:Name="thumbnailCanvas" IsHitTestVisible="False" Width="160" Height="160" HorizontalAlignment="Right" Margin="0,5,5,0" VerticalAlignment="Top" MouseLeftButtonDown="thumbnailCanvas_MouseLeftButtonDown">
+                    <Border x:Name="thumbnailBorder" HorizontalAlignment="Center" VerticalAlignment="Center"
+                         Width="160" Height="160"  CornerRadius="2" BorderBrush="#10A0FF" BorderThickness="2" />
+
+                    <Thumb x:Name="thumbnailZoomRectThumb" DragDelta="thumbnailZoomRectThumb_DragDelta" 
+                   Canvas.Left="10"
+                   Canvas.Top="10"
+                   Width="60" Height="38" 
+                   Opacity="0.5"  >
+                        <Thumb.Template>
+                            <ControlTemplate TargetType="{x:Type Thumb}">
+                                <Border BorderBrush="Black"  BorderThickness="1" Background="Yellow" CornerRadius="1"/>
+
+                            </ControlTemplate>
+                        </Thumb.Template>
+                    </Thumb>
+                    
+                    <Canvas.Background>
+                        <ImageBrush x:Name="ThumbnailImage_Brush" Stretch="None" ImageSource="/mSlideViewer;component/Resources/Images/OverView.png"/>
+                    </Canvas.Background>
+                </Canvas>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

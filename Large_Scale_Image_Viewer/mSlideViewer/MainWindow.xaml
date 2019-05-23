@@ -1,0 +1,460 @@
+﻿<Window
+        x:Class="mSlideViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+      
+        xmlns:effects="clr-namespace:System.Windows.Media.Effects;assembly=presentationcore"
+        xmlns:DrawToolLib="clr-namespace:DrawToolsLib;assembly=DrawToolsLib"
+        xmlns:util="clr-namespace:Utilities;assembly=Utilities"
+        xmlns:libconvert="clr-namespace:Petzold.Converters;assembly=Utilities"        
+        xmlns:local="clr-namespace:mSlideViewer"
+        xmlns:mvvm="clr-namespace:MVVMApp"
+        xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock" 
+        
+        Title="SJTU Microscope Slide Viewer" Height="768" Width="1024" FontFamily="Microsoft YaHei" Icon="Resources/Icons/mSlideViewer-16X16.ico" 
+        Loaded="MainWindow_Loaded" Closed="Window_Closed">
+    <Window.Resources>
+        <Style x:Key="lstboxstyle" TargetType="{x:Type ListBox}">
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Image Source="{Binding ImgPath}" Width="160" Height="120" HorizontalAlignment="Center"  Margin="2"/>
+                            <TextBlock Text="{Binding ImgTxt}" HorizontalAlignment="Center" Margin="2"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!--
+            XML Source
+            
+            The actual file is saved in the root directory of the
+            project and its Build Action is set to "Resource" in
+            the file's properties window. This causes the file to
+            be included in the assembly, and makes it available
+            to the application as a resource.
+        -->
+
+        <XmlDataProvider x:Key="xmldata"
+                         Source="ICDOdata中文.xml"
+                         XPath="/root" />
+
+        <!--
+            Data Templates for each XML tag type expected in file.
+            
+            DataType        - Matches the tag name
+            ItemsSource     - For tags that have descendents this
+                              Henables the tree view to find them.
+            XPath           - Specifies the attribute name to use.
+            
+            When the Xaml parser sees a tag with one of the names
+            specified in DataType, it will use the associated
+            template to display data ab
+        
+        that node.
+        -->
+        <HierarchicalDataTemplate DataType="mainTerm"
+                                  ItemsSource="{Binding XPath=./*}">
+            <StackPanel Orientation="Horizontal">
+                <CheckBox  IsChecked="{Binding Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged, XPath=@check}" />
+                <TextBlock Margin="0,0,0,0"
+                           Text="{Binding XPath=@name}" />
+                <TextBlock Margin="5,0,0,0"
+                           Text="code:" />
+                <TextBlock Margin="5,0,0,0"
+                           Text="{Binding XPath=@code}" />
+            </StackPanel>
+        </HierarchicalDataTemplate>
+        <HierarchicalDataTemplate DataType="subTerm">
+            <StackPanel Orientation="Horizontal">
+                <CheckBox  IsChecked="{Binding Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged, XPath=@check}" />
+                <TextBlock Margin="0,0,0,0"
+                           Text="{Binding XPath=@name}" />
+            </StackPanel>
+        </HierarchicalDataTemplate>
+        <HierarchicalDataTemplate DataType="root"
+                                  ItemsSource="{Binding XPath=./*}">
+            <TextBlock Margin="0"
+                       Text="ROOT" />
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:MyCommands.MenuGotoCommand}"  Executed="menuGoto_Click"/>
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition/>
+            <RowDefinition Height="26"/>
+        </Grid.RowDefinitions>
+
+        <Menu Height="22" VerticalAlignment="Top" Grid.RowSpan="2">
+
+            <MenuItem Header="File">
+                <MenuItem x:Name="menuOpenImage" Header="Open Image" HorizontalAlignment="Left" Click="ImageFileOpen_Click"/>
+                <MenuItem x:Name="OpenImageType2" Header="Open Image2" HorizontalAlignment="Left" Click="OpenImageType2_Click"/>
+                <MenuItem x:Name="menuCloseImage" Header="Close Image" HorizontalAlignment="Left" Click="ImageFileClose_Click"/>
+                <Separator/>
+                <MenuItem x:Name="menuExitApplication" Header="Exit" HorizontalAlignment="Left" InputGestureText="Alt+F4" Click="ApplicationExit_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Edit" x:Name="menuEdit">
+                <MenuItem Header="Undo" x:Name="menuEditUndo"  Command="ApplicationCommands.Undo"/>
+                <MenuItem Header="Redo" x:Name="menuEditRedo" Command="ApplicationCommands.Redo"/>
+            </MenuItem>
+
+            <MenuItem Header="Image" x:Name="menuSlideImage">
+                <MenuItem Header="Information..." x:Name="menuInformation" Click="menuInformation_Click"/>
+                <MenuItem Header="Resolution..." x:Name="menuResolution"/>
+                <MenuItem Header="Go to..." x:Name="menuGoto" Click="menuGoto_Click" InputGestureText="Ctrl+G"/>
+            </MenuItem>
+
+            <MenuItem Header="View" x:Name="menuView">
+                <MenuItem Header="Full Screen" x:Name="menuFullScreen" InputGestureText="F11"/>
+                <Separator/>
+                <MenuItem Header="Grid Ruler" x:Name="menuGridRuler"/>
+                <MenuItem Header="ZoomBar" x:Name="menuZoomBar" IsCheckable="True" Click="menuZoomBar_Click"/>
+                <MenuItem Header="Thumbnail" x:Name="menuThumbnail" IsCheckable="True" Click="menuThumbnail_Click"/>
+                <MenuItem Header="Magnifier" x:Name="menuMagnifier" IsCheckable="True" Click="menuMagnifier_Click"/>
+                <MenuItem Header="Slide Label" x:Name="menuSlideLabel" IsCheckable="True" Click="menuSlideLabel_Click"/>
+                <Separator/>
+                <MenuItem Header="Status Bar" x:Name="menuStatusBar" IsCheckable="True" Click="menuStatusBar_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Annotation" x:Name="menuAnnotationTools">
+                <MenuItem x:Name="menuNewAnnotation" Header="New Annotation" Click="menuNewAnnotation_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/NewDocumentHS.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="menuOpenAnnotation" Header="Load Annotation" Click="menuOpenAnnotation_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/openHS.png"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="menuCloseAnnotation" Header="Close Annotation" Click="menuCloseAnnotation_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/Transparent.png"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="menuSaveAnnotation" Header="Save" Click="menuSaveAnnotation_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/saveHS.png"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="menuSaveAsAnnotation" Header="Save As..." Click="menuSaveAsAnnotation_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/Transparent.png"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem x:Name="menuPrintAnnotation" Header="Print" Click="menuPrintAnnotation_Click">
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/PrintHS.png"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem x:Name="menuFileRecentFiles"  Header="Recent Files">
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/Transparent.png"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Pointer" x:Name="menuToolsPointer" Tag="Pointer"/>
+                <MenuItem Header="Rectangle" x:Name="menuToolsRectangle" Tag="Rectangle"/>
+                <MenuItem Header="Ellipse" x:Name="menuToolsEllipse" Tag="Ellipse"/>
+                <MenuItem Header="Line" x:Name="menuToolsLine" Tag="Line"/>
+                <MenuItem Header="Pencil" x:Name="menuToolsPencil" Tag="PolyLine"/>
+                <MenuItem Header="Text" x:Name="menuToolsText" Tag="Text"/>
+                <Separator/>
+                <MenuItem Header="Select All" x:Name="menuEditSelectAll"/>
+                <MenuItem Header="Unselect All" x:Name="menuEditUnselectAll"/>
+                <MenuItem Header="Delete" x:Name="menuEditDelete"/>
+                <MenuItem Header="Delete All" x:Name="menuEditDeleteAll"/>
+                <Separator/>
+                <MenuItem Header="Move to Front" x:Name="menuEditMoveToFront"/>
+                <MenuItem Header="Move to Back" x:Name="menuEditMoveToBack"/>
+                <Separator/>
+                <MenuItem Header="Modify Text" x:Name="menuEditModifyGraphicsText"/>
+                <Separator/>
+                <MenuItem Header="Set Properties" x:Name="menuEditSetProperties"/>
+
+            </MenuItem>
+
+            <MenuItem Header="Tools">
+                <MenuItem Header="Option..." HorizontalAlignment="Left" Width="180" Click="MenuOption_Click"  />
+                <MenuItem Header="Analysis..." HorizontalAlignment="Left" Width="180" />
+                <MenuItem Header="Conference..." HorizontalAlignment="Left" Width="180" />
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="Help" HorizontalAlignment="Left" Width="180"  />
+                <MenuItem Header="FeadBack" HorizontalAlignment="Left" Width="180"/>
+                <MenuItem Header="About mSlideViewer" Click="menuAbout_Click" >
+                    <MenuItem.Icon>
+                        <Image Source="Resources/Images/About.bmp"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+
+        </Menu>
+
+        <Grid Grid.Row="2" Margin="0,5,0,21" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+
+
+                <avalonDock:DockingManager Grid.Row="1" x:Name="dockManager" AllowMixedOrientation="True" Background="{DynamicResource {x:Static SystemColors.AppWorkspaceBrushKey}}">
+                    <avalonDock:DockingManager.Theme>
+                        <avalonDock:AeroTheme/>
+                    </avalonDock:DockingManager.Theme>
+
+                    <avalonDock:LayoutRoot PropertyChanged="OnLayoutRootPropertyChanged">
+                        <avalonDock:LayoutPanel Orientation="Vertical">
+                            <avalonDock:LayoutDocumentPaneGroup DockHeight="470" >
+                                <avalonDock:LayoutDocumentPane x:Name="doctest"  >
+                                    <avalonDock:LayoutDocument ContentId="Document" Title="Whole Slide Image" CanClose="False">
+                                        <Grid x:Name="grid">
+                                            <local:ImageViewer x:Name="ivCamera"  MouseMove="ivCamera_MouseMove" PreviewMouseLeftButtonUp="ivCamera_PreviewMouseLeftButtonUp" PreviewMouseLeftButtonDown="ivCamera_PreviewMouseLeftButtonDown" PreviewMouseWheel="ivCamera_PreviewMouseWheel" Width="Auto" Height="Auto" MouseDoubleClick="ivCamera_MouseDoubleClick" KeyDown="ivCamera_KeyDown">
+                                                <local:ImageViewer.Background>
+                                                    <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+                                                </local:ImageViewer.Background>
+                                            </local:ImageViewer>
+                                        </Grid>
+                                    </avalonDock:LayoutDocument>
+                                </avalonDock:LayoutDocumentPane>
+                            </avalonDock:LayoutDocumentPaneGroup>
+
+                            <avalonDock:LayoutAnchorablePaneGroup  DockHeight="140">
+                                <avalonDock:LayoutAnchorablePane>
+                                    <avalonDock:LayoutAnchorable x:Name="AnnotationListWindow"  ContentId="AnnotationListWindow" Title="Annotation List Window" ToolTip="Annotation List" CanHide="True" CanClose="False" >
+                                        <Grid>
+                                            <ListView x:Name="graphicListView" ItemsSource="{Binding}" SelectionChanged="graphicListView_SelectionChanged" KeyDown="graphicListView_KeyDown">
+                                                <ListView.View>
+                                                    <GridView x:Name="gv">
+                                                        <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}" Width="40"/>
+                                                        <GridViewColumn Header="Type" DisplayMemberBinding="{Binding Type}" Width="120"/>
+                                                        <GridViewColumn Header="Position" DisplayMemberBinding="{Binding Position}" Width="160"/>
+                                                        <GridViewColumn Header="ReportDiscription" DisplayMemberBinding="{Binding ReportDiscription}" Width="400" />
+                                                        <GridViewColumn Header="Reporter" DisplayMemberBinding="{Binding Reporter}" Width="80"/>
+                                                        <GridViewColumn Header="Date" DisplayMemberBinding="{Binding Date}" Width="120"/>
+                                                    </GridView>
+                                                </ListView.View>
+                                            </ListView>
+                                        </Grid>
+                                    </avalonDock:LayoutAnchorable>
+
+                                    <avalonDock:LayoutAnchorable ContentId="toolWindow" Title="Tool Window"  CanClose="False">
+                                        <TextBox Text="Textbox1"/>
+                                    </avalonDock:LayoutAnchorable>
+                                </avalonDock:LayoutAnchorablePane>
+                            </avalonDock:LayoutAnchorablePaneGroup>
+
+                        </avalonDock:LayoutPanel>
+
+
+                    </avalonDock:LayoutRoot>
+                </avalonDock:DockingManager>
+
+
+
+            </Grid>
+            <TabControl>
+                <TabItem Header="Glossary">
+                    <Grid Background="AliceBlue" DataContext="{DynamicResource xmldata}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="420*"/>
+                            <RowDefinition Height="187*"/>
+                        </Grid.RowDefinitions>
+                        <TextBox x:Name="txSearch" HorizontalAlignment="Left" Height="23" Margin="2,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                        <Button x:Name="btSearch" Content="Search" HorizontalAlignment="Left" Margin="130,304,0,0" VerticalAlignment="Top" Width="54" Click="btSearch_Click" Height="20"/>
+                        <Label x:Name="label1" Content="ICD-O-3.1(2011) " HorizontalAlignment="Left" Margin="3,0,0,0" VerticalAlignment="Top" Height="26" Width="108"/>
+                        <ListBox x:Name="lbFavorite" HorizontalAlignment="Left" Height="115" Margin="3,54,0,0" VerticalAlignment="Top" Width="189" Grid.Row="1">
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="{x:Type ListBoxItem}" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                                    <EventSetter Event="Control.MouseDoubleClick" Handler="ListBoxItem_MouseDoubleClick"/>
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                        </ListBox>
+                        <Label x:Name="label_Favorite" Content="Favorite Glossary: " HorizontalAlignment="Left" Margin="3,4,0,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="114"/>
+                        <TreeView x:Name="tvICDO" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="264" Margin="2,26,0,0" VerticalAlignment="Top" Width="190"/>
+                        <Button x:Name="btAdd" Content="Add" HorizontalAlignment="Left" Margin="99,29,0,0" VerticalAlignment="Top" Width="45" Click="btFavoriteItemsAdd_Click" Grid.Row="1" Height="20"/>
+                        <Button x:Name="btDeleteFavorite" Content="Delete" HorizontalAlignment="Left" Margin="147,29,0,0" VerticalAlignment="Top" Width="43" Click="btFavoriteItemsDelete_Click" RenderTransformOrigin="0.698,0.25" Grid.Row="1" Height="20"/>
+                        <Button x:Name="btImportFavorite" Content="Import" HorizontalAlignment="Left" Margin="4,29,0,0" VerticalAlignment="Top" Width="44" Click="btFavoriteItemsImport_Click" Grid.Row="1" Height="20"/>
+                        <Button x:Name="btExportFavorite" Content="Export" HorizontalAlignment="Left" Margin="51,29,0,0" VerticalAlignment="Top" Width="45" Click="btFavoriteItemsExport_Click" Grid.Row="1" Height="20"/>
+
+                        <ListBox x:Name="lbSearch" HorizontalAlignment="Left" Height="89" Margin="3,329,0,0" VerticalAlignment="Top" Width="181"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="mSlideTalk" Height="22" VerticalAlignment="Top">
+                    <Grid Background="AliceBlue">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid x:Name="ChartSetting" Margin="0,5,0,489">
+                            <Label x:Name="label" Content="专家病理诊断服务即时通讯系统" HorizontalAlignment="Left" Margin="7,5,0,0" VerticalAlignment="Top" Width="179"/>
+                            <Button x:Name="btTalkLogin" Content="Login" HorizontalAlignment="Left" Margin="57,44,0,0" VerticalAlignment="Top" Width="75" Click="btTalkLogin_Click" Height="20"/>
+                            <Button x:Name="btTalkSetting" Content="Settings" HorizontalAlignment="Left" Margin="57,69,0,0" VerticalAlignment="Top" Width="75" Click="btTalkSettings_Click" Height="20"/>
+                        </Grid>
+                        <TextBox x:Name="tbMsg" HorizontalAlignment="Left" Height="23" Margin="32,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Header="Recent Files">
+                    <ListBox x:Name="lbRecentFiles" Style="{StaticResource lstboxstyle}"/>
+                </TabItem>
+                <TabItem Header="SnapShots">
+                    <Grid Background="AliceBlue" Margin="0,0,0,0.163">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="574"/>
+                            <RowDefinition Height="27"/>
+                        </Grid.RowDefinitions>
+                        <ListBox x:Name="lbSnapShot" Style="{StaticResource lstboxstyle}"/>
+                        <Button x:Name="btDeleteSnapShot" HorizontalAlignment="Left" Margin="164,2,0,0" VerticalAlignment="Top" Width="20" Click="btDeleteSnapShot_Click" Grid.Row="1">
+                            <Image Source="Resources/Images/delete_16px.png" Height="16" Width="16"/>
+                        </Button>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <StatusBar x:Name="statusBar" Height="26" VerticalAlignment="Top" Grid.ColumnSpan="4">
+                <StatusBarItem  Height="26" VerticalAlignment="Top" Margin="0,1,0,-5"/>
+                <Image Source="Resources/Images/ImageOffset.png" Width="16"/>
+                <Label x:Name="mesOffset" Content="Offset:" Height="22" Width="200" RenderTransformOrigin="0.67,-0.136" Padding="2" ToolTip="Mouse Position on Image"/>
+                <Image Source="Resources/Images/cursor.png" Width="16"/>
+                <Label x:Name="mesPosition" Content="Position:" Height="22" Width="200" RenderTransformOrigin="0.67,-0.136" Padding="2" ToolTip="Mouse Position on Image"/>
+                <Image Source="Resources/Images/zoom_16px.png" Width="16"/>
+                <Label x:Name="mesZoom" Content="Zoom:" Height="22" Width="160" RenderTransformOrigin="0.67,-0.136" Padding="2"/>
+            </StatusBar>
+        </Grid>
+        <ToolBarTray Height="30" Background="AliceBlue" Margin="0,1" Grid.Row="1" IsLocked="False">
+
+            <ToolBar x:Name="InterfaceToolBar" Margin="0,0,7,0">
+                <ToggleButton x:Name="btZoomBar" ToolTip="ZoomBar" Height="22" Width="22" Margin="2" Click="btZoomBar_Click" ToolBar.OverflowMode="AsNeeded">
+                    <Image Source="Resources/Images/zoom_16px.png" />
+                </ToggleButton>
+                <ToggleButton x:Name="btThumbnail" ToolTip="Thumbnail" Height="22" Width="22" Margin="2" ToolBar.OverflowMode="AsNeeded" Click="btThumbnail_Click">
+                    <Image Source="image_overview.png" />
+                </ToggleButton>
+                <ToggleButton x:Name="btMagnifier" ToolTip="Magnifier" Height="22" Width="22" Margin="2" Click="btMagnifier_Click" ToolBar.OverflowMode="AsNeeded">
+                    <Image Source="Resources/Images/magnifier-zoom.png" />
+                </ToggleButton>
+                <ToggleButton x:Name="btSlideLabel" ToolTip="Slide Label" Height="22" Width="22" Margin="2" Click="btSlideLabel_Click" ToolBar.OverflowMode="AsNeeded">
+                    <Image Source="Resources/Images/scan_label.png" />
+                </ToggleButton>
+                <Button x:Name="btSnapShot" ToolTip="SnapShot" Height="22" Width="22" Margin="2" Click="SnapShot_Click" ToolBar.OverflowMode="AsNeeded">
+                    <Image Source="Resources/Images/SnapShot.png" />
+                </Button>
+            </ToolBar>
+
+            <ToolBar x:Name="AnnotationToolBar" Margin="0,0,6,0">
+                <ToggleButton x:Name="buttonToolPointer"  ToolTip="Pointer" Tag="Pointer">
+                    <Image Source="Resources/Images/PointerHS.png" Width="16" />
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolRectangle" ToolTip="Rectangle" Tag="Rectangle" ToolBar.OverflowMode="Never" Margin="0,2">
+                    <Image Source="Resources/Images/rectangle.png"/>
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolEllipse" ToolTip="Ellipse" Tag="Ellipse" ToolBar.OverflowMode="Never">
+                    <Image Source="Resources/Images/ellipse.png"/>
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolLine" ToolTip="Line" Tag="Line">
+                    <Image Source="Resources/Images/line.png"/>
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolArrow" ToolTip="Arrow" Tag="Arrow">
+                    <Image Source="Resources/Images/Arrow.png"/>
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolRuler" ToolTip="Ruler" Tag="Ruler">
+                    <Image Source="Resources/Images/Ruler.png"/>
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolPencil" ToolTip="Pencil" Tag="PolyLine">
+                    <Image Source="Resources/Images/pencil.png"/>
+                </ToggleButton>
+                <ToggleButton x:Name="buttonToolText" ToolTip="Text" Tag="Text">
+                    <Image Source="Resources/Images/Text.png"/>
+                </ToggleButton>
+                <Separator/>
+                <Button x:Name="btAnnotationDelete" ToolTip="Delete" Click="btAnnotationDelete_Click">
+                    <Image Source="Resources/Images/delete.png" Width="16"/>
+                </Button>
+
+                <Button x:Name="btAnnotationDeleteAll" ToolTip="Delete All" Click="btAnnotationDeleteAll_Click">
+                    <Image Source="Resources/Images/delete_all.png" Width="16"/>
+                </Button>
+                <Button x:Name="btAnnotationSelectAll" ToolTip="Select All" Click="btAnnotationSelectAll_Click">
+                    <Image Source="Resources/Images/select_all.png" Width="16"/>
+                </Button>
+                <Separator/>
+                <Button x:Name="btAnnotationUndoAll" ToolTip="Undo" Click="btAnnotationUndo_Click">
+                    <Image Source="Resources/Images/undo-16px.png" Width="16"/>
+                </Button>
+                <Button x:Name="btAnnotationRedoAll" ToolTip="Redo" Click="btAnnotationRedo_Click">
+                    <Image Source="Resources/Images/redo-16px.png" Width="16"/>
+                </Button>              
+                <Separator/>
+                <Button x:Name="buttonPropertiesFont" ToolTip="Font">
+                    <!-- Font Family Name (size) -->
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="txDrawToolsTextFontFamilyName" Text="Tahoma" />
+                        <TextBlock  Text=" (" />
+                        <TextBlock x:Name="txDrawToolsTextFontSize"  Text="9" />
+                        <TextBlock  Text=")" />
+                    </StackPanel>
+                </Button>
+                <Separator/>
+                <TextBlock x:Name="txDrawToolsTextColor" Text="      " Margin="5,5,3,5" ToolTip="Color" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionTextBrushKey}}"/>
+                <Button x:Name="buttonPropertiesColor" ToolTip="Color">
+                    <TextBlock><Bold><Run Text="Color"/></Bold></TextBlock>
+                </Button>
+                <Separator/>
+                <TextBlock VerticalAlignment="Center" Margin="5,0,2,0" ToolTip="Line Width"><Run Text="Width"/></TextBlock>
+                <ComboBox x:Name="comboPropertiesLineWidth" ToolTip="Line Width" MinWidth="40"
+                          IsEditable="False"
+                          Margin="5,0,0,0"
+                          />
+                <Separator/>
+                <TextBlock VerticalAlignment="Center" Margin="5,0,2,0" ToolTip="Layer"><Run Text="Layer"/></TextBlock>
+                <ComboBox x:Name="comboPropertiesLayer" ToolTip="Line Width" MinWidth="40"
+                          IsEditable="False"
+                          Margin="5,0,0,0"
+                          />
+            </ToolBar>
+
+            <ToolBar x:Name="MagnifierToolBar" Margin="0,0,-1,0">
+
+                <Button x:Name="btZoomOut" ToolTip="Zoom In Image" Height="22" Width="22" Margin="2" Click="ImageZoomIn_Click" ToolBar.OverflowMode="Never">
+                    <Image Source="Resources/Images/magnifier-zoom-in.png" />
+                </Button>
+
+                <Button x:Name="btZoomIn" ToolTip="Zoom Out Image" Height="22" Width="22" Margin="2" Click="ImageZoomOut_Click" ToolBar.OverflowMode="Never">
+                    <Image Source="Resources/Images/magnifier-zoom-out.png" />
+                </Button>
+                <ToggleButton x:Name="btSelection" ToolTip="Selecting" Height="22" Width="22" Margin="2" Click="ImageSelection_Click" ToolBar.OverflowMode="AsNeeded">
+                    <Image Source="Resources/Images/selection.png" />
+                </ToggleButton>
+
+            </ToolBar>
+
+        </ToolBarTray>
+
+
+    </Grid>
+</Window>

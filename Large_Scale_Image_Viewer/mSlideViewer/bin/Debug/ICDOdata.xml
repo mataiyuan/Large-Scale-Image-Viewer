@@ -1,0 +1,3570 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <mainTerm name="Neoplasm,benign" code="8000/0" check="">
+    <subTerm name="Tumor,benign" check=""/>
+    <subTerm name="Unclassified tumor,benign" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, uncertain whether benign or malignant" code="8000/1" check="">
+    <subTerm name="Neoplasm, NOS" check=""/>
+    <subTerm name="Tumor, NOS" check=""/>
+	<subTerm name="Unclassified tumor, uncertain whether benign or malignant" check=""/>
+	<subTerm name="Unclassified tumor, borderline malignancy" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, malignant" code="8000/3" check="">
+    <subTerm name="Tumor, malignant, NOS" check=""/>
+    <subTerm name="Malignancy" check=""/>
+	<subTerm name="Cancer" check=""/>
+	<subTerm name="Unclassified tumor, malignant" check=""/>
+	<subTerm name="Blastoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, metastatic" code="8000/6" check="">
+    <subTerm name="Neoplasm, secondary" check=""/>
+    <subTerm name="Tumor, metastatic" check=""/>
+	<subTerm name="Tumor, secondary" check=""/>
+	<subTerm name="Tumor embolus" check=""/>
+  </mainTerm>
+  <mainTerm name="Neoplasm, malignant, uncertain whether primary or metastatic" code="8000/9" check="">
+    <subTerm name="Unclassified tumor, malignant, uncertain whether primary or metastatic" check=""/>
+  </mainTerm>
+  <mainTerm name="Tumor cells, benign" code="8001/0" check="">
+  </mainTerm>
+  <mainTerm name="Tumor cells, uncertain whether benign or malignant" code="8001/1" check="">
+	<subTerm name="Tumor cells, NOS" check=""/>
+  </mainTerm>
+  
+  <mainTerm name="Tumor cells, malignant" code="8001/3" check="">
+  </mainTerm>
+  <mainTerm name="Malignant tumor, small cell type" code="8002/3" check="">
+  </mainTerm>
+  <mainTerm name="Malignant tumor, glant cell type" code="8003/3" check="">
+  </mainTerm>
+  <mainTerm name="Malignant tumor, spindle cell type" code="8004/3" check="">
+    <subTerm name="Malignant tumor, fusiform cell type" check=""/>
+  </mainTerm>
+  <mainTerm name="Clear cell tumor, NOS" code="8005/0" check="">
+  </mainTerm>
+  <mainTerm name="Malignant tumor, clear cell type" code="8005/3" check="">
+  </mainTerm>
+  <mainTerm name="Epithelial tumor, benign" code="8010/0" check="">
+  </mainTerm>
+  <mainTerm name="Carcinoma in situ, NOS" code="8010/2" check="">
+	<subTerm name="Intraepithelial carcinoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinoma, NOS" code="8010/3" check="">
+	<subTerm name="Epithelial tumor, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinoma, metastatic, NOS" code="8010/6" check="">
+	<subTerm name="Secondary carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinomatosis" code="8010/9" check="">
+  </mainTerm>
+
+  <mainTerm name="Epithelioma, benign" code="8011/0" check="">
+  </mainTerm>
+  <mainTerm name="Epithelioma, malignant" code="8011/3" check="">
+	<subTerm name="Epithelioma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Large cell carcinoma, NOS" code="8012/3" check="">
+  </mainTerm>
+  <mainTerm name="Large cell neuroendocrine carcinoma" code="8013/3" check="">
+  </mainTerm>
+  <mainTerm name="Large cell carcinoma with rhabdoid phenotype" code="8014/3" check="">
+  </mainTerm>
+  <mainTerm name="Glassy cell carcinoma" code="8015/3" check="">
+  </mainTerm>
+  <mainTerm name="Carcinoma, undifferentiated, NOS" code="8020/3" check="">
+  </mainTerm>
+  <mainTerm name="Carcinoma, anaplastic, NOS" code="8021/3" check="">
+  </mainTerm>
+  <mainTerm name="Pleomorphic carcinoma" code="8022/3" check="">
+  </mainTerm>
+  <mainTerm name="Giant cell and spindle cell carcinoma" code="8030/3" check="">
+  </mainTerm>
+  <mainTerm name="Giant cell carcinoma" code="8031/3" check="">
+  </mainTerm>
+  <mainTerm name="Spindle cell carcinoma, NOS" code="8032/3" check="">
+  </mainTerm>
+  <mainTerm name="Pseudosarcomatous carcinoma" code="8033/3" check="">
+	<subTerm name="Sarcomatoid carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Polygonal cell carcinoma" code="8034/3" check="">
+  </mainTerm>
+  <mainTerm name="Carcinoma with osteoclast-like giant cells" code="8035/3" check="">
+  </mainTerm>
+  <mainTerm name="Tumorlet, benign" code="8040/0" check="">
+  </mainTerm>
+  <mainTerm name="Tumorlet, NOS" code="8040/1" check="">
+  </mainTerm>
+  <mainTerm name="Small cell carcinoma, NOS" code="8041/3" check="">
+	<subTerm name="Reserve cell carcinoma" check=""/>
+	<subTerm name="Round cell carcinoma" check=""/>
+	<subTerm name="Small cell neuroendocrine carcinoma" check=""/>
+  </mainTerm>	
+  
+  <mainTerm name="Oat cell carcinoma (C34._)" code="8042/3" check="">
+  </mainTerm>
+  <mainTerm name="Small cell carcinoma, fusiform cell" code="8043/3" check="">
+  </mainTerm>
+  <mainTerm name="Small cell carcinoma, intermediate cell" code="8044/3" check="">
+  </mainTerm>
+  <mainTerm name="Combined small cell carcinoma" code="8045/3" check="">
+	<subTerm name="Mixed small cell carcinoma" check=""/>		
+	<subTerm name="Combined small cell-large carcinoma" check=""/>		
+	<subTerm name="Combined small cell-adenocarcinoma" check=""/>		
+	<subTerm name="Combined small cell-squamous cell carcinoma" check=""/>
+  </mainTerm>
+
+  <mainTerm name="Non-small cell carcinoma (C34._)" code="8046/3" check="">
+  </mainTerm>
+  <mainTerm name="Papilloma, NOS (except papilloma of bladder M-8120/I)" code="8050/0" check="">
+  </mainTerm>
+  <mainTerm name="Papillary carcinoma in situ" code="8050/2" check="">
+  </mainTerm>
+  <mainTerm name="Papillary carcinoma, NOS" code="8050/3" check="">
+  </mainTerm>
+  <mainTerm name="Verrucous papilloma" code="8051/0" check="">
+  </mainTerm>
+  <mainTerm name="Verrucous carcinoma, NOS" code="8051/3" check="">
+	<subTerm name="Condylomatous carcinoma" check=""/>
+	<subTerm name="Verrucous squamous cell carcinoma" check=""/>
+	<subTerm name="Verrucous epidermoid carcinoma" check=""/>
+	<subTerm name="Warty carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell papilloma, NOS" code="8052/0" check="">
+	<subTerm name="Squamous papilloma" check=""/>
+	<subTerm name="Keratotoc papilloma" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary squamous cell carcinoma, non-invasive" code="8052/2" check="">
+	<subTerm name="Papillary squamous cell carcinoma in situ" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary squamous cell carcinoma" code="8052/3" check="">
+	<subTerm name="Papillary epidermoid carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell papilloma, inverted" code="8053/0" check="">
+  </mainTerm>
+  <mainTerm name="Squamous papillomatosis" code="8060/0" check="">
+	<subTerm name="Papillomatosis, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma in situ, NOS" code="8070/2" check="">
+	<subTerm name="Epidermoid carcinoma in situ, NOS" check=""/>
+	<subTerm name="Intraepithelial squamous cell carcinoma" check=""/>
+	<subTerm name="Intraepidermal carcinoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, NOS" code="8070/3" check="">
+	<subTerm name="Epidermoid carcinoma, NOS" check=""/>
+	<subTerm name="Squamous carcinoma" check=""/>
+	<subTerm name="Squamous cell epithelioma" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, metastatic, NOS" code="8070/6" check="">
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, keratinizing, NOS" code="8071/3" check="">
+	<subTerm name="Squamous cell carcinoma, large cell, keratinizing" check=""/>
+	<subTerm name="Epidermoid carcinoma, keratinizing" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, large cell, nonkeratinizing, NOS" code="8072/3" check="">
+	<subTerm name="Squamous cell carcinoma, nonkeratinizing, NOS" check=""/>
+	<subTerm name="Epidermoid carcinoma, large cell, nonkeratinizing" check=""/>
+  </mainTerm>
+  
+  <mainTerm name="Squamous cell carcinoma, small cell, nonkeratinizing" code="8073/3" check="">
+	<subTerm name="Epidermoid carcinoma, small cell, nonkeratinizing" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, spindle cell" code="8074/3" check="">
+	<subTerm name="Epidermoid carcinoma, spindle cell" check=""/>
+	<subTerm name="Squamous cell carcinoma, sarcomatoid" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, adenoid" code="8075/3" check="">
+	<subTerm name="Squamous cell carcinoma, pseudoglandular" check=""/>
+	<subTerm name="Squamous cell carcinoma, acantholytic" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma in situ with questionable stromal invasion" code="8076/2" check="">
+	<subTerm name="Epidermoid carcinoma in situ with questionable stromal invasion" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, microinvasive" code="8076/3/1" check="">
+  </mainTerm>
+  <mainTerm name="Squamous intraepithelial neoplasia, low grade" code="8077/0" check="">
+	<subTerm name="Squamous intraepithelial neoplasia, grade I" check=""/>
+	<subTerm name="Squamous intraepithelial neoplasia, grade II" check=""/>
+	<subTerm name="Anal intraepithelial neoplasia, low grade (C21.1)" check=""/>
+	<subTerm name="Cervical intraepithelial neoplasia, low grade (C53._)" check=""/>
+	<subTerm name="Esophageal squamous intraepithelial neoplasia (dysplasia), low grade (C15._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous intraepithelial neoplasia, high grade" code="8077/2" check="">
+	<subTerm name="Squamous intraepithelial neoplasia, grade III" check=""/>
+	<subTerm name="Cervical intraepithelial neoplasia, grade III (C53._)" check=""/>
+	<subTerm name="Cin III, NOS (C53._)" check=""/>
+	<subTerm name="CIN III with severe dysplasia (C53._)" check=""/>
+	<subTerm name="Vaginal intraepithelial neoplasia, grade III (C52._)" check=""/>
+	<subTerm name="VAIN III (C52._)" check=""/>
+	<subTerm name="Vulvar intraepithelial neoplasia, grade III (C51._)" check=""/>
+	<subTerm name="VIN III (C51._)" check=""/>
+	<subTerm name="Anal intraepithelial neoplasia, grade III (C21.1)" check=""/>
+	<subTerm name="AIN III (C21.1)" check=""/>
+	<subTerm name="Esophageal squamous intraepithelial neoplasia (dysplasia), high grade (C15._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma with horn formation" code="8078/3" check="">
+  </mainTerm>
+  <mainTerm name="Queyrat erythroplasia (C60._)" code="8080/2" check="">
+  </mainTerm>
+  <mainTerm name="Bowen disease (C44._)" code="8081/2" check="">
+	<subTerm name="Intraepidermal squamous cell carcinoma, Bowen type (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Lymphoepithelial carcinoma" code="8082/3" check="">
+	<subTerm name="Lymphoepithelioma" check=""/>
+	<subTerm name="Lymphoepithelioma-like carcinoma" check=""/>
+	<subTerm name="Schmincke tumor (C11._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Basaloid squamous cell carcinoma" code="8083/3" check="">
+  </mainTerm>
+  <mainTerm name="Squamous cell carcinoma, clear cell type" code="8084/3" check="">
+  </mainTerm>
+  <mainTerm name="Basal cell tumor (C44._)" code="8090/1" check="">
+  </mainTerm>
+  <mainTerm name="Basal cell carcinoma, NOS (C44._)" code="8090/3" check="">
+	<subTerm name="Basal cell epithelioma (C44._)" check=""/>
+	<subTerm name="Rodent ulcer (C44._)" check=""/>
+	<subTerm name="Pigmented basal cell carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Multifocal superficial basal cell carcinoma (C44._)" code="8091/3" check="">
+	<subTerm name="Multicentric basal cell carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Infiltrating basal cell carcinoma, NOS (C44._)" code="8092/3" check="">
+	<subTerm name="Infiltrating basal cell carcinoma, non-sclerosing (C44._)" check=""/>
+	<subTerm name="Infiltrating basal cell carcinoma, sclerosing (C44._)" check=""/>
+	<subTerm name="Basal cell carcinoma, morpheic (C44._)" check=""/>
+	<subTerm name="Basal cell carcinoma, desmoplastic type (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Basal cell carcinoma, fibroepithelial (C44._)" code="8093/3" check="">
+	<subTerm name="Fibroepithelioma of Pinkus type" check=""/>
+	<subTerm name="Fibroepithelial basal cell carcinoma, Pinkus type" check=""/>
+	<subTerm name="Pinkus tumor" check=""/>
+	<subTerm name="Fibroepithelioma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Basosquamous carcinoma (C44._)" code="8094/3" check="">
+	<subTerm name="Mixed basal-squamous cell carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Metatypical carcinoma (C44._)" code="8095/3" check="">
+  </mainTerm>
+  <mainTerm name="Intraepidermal epithelioma of Jadassohn (C44._)" code="8096/0" check="">
+  </mainTerm>
+  <mainTerm name="Basal cell carcinoma, nodular (C44._)" code="8097/3" check="">
+	<subTerm name="Basal cell carcinoma, micronodular (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenoid basal carcinoma (C53._)" code="8098/3" check="">
+  </mainTerm>
+  <mainTerm name="Trichoepithelioma (C44._)" code="8100/0" check="">
+	<subTerm name="Brooke tumor (C44._)" check=""/>
+	<subTerm name="Epithelioma adenoides cysticum (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Trichofolliculoma (C44._)" code="8101/0" check="">
+  </mainTerm>
+  <mainTerm name="Trichilemmoma (C44._)" code="8102/0" check="">
+  </mainTerm>
+  <mainTerm name="Trichilemmocarcinoma (C44._)" code="8102/3" check="">
+	<subTerm name="Trichilemmal carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pilar tumor (C44._)" code="8103/0" check="">
+	<subTerm name="Proliferating trichilemmal cyst" check=""/>
+	<subTerm name="Proliferating trichilemmal tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Pilomatrixoma, NOS (C44._)" code="8110/0" check="">
+	<subTerm name="Calcifying epithelioma of Malherbe (C44._)" check=""/>
+	<subTerm name="Pilomatricoma, NOS (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pilomatrix carcinoma (C44._)" code="8110/3" check="">
+	<subTerm name="Pilomatrixoma, malignant (C44._)" check=""/>
+	<subTerm name="Pilomatricoma, malignant (C44._)" check=""/>
+	<subTerm name="Matrical carcinoma (C44._)" check=""/>
+  </mainTerm>
+  
+  <mainTerm name="Transitional cell papilloma, benign" code="8120/0" check="">
+	<subTerm name="Transitional papilloma" check=""/>
+  </mainTerm>
+  <mainTerm name="Urothelial papilloma, NOS" code="8120/1" check="">
+	<subTerm name="Papilloma of bladder" check=""/>
+	<subTerm name="Transitional cell papilloma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Transitional cell carcinoma in situ" code="8120/2" check="">
+	<subTerm name="Urothelial carcinoma in situ" check=""/>
+  </mainTerm>
+  <mainTerm name="Transitional cell carcinoma" code="8120/3" check="">
+	<subTerm name="Urothelial carcinoma, NOS" check=""/>
+	<subTerm name="Transitional carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Schneiderian papilloma, NOS (C30.0, C31._)" code="8121/0" check="">
+	<subTerm name="Sinonasal papilloma, NOS (C30.0, C31._)" check=""/>
+	<subTerm name="Sinonasal papilloma, exophytic (C30.0, C31._)" check=""/>
+	<subTerm name="Sinonasal papilloma, fungiform (C30.0, C31._)" check=""/>
+	<subTerm name="Transitional cell papilloma, inverted, benign" check=""/>
+	<subTerm name="Transitional papilloma, inverted, benign" check=""/>
+  </mainTerm>
+  <mainTerm name="Transitional cell papilloma, inverted, NOS" code="8121/1" check="">
+	<subTerm name="Transitional papilloma, inverted, NOS" check=""/>
+	<subTerm name="Schneiderian papilloma, inverted (C30.0, C31._)" check=""/>
+	<subTerm name="Columnar cell papilloma" check=""/>
+	<subTerm name="Cylindrical cell papilloma (C30.0, C31._)" check=""/>
+	<subTerm name="Oncocytic Schneiderian papilloma (C30.0, C31._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Schneiderian carcinoma (C30.0, C31._)" code="8121/3" check="">
+	<subTerm name="Cylindrical cell carcinoma (C30.0, C31._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Transitional cell carcinoma, spindle cell" code="8122/3" check="">
+	<subTerm name="Transitional cell carcinoma, sarcomatoid" check=""/>
+  </mainTerm>
+  <mainTerm name="Basaloid carcinoma" code="8123/3" check="">
+  </mainTerm>
+  <mainTerm name="Cloacogenic carcinoma (C21.2)" code="8124/3" check="">
+  </mainTerm>
+  <mainTerm name="Papillary transitional cell neoplasm of low malignant potential (C67._)" code="8130/1" check="">
+	<subTerm name="Papillary urothelial neoplasm of low malignant potential (C67._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary transitional cell carcinoma, non-invasive (C67._)" code="8130/2" check="">
+	<subTerm name="Papillary urothelial carcinoma, non-invasive (C67._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary transitional cell carcinoma (C67._)" code="8130/3" check="">
+	<subTerm name="Papillary urothelial carcinoma (C67._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Transitional cell carcinoma, micropapillary (C67._)" code="8131/3" check="">
+  </mainTerm>
+  <mainTerm name="Adenoma, NOS" code="8140/0" check="">
+  </mainTerm>
+  <mainTerm name="Atypical adenoma" code="8140/1" check="">
+	<subTerm name="Bronchial adenoma, NOS (C34._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in situ, NOS" code="8140/2" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma, NOS" code="8140/3" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma, metastatic, NOS" code="8140/6" check="">
+  </mainTerm>
+  <mainTerm name="Scirrhous adenocarcinoma" code="8141/3" check="">
+	<subTerm name="Scirrhous carcinoma" check=""/>
+	<subTerm name="Carcinoma with productive fibrosis" check=""/>
+  </mainTerm>
+  
+  <mainTerm name="Linitis plastica (C16._)" code="8142/3" check="">
+  </mainTerm>
+  <mainTerm name="Superficial spreading adenocarcinoma" code="8143/3" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma, intestinal type (C16._)" code="8144/3" check="">
+	<subTerm name="Carcinoma, intestinal type (C16._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinoma, diffuse type (C16._)" code="8145/3" check="">
+	<subTerm name="Adenocarcinoma, diffuse type (C16._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Monomorphic adenoma" code="8146/0" check="">
+  </mainTerm>
+  <mainTerm name="Basal cell adenoma" code="8147/0" check="">
+  </mainTerm>
+  <mainTerm name="Basal cell adenocarcinoma" code="8147/3" check="">
+  </mainTerm>
+  <mainTerm name="Glandular intraepithelial neoplasia, low grade" code="8148/0" check="">
+	<subTerm name="Glandular intraepithelial neoplasia, grade I" check=""/>
+	<subTerm name="Glandular intraepithelial neoplasia, grade II" check=""/>
+	<subTerm name="Biliary intraepithelial neoplasia, low grade" check=""/>
+	<subTerm name="Esophageal glandular dysplasia (intraepithelial neoplasia), low grade (C16._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Glandular intraepithelial neoplasia, high grade" code="8148/2" check="">
+	<subTerm name="Glandular intraepithelial neoplasia, grade III" check=""/>
+	<subTerm name="Flat intraepithelial neoplasia, high grade" check=""/>
+	<subTerm name="Prostatic intraepithelial neoplasia, grade III (C61.9)" check=""/>
+	<subTerm name="PIN III (C61.9)" check=""/>
+	<subTerm name="Flat intraepithelial glandular neoplasia, high grade (C24.1)" check=""/>
+	<subTerm name="Flat intraepithelial neoplasia (dysplasia), high grade (C24.1)" check=""/>
+	<subTerm name="Biliary intraepithelial neoplasia, high grade" check=""/>
+	<subTerm name="Biliary intraepithelial neoplasia, grade 3 (BilIN-3)" check=""/>
+	<subTerm name="Esophageal glandular dysplasia (intraepithelial neoplasia), high grade (C16._)" check=""/>
+	<subTerm name="Esophageal intraepithelial neoplasia, high grade (C16._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Canalicular adenoma" code="8149/0" check="">
+  </mainTerm>
+  <mainTerm name="Pancreatic endocrine tumor, benign (C25._)" code="8150/0" check="">
+	<subTerm name="Islet cell adenoma (C25._)" check=""/>
+	<subTerm name="Islet cell tumor, benign (C25._)" check=""/>
+	<subTerm name="Nesidioblastoma (C25._)" check=""/>
+	<subTerm name="Islet cell adenomatosis (C25._)" check=""/>
+	<subTerm name="Pancreatic microadenoma (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pancreatic endocrine tumor, NOS (C25._)" code="8150/1" check="">
+	<subTerm name="Islet cell tumor, NOS (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pancreatic endocrine tumor, malignant" code="8150/3" check="">
+	<subTerm name="Islet cell carcinoma (C25._)" check=""/>
+	<subTerm name="Islet cell adenocarcinoma (C25._)" check=""/>
+	<subTerm name="Pancreatic endocrine tumor, nonfunctioning" check=""/>
+  </mainTerm>
+  <mainTerm name="Insulinoma, NOS (C25._)" code="8151/0" check="">
+	<subTerm name="Beta cell adenoma (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Insulinoma, malignant (C25._)" code="8151/3" check="">
+	<subTerm name="Beta cell tumor, malignant (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Glucagonoma, NOS (C25._)" code="8152/1" check="">
+	<subTerm name="Alpha cell tumor, NOS (C25._)" check=""/>
+	<subTerm name="Enteroglucagonoma, NOS" check=""/>
+	<subTerm name="L-cell tumor" check=""/>
+	<subTerm name="Glucagon-like peptide-producing tumor" check=""/>
+	<subTerm name="Pancreatic peptide and pancreatic peptide-like peptide within terminal tyrosine amide producing tumor" check=""/>
+	<subTerm name="PP/PYY producing tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Glucagonoma, malignant (C25._)" code="8152/3" check="">
+	<subTerm name="Alpha cell tumor, malignant (C25._)" check=""/>
+	<subTerm name="Enteroglucagonoma, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Gastrinoma, NOS" code="8153/1" check="">
+	<subTerm name="G cell tumor, NOS" check=""/>
+	<subTerm name="Gastrin cell tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Gastrinoma, malignant" code="8153/3" check="">
+	<subTerm name="G cell tumor, malignant" check=""/>
+	<subTerm name="Gastrin cell tumor, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Mixed pancreatic endocrine and exocrine tumor, malignant (C25._)" code="8154/3" check="">
+	<subTerm name="Mixed endocrine and exocrine adenocarcinoma (C25._)" check=""/>
+	<subTerm name="Mixed islet cell and exocrine adenocarcinoma (C25._)" check=""/>
+	<subTerm name="Mixed acinar-endocrine carcinoma (C25._)" check=""/>
+	<subTerm name="Mixed ductal-endocrine carcinoma (C25._)" check=""/>
+	<subTerm name="Mixed acinar-endocrine-ductal carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Vipoma, NOS" code="8155/1" check="">
+  </mainTerm>
+  <mainTerm name="Vipoma, malignant" code="8155/3" check="">
+  </mainTerm>
+  <mainTerm name="Somatostatinoma, NOS" code="8156/1" check="">
+	<subTerm name="Somatostatin cell tumor, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Somatostatinoma, malignant" code="8156/3" check="">
+	<subTerm name="Somatostatin cell tumor, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Endocrine tumor, functioning, NOS" code="8158/1" check="">
+	<subTerm name="ACTH-producing tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Bile duct adenoma (C22.1, C24.0)" code="8160/0" check="">
+	<subTerm name="Cholangioma (C22.1, C24.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Cholangiocarcinoma (C22.1, C24.0)" code="8160/3" check="">
+	<subTerm name="Bile duct carcinoma (C22.1, C24.0)" check=""/>
+	<subTerm name="Bile duct adenocarcinoma (C22.1, C24.0)" check=""/>
+  </mainTerm>
+  
+  <mainTerm name="Bile duct cystadenoma (C22.1, C24.0)" code="8161/0" check="">
+  </mainTerm>
+  <mainTerm name="Bile duct cystadenocarcinoma (C22.1, C24.0)" code="8161/3" check="">
+  </mainTerm>
+  <mainTerm name="Klatskin tumor (C22.1, C24.0)" code="8162/3" check="">
+  </mainTerm>
+  <mainTerm name="Pancreatobiliary neoplasm, non-invasive" code="8163/0" check="">
+	<subTerm name="Noninvasive pancreatobiliary papillary neoplasm with low grade dysplasia" check=""/>
+	<subTerm name="Noninvasive pancreatobiliary papillary neoplasm with low grade intraepithelial neoplasia" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary neoplasm, pancreatobiliary-type, with high grade intraepithelial neoplasia (C24.1)" code="8163/2" check="">
+	<subTerm name="Noninvasive pancreatobiliary papillary neoplasm with high grade dysplasia (C24.1)" check=""/>
+	<subTerm name="Noninvasive pancreatobiliary papillary neoplasm with high grade intraepithelial neoplasia (C24.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pancreatobiliary-type carcinoma (C24.1)" code="8163/3" check="">
+	<subTerm name="Adenocarcinoma, pancreatobiliary type (C24.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Liver cell adenoma (C22.0)" code="8170/0" check="">
+	<subTerm name="Hepatocellular adenoma (C22.0)" check=""/>
+	<subTerm name="Hepatoma, benign (C22.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Hepatocellular carcinoma, NOS (C22.0)" code="8170/3" check="">
+	<subTerm name="Liver cell carcinoma (C22.0)" check=""/>
+	<subTerm name="Hepatocarcinoma (C22.0)" check=""/>
+	<subTerm name="Hepatoma, malignant (C22.0)" check=""/>
+	<subTerm name="Hepatoma, NOS (C22.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Hepatocellular carcinoma, fibrolamellar (C22.0)" code="8171/3" check="">
+  </mainTerm>
+  <mainTerm name="Hepatocellular carcinoma, scirrhous (C22.0)" code="8172/3" check="">
+	<subTerm name="Sclerosing hepatic carcinoma (C22.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Hepatocellular carcinoma, spindle cell variant (C22.0)" code="8173/3" check="">
+	<subTerm name="Hepatocellular carcinoma, sarcomatoid (C22.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Hepatocellular carcinoma, clear cell type (C22.0)" code="8174/3" check="">
+  </mainTerm>
+  <mainTerm name="Hepatocellular carcinoma, pleomorphic type (C22.0)" code="8175/3" check="">
+  </mainTerm>
+  <mainTerm name="Combined hepatocellular carcinoma and cholangiocarcinoma (C22.0)" code="8180/3" check="">
+	<subTerm name="Mixed hepatocellular and bile duct carcinoma (C22.0)" check=""/>
+	<subTerm name="Hepatocholangiocarcinoma (C22.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Trabecular adenoma" code="8190/0" check="">
+  </mainTerm>
+  <mainTerm name="Trabecular adenocarcinoma" code="8190/3" check="">
+	<subTerm name="Trabecular carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Embryonal adenoma" code="8191/0" check="">
+  </mainTerm>
+  <mainTerm name="Eccrine dermal cylindroma (C44._)" code="8200/0" check="">
+	<subTerm name="Turban tumor (C44.4)" check=""/>
+	<subTerm name=" Cylindroma of skin (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenoid cystic carcinoma" code="8200/3" check="">
+	<subTerm name="Adenocystic carcinoma" check=""/>
+	<subTerm name="Cylindroma, NOS (except cylindroma of skin M-8200/0)" check=""/>
+	<subTerm name="Adenocarcinoma, cylindroid" check=""/>
+	<subTerm name="Bronchial adenoma, cylindroid (C34._) [obs]" check=""/>
+  </mainTerm>
+  <mainTerm name="Cribriform carcinoma in situ (C50._)" code="8201/2" check="">
+	<subTerm name="Ductal carcinoma in situ, cribriform type (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Cribriform carcinoma, NOS" code="8201/3" check="">
+	<subTerm name="Ductal carcinoma, cribriform type (C50._)" check=""/>
+	<subTerm name="Cribriform comedo-type carcinoma (C18._, C19.9, C20.9)" check=""/>
+	<subTerm name="Adenocarcinoma, cribriform comedo-type (C18._, C19.9, C20.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Microcystic adenoma (C25._)" code="8202/0" check="">
+  </mainTerm>
+  <mainTerm name="Lactating adenoma (C50._)" code="8204/0" check="">
+  </mainTerm>
+  <mainTerm name="Adenomatous polyp, NOS" code="8210/0" check="">
+	<subTerm name="Polypoid adenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in situ in adenomatous polyp" code="8210/2" check="">
+	<subTerm name="Adenocarcinoma in situ in tubular adenoma" check=""/>
+	<subTerm name="Carcinoma in situ in adenomatous polyp" check=""/>
+	<subTerm name="Adenocarcinoma in situ in polypoid adenoma" check=""/>
+	<subTerm name="Adenocarcinoma in situ in a polyp, NOS" check=""/>
+	<subTerm name="Carcinoma in situ in a polyp, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in adenomatous polyp" code="8210/3" check="">
+	<subTerm name="Adenocarcinoma in tubular adenoma" check=""/>
+	<subTerm name="Carcinoma in adenomatous polyp" check=""/>
+	<subTerm name="Adenocarcinoma in polypoid adenoma" check=""/>
+	<subTerm name="Adenocarcinoma in a polyp, NOS" check=""/>
+	<subTerm name="Carcinoma in a polyp, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Tubular adenoma, NOS" code="8211/0" check="">
+  </mainTerm>
+  <mainTerm name="Tubular adenocarcinoma" code="8211/3" check="">
+	<subTerm name="Tubular carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Flat adenoma" code="8212/0" check="">
+  </mainTerm>
+  <mainTerm name="Serrated adenoma (C18._)" code="8213/0" check="">
+	<subTerm name="Traditional serrated adenoma" check=""/>
+	<subTerm name="Mixed adenomatous and hyperplastic polyp (C18._)" check=""/>
+	<subTerm name="Sessile serrated adenoma" check=""/>
+	<subTerm name="Sessile serrated polyp" check=""/>
+	<subTerm name="Traditional sessile serrated adenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Serrated adenocarcinoma" code="8213/3" check="">
+  </mainTerm>
+  <mainTerm name="Parietal cell carcinoma (C16._)" code="8214/3" check="">
+	<subTerm name="Parietal cell adenocarcinoma (C16._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma of anal glands (C21.1)" code="8215/3" check="">
+	<subTerm name="Adenocarcinoma of anal ducts (C21.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenomatous polyposis coli (C18._)" code="8220/0" check="">
+	<subTerm name="Familial polyposis coli (C18._)" check=""/>
+	<subTerm name="Adenomatosis, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in adenomatous polyposis coli (C18._)" code="8220/3" check="">
+  </mainTerm>
+  <mainTerm name="Multiple adenomatous polyps" code="8221/0" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in multiple adenomatous polyps" code="8221/3" check="">
+  </mainTerm>
+  <mainTerm name="Ductal carcinoma in situ, solid type (C50._)" code="8230/2" check="">
+	<subTerm name="Intraductal carcinoma, solid type" check=""/>
+  </mainTerm>
+  <mainTerm name="Solid carcinoma, NOS" code="8230/3" check="">
+	<subTerm name="Solid carcinoma with mucin formation" check=""/>
+	<subTerm name="Solid adenocarcinoma with mucin formation" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinoma simplex" code="8231/3" check="">
+  </mainTerm>
+  <mainTerm name="Carcinoid tumor of uncertain malignant potential" code="8240/1" check="">
+	<subTerm name="Carcinoid tumor, argentaffin, NOS" check=""/>
+	<subTerm name="Argentaffinoma, NOS [obs]" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinoid tumor, NOS" code="8240/3" check="">
+	<subTerm name="Carcinoid, NOS" check=""/>
+	<subTerm name="Typical carcinoid" check=""/>
+	<subTerm name="Bronchial adenoma, carcinoid (C34._)" check=""/>
+	<subTerm name="Carcinoid tumor, NOS, of appendix (C18.1)" check=""/>
+	<subTerm name="Carcinoid, NOS, of appendix (C18.1)" check=""/>
+	<subTerm name="Neuroendocrine tumor, grade 1" check=""/>
+	<subTerm name="Neuroendocrine carcinoma, low grade" check=""/>
+	<subTerm name="Neuroendocrine carcinoma, well-differentiated" check=""/>
+  </mainTerm>
+  <mainTerm name="Enterochromaffin cell carcinoid" code="8241/3" check="">
+	<subTerm name="Carcinoid tumor, argentaffin, malignant" check=""/>
+	<subTerm name="Argentaffinoma, malignant" check=""/>
+	<subTerm name="EC cell carcinoid" check=""/>
+	<subTerm name="Serotonin producing carcinoid" check=""/>
+  </mainTerm>
+  <mainTerm name="Enterochromaffin-like cell carcinoid, NOS" code="8242/1" check="">
+	<subTerm name="ECL cell carcinoid, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Enterochromaffin-like cell tumor, malignant" code="8242/3" check="">
+	<subTerm name="ECL cell carcinoid, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Goblet cell carcinoid" code="8243/3" check="">
+	<subTerm name="Mucocarcinoid tumor" check=""/>
+	<subTerm name="Mucinous carcinoid" check=""/>
+  </mainTerm>
+  <mainTerm name="Mixed adenoneuroendocrine carcinoma" code="8244/3" check="">
+	<subTerm name="Composite carcinoid" check=""/>
+	<subTerm name="Mixed carcinoid-adenocarcinoma" check=""/>
+	<subTerm name="Combined carcinoid and adenocarcinoma" check=""/>
+	<subTerm name="Combined/mixed carcinoid and adenocarcinoma" check=""/>
+	<subTerm name="MANEC" check=""/>
+  </mainTerm>
+  <mainTerm name="Tubular carcinoid" code="8245/1" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoid tumor" code="8245/3" check="">
+  </mainTerm>
+  <mainTerm name="Neuroendocrine carcinoma, NOS" code="8246/3" check="">
+  </mainTerm>
+  <mainTerm name="Merkel cell carcinoma (C44._)" code="8247/3" check="">
+	<subTerm name="Merkel cell tumor (C44._)" check=""/>
+	<subTerm name="Primary cutaneous neuroendocrine carcinoma (C44._)" check=""/>
+  </mainTerm>
+ 
+  <mainTerm name="Apudoma" code="8248/1" check="">
+  </mainTerm>
+  <mainTerm name="Atypical carcinoid tumor" code="8249/3" check="">
+	<subTerm name="Neuroendocrine tumor, grade 2" check=""/>
+	<subTerm name="Neuroendocrine carcinoma, moderately differentiated" check=""/>
+  </mainTerm>
+  <mainTerm name="Pulmonary adenomatosis (C34._)" code="8250/1" check="">
+  </mainTerm>
+  <mainTerm name="Bronchiolo-alveolar adenocarcinoma, NOS (C34._)" code="8250/3" check="">
+	<subTerm name="Bronchiolar adenocarcinoma (C34._)" check=""/>
+	<subTerm name="Bronchiolar carcinoma (C34._)" check=""/>
+	<subTerm name="Alveolar cell carcinoma (C34._)" check=""/>
+	<subTerm name="Bronchiolo-alveolar carcinoma, NOS (C34._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Alveolar adenoma (C34._)" code="8251/0" check="">
+  </mainTerm>
+  <mainTerm name="Alveolar adenocarcinoma (C34._)" code="8251/3" check="">
+	<subTerm name="Alveolar carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Bronchiolo-alveolar carcinoma, non-mucinous (C34._)" code="8252/3" check="">
+	<subTerm name="Bronchiolo-alveolar carcinoma, Clara cell (C34._)" check=""/>
+	<subTerm name="Bronchiolo-alveolar carcinoma; type II pneumocyte (C34._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Bronchio-alveolar carcinoma, mucinous (C34._)" code="8253/3" check="">
+	<subTerm name="Bronchiolo-alveolar carcinoma, goblet cell type (C34._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Bronchio-alveolar carcinoma, mixed mucinous and non-mucinous (C34._)" code="8254/3" check="">
+	<subTerm name="Bronchiolo-alveolar carcinoma, Clara cell and goblet cell type (C34._)" check=""/>
+	<subTerm name="Bronchiolo-alveolar carcinoma, type II pneumocyte and goblet cell type (C34._)" check=""/>
+	<subTerm name="Bronchiolo-alveolar carcinoma, indeterminate type (C34._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma with mixed subtypes" code="8255/3" check="">
+	<subTerm name="Adenocarcinoma combined with other types of carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary adenoma, NOS" code="8260/0" check="">
+	<subTerm name="Glandular papilloma" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary adenocarcinoma, NOS" code="8260/3" check="">
+	<subTerm name="Papillary renal cell carcinoma (C64.9)" check=""/>
+	<subTerm name="Papillary carcinoma of thyroid (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Villous adenoma, NOS" code="8261/0" check="">
+	<subTerm name="Villous papilloma" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in situ in villous adenoma" code="8261/2" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in villous adenoma" code="8261/3" check="">
+  </mainTerm>
+  <mainTerm name="Villous adenocarcinoma" code="8262/3" check="">
+  </mainTerm>
+  <mainTerm name="Tubulovillous adenoma, NOS" code="8263/0" check="">
+	<subTerm name="Villoglandular adenoma" check=""/>
+	<subTerm name="Tubulo-papillary adenoma" check=""/>
+	<subTerm name="Papillotubular adenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in situ in tubulovillous adenoma" code="8263/2" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma in tubolovillous adenoma" code="8263/3" check="">
+	<subTerm name="Papillotubular adenocarcinoma" check=""/>
+	<subTerm name="Tubulopapillary adenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillomatosis, glandular" code="8264/0" check="">
+	<subTerm name="Biliary papillomatosis (C22.1, C24.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Micropapillary carcinoma, NOS (C18._, C19.9, C20.9)" code="8265/3" check="">
+  </mainTerm>
+  <mainTerm name="Chromophobe adenoma (C75.1)" code="8270/0" check="">
+  </mainTerm>
+  <mainTerm name="Chromophobe carcinoma (C75.1)" code="8270/3" check="">
+	<subTerm name="Chromophobe adenocarcinoma (C75.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Prolactinoma (C75.1)" code="8271/0" check="">
+  </mainTerm>
+  <mainTerm name="Pituitary adenoma, NOS (C75.1)" code="8272/0" check="">
+  </mainTerm>
+  <mainTerm name="Pituitary carcinoma, NOS (C75.1)" code="8272/3" check="">
+  </mainTerm>
+  <mainTerm name="Acidophil adenoma (C75.1)" code="8280/0" check="">
+	<subTerm name="Eosinophil adenoma (C75.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Acidophil carcinoma (C75.1)" code="8280/3" check="">
+	<subTerm name="Acidophil adenocarcinoma (C75.1)" check=""/>
+	<subTerm name="Eosinophil carcinoma (C75.1)" check=""/>
+	<subTerm name="Eosinophil adenocarcinoma (C75.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mixed acidophil-basophil adenoma (C75.1)" code="8281/0" check="">
+  </mainTerm>
+  <mainTerm name="Mixed acidophil-basophil carcinoma (C75.1)" code="8281/3" check="">
+  </mainTerm>
+  <mainTerm name="Oxyphilic adenoma" code="8290/0" check="">
+	<subTerm name="Oncocytic adenoma" check=""/>
+	<subTerm name="Oncocytoma" check=""/>
+	<subTerm name="Hurthle cell tumor (C73.9)" check=""/>
+	<subTerm name="Follicular adenoma, oxyphilic cell (C73.9)" check=""/>
+	<subTerm name="Hurthle cell adenoma (C73.9)" check=""/>
+	<subTerm name="Spindle cell oncocytoma (C75.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Oxyphilic adenocarcinoma" code="8290/3" check="">
+	<subTerm name="Oncocytic carcinoma" check=""/>
+	<subTerm name="Oncocytic adenocarcinoma" check=""/>
+	<subTerm name="Hurthle cell carcinoma (C73.9)" check=""/>
+	<subTerm name="Hurthle cell adenocarcinoma (C73.9)" check=""/>
+	<subTerm name="Follicular carcinoma, oxyphilic cell (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Basophil adenoma (C75.1)" code="8300/0" check="">
+	<subTerm name="Mucoid cell adenoma (C75.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Basophil carcinoma (C75.1)" code="8300/3" check="">
+	<subTerm name="Basophil adenocarcinoma (C75.1)" check=""/>
+	<subTerm name="Mucoid cell adenocarcinoma (C75.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Clear cell adenoma" code="8310/0" check="">
+  </mainTerm>
+  <mainTerm name="Clear cell adenocarcinoma, NOS" code="8310/3" check="">
+	<subTerm name="Clear cell carcinoma" check=""/>
+	<subTerm name="Clear cell adenocarcinoma, mesonephroid" check=""/>
+  </mainTerm>
+  <mainTerm name="Hypernephroid tumor [obs]" code="8311/1" check="">
+  </mainTerm>
+  
+  <mainTerm name="Renal cell carcinoma, NOS (C64.9)" code="8312/3" check="">
+	<subTerm name="Renal cell adenocarcinoma (C64.9)" check=""/>
+	<subTerm name="Hypernephroma (C64.9) [obs]" check=""/>
+	<subTerm name="Grawitz tumor (C64.9) [obs]" check=""/>
+  </mainTerm>
+  <mainTerm name="Clear cell adenofibroma (C56.9)" code="8313/0" check="">
+	<subTerm name="Clear cell cystadenofibroma (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Clear cell adenofibroma of borderline malignancy (C56.9)" code="8313/1" check="">
+	<subTerm name="Clear cell cystadenofibroma of borderline malignancy (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Clear cell adenocarcinofibroma (C56.9)" code="8313/3" check="">
+	<subTerm name="Clear cell cystadenocarcinofibroma (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Lipid-rich carcinoma (C50._)" code="8314/3" check="">
+  </mainTerm>
+  <mainTerm name="Glycogen-rich carcinoma" code="8315/3" check="">
+  </mainTerm>
+  <mainTerm name="Cyst-associated renal cell carcinoma (C64.9)" code="8316/3" check="">
+  </mainTerm>
+  <mainTerm name="Renal cell carcinoma, chromophobe type (C64.9)" code="8317/3" check="">
+	<subTerm name="Chromophobe cell renal carcinoma (C64.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Renal cell carcinoma, sarcomatoid (C64.9)" code="8318/3" check="">
+	<subTerm name="Renal cell carcinoma, spindle cell (C64.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Collecting duct carcinoma (C64.9)" code="8319/3" check="">
+	<subTerm name="Bellini duct carcinoma (C64.9)" check=""/>
+	<subTerm name="Renal carcinoma, collecting duct type (C64.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Granular cell carcinoma" code="8320/3" check="">
+	<subTerm name="Granular cell adenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Chief cell adenoma (C75.0)" code="8321/0" check="">
+  </mainTerm>
+  <mainTerm name="Water-clear cell adenoma (C75.0)" code="8322/0" check="">
+  </mainTerm>
+  <mainTerm name="Water-clear cell adenocarcinoma (C75.0)" code="8322/3" check="">
+	<subTerm name="Water-clear cell carcinoma (C75.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mixed cell adenoma" code="8323/0" check="">
+  </mainTerm>
+  <mainTerm name="Mixed cell adenocarcinoma" code="8323/3" check="">
+  </mainTerm>
+  <mainTerm name="Lipoadenoma" code="8324/0" check="">
+	<subTerm name="Adenolipoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Metanephric adenoma (C64.9)" code="8325/0" check="">
+  </mainTerm>
+  <mainTerm name="Follicular adenoma (C73.9)" code="8330/0" check="">
+  </mainTerm>
+  <mainTerm name="Atypical follicular adenoma (C73.9)" code="8330/1" check="">
+  </mainTerm>
+  <mainTerm name="Follicular adenocarcinoma, NOS (C73.9)" code="8330/3" check="">
+	<subTerm name="Follicular carcinoma, NOS (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Follicular adenocarcinoma, well differentiated (C73.9)" code="8331/3" check="">
+	<subTerm name="Follicular carcinoma, well differentiated (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Follicular adenocarcinoma, trabecular (C73.9)" code="8332/3" check="">
+	<subTerm name="Follicular carcinoma, trabecular (C73.9)" check=""/>
+	<subTerm name="Follicular adenocarcinoma, moderately differentiated (C73.9)" check=""/>
+	<subTerm name="Follicular carcinoma, moderately differentiated (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Microfollicular adenoma, NOS (C73.9)" code="8333/0" check="">
+	<subTerm name="Fetal adenoma (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Fetal adenocarcinoma" code="8333/3" check="">
+  </mainTerm>
+  <mainTerm name="Macrofollicular adenoma (C73.9)" code="8334/0" check="">
+	<subTerm name="Colloid adenoma (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Follicular carcinoma, minimally invasive (C73.9)" code="8335/3" check="">
+	<subTerm name="Follicular carcinoma, encapsulated (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Hyalinizing trabecular adenoma (C73.9)" code="8336/0" check="">
+  </mainTerm>
+  <mainTerm name="Insular carcinoma (C73.9)" code="8337/3" check="">
+  </mainTerm>
+  <mainTerm name="Papillary carcinoma, follicular variant (C73.9)" code="8340/3" check="">
+	<subTerm name="Papillary adenocarcinoma, follicular variant (C73.9)" check=""/>
+	<subTerm name="Papillary and follicular adenocarcinoma (C73.9)" check=""/>
+	<subTerm name="Papillary and follicular carcinoma (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary microcarcinoma (C73.9)" code="8341/3" check="">
+  </mainTerm>
+  <mainTerm name="Papillary carcinoma, oxyphilic cell (C73.9)" code="8342/3" check="">
+  </mainTerm>
+  <mainTerm name="Papillary carcinoma, encapsulated (C73.9)" code="8343/3" check="">
+  </mainTerm>
+  <mainTerm name="Papillary carcinoma, columnar cell (C73.9)" code="8344/3" check="">
+	<subTerm name="Papillary carcinoma, tall cell (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Medullary carcinoma with amyloid stroma (C73.9)" code="8345/3" check="">
+	<subTerm name="Parafollicular cell carcinoma (C73.9)" check=""/>
+	<subTerm name="C cell carcinoma (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mixed medullary-follicular carcinoma (C73.9)" code="8346/3" check="">
+  </mainTerm>
+  <mainTerm name="Mixed medullary-papillary carcinoma (C73.9)" code="8347/3" check="">
+  </mainTerm>
+  <mainTerm name="Nonencapsulated sclerosing carcinoma (C73.9)" code="8350/3" check="">
+	<subTerm name="Nonencapsulated sclerosing adenocarcinoma (C73.9)" check=""/>
+	<subTerm name="Nonencapsulated sclerosing tumor (C73.9)" check=""/>
+	<subTerm name="Papillary carcinoma, diffuse sclerosing (C73.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Multiple endocrine adenomas" code="8360/1" check="">
+	<subTerm name="Endocrine adenomatosis" check=""/>
+  </mainTerm>
+  <mainTerm name="Juxtaglomerular tumor (C64.9)" code="8361/0" check="">
+	<subTerm name="Reninoma (C64.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adrenal cortical adenoma, NOS (C74.0)" code="8370/0" check="">
+	<subTerm name="Adrenal cortical tumor, benign (C74.0)" check=""/>
+	<subTerm name="Adrenal cortical tumor, NOS (C74.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adrenal cortical carcinoma (C74.0)" code="8370/3" check="">
+	<subTerm name="Adrenal cortical adenocarcinoma (C74.0)" check=""/>
+	<subTerm name="Adrenal cortical tumor, malignant (C74.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adrenal cortical adenoma, compact cell (C74.0)" code="8371/0" check="">
+  </mainTerm>
+  <mainTerm name="Adrenal cortical adenoma, pigmented (C74.0)" code="8372/0" check="">
+	<subTerm name="Black adenoma (C74.0)" check=""/>
+	<subTerm name="Pigmented adenoma (C74.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Adrenal cortical adenoma, clear cell (C74.0)" code="8373/0" check="">
+  </mainTerm>
+  <mainTerm name="Adrenal cortical adenoma, glomerulosa cell (C74.0)" code="8374/0" check="">
+  </mainTerm>
+  <mainTerm name="Adrenal cortical adenoma, mixed cell (C74.0)" code="8375/0" check="">
+  </mainTerm>
+  <mainTerm name="Endometrioid adenoma, NOS" code="8380/0" check="">
+	<subTerm name="Endometrioid cystadenoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Endometrioid adenoma, borderline malignancy" code="8380/1" check="">
+	<subTerm name="Endometrioid cystadenoma, borderline malignancy" check=""/>
+	<subTerm name="Endometrioid tumor of low malignant potential" check=""/>
+	<subTerm name="Atypical proliferative endometrioid tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Endometrioid adenocarcinoma, NOS" code="8380/3" check="">
+	<subTerm name="Endometrioid carcinoma, NOS" check=""/>
+	<subTerm name="Endometrioid cystadenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Endometrioid adenofibroma, NOS" code="8381/0" check="">
+	<subTerm name="Endometrioid cystadenofibroma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Endometrioid adenofibroma, borderline malignancy" code="8381/1" check="">
+	<subTerm name="Endometrioid cystadenofibroma, borderline malignancy" check=""/>
+  </mainTerm>
+  <mainTerm name="Endometrioid adenofibroma, malignant" code="8381/3" check="">
+	<subTerm name="Endometrioid cystadenofibroma, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Endometrioid adenocarcinoma, secretory variant" code="8382/3" check="">
+  </mainTerm>
+  <mainTerm name="Endometrioid adenocarcinoma, ciliated cell variant" code="8383/3" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma, endocervical type" code="8384/3" check="">
+  </mainTerm>
+  <mainTerm name="Skin appendage adenoma (C44._)" code="8390/0" check="">
+	<subTerm name="Skin appendage tumor, benign (C44._)" check=""/>
+	<subTerm name="Adnexal tumor, benign (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Skin appendage carcinoma (C44._)" code="8390/3" check="">
+	<subTerm name="Adnexal carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Follicular fibroma (C44._)" code="8391/0" check="">
+	<subTerm name="Trichodiscoma (C44._)" check=""/>
+	<subTerm name="Fibrofolliculoma (C44._)" check=""/>
+	<subTerm name="Perifollicular fibroma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Syringofibroadenoma (C44._)" code="8392/0" check="">
+  </mainTerm>
+  <mainTerm name="Sweat gland adenoma (C44._)" code="8400/0" check="">
+	<subTerm name="Sweat gland tumor, benign (C44._)" check=""/>
+	<subTerm name="Hidradenoma, NOS (C44._)" check=""/>
+	<subTerm name="Syringadenoma, NOS (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Sweat gland tumor, NOS (C44._)" code="8400/1" check="">
+  </mainTerm>
+  <mainTerm name="Sweat gland adenocarcinoma (C44._)" code="8400/3" check="">
+	<subTerm name="Sweat gland carcinoma (C44._)" check=""/>
+	<subTerm name="Sweat gland tumor, malignant (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Apocrine adenoma" code="8401/0" check="">
+	<subTerm name="Apocrine cystadenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Apocrine adenocarcinoma" code="8401/3" check="">
+  </mainTerm>
+  <mainTerm name="Nodular hidradenoma (C44._)" code="8402/0" check="">
+	<subTerm name="Eccrine acrospiroma (C44._)" check=""/>
+	<subTerm name="Clear cell hidradenoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Nodular hidradenoma, malignant (C44._)" code="8402/3" check="">
+	<subTerm name="Hidradenocarcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Eccrine spiradenoma (C44._)" code="8403/0" check="">
+	<subTerm name="Spiradenoma, NOS (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Malignant eccrine spiradenoma (C44._)" code="8403/3" check="">
+  </mainTerm>
+  <mainTerm name="Hidrocystoma (C44._)" code="8404/0" check="">
+	<subTerm name="Eccrine cystadenoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary hidradenoma" code="8405/0" check="">
+	<subTerm name="Hidradenoma papilliferum" check=""/>
+  </mainTerm>
+
+  <mainTerm name="Papillary syringadenoma (C44._)" code="8406/0" check="">
+	<subTerm name="Papillary syringocystadenoma (C44._)" check=""/>
+	<subTerm name="Syringocystadenoma papilliferum" check=""/>
+  </mainTerm>
+  <mainTerm name="Syringoma, NOS (C44._)" code="8407/0" check="">
+  </mainTerm>
+  <mainTerm name="Sclerosing sweat duct carcinoma (C44._)" code="8407/3" check="">
+	<subTerm name="Syringomatous carcinoma (C44._)" check=""/>
+	<subTerm name="Microcystic adnexal carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Eccrine papillary adenoma (C44._)" code="8408/0" check="">
+  </mainTerm>
+  <mainTerm name="Aggressive digital papillary adenoma (C44._)" code="8408/1" check="">
+  </mainTerm>
+  <mainTerm name="Eccrine papillary adenocarcinoma (C44._)" code="8408/3" check="">
+	<subTerm name="Digital papillary adenocarcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Eccrine poroma (C44._)" code="8409/0" check="">
+  </mainTerm>
+  <mainTerm name="Eccrine poroma, malignant" code="8409/3" check="">
+	<subTerm name="Porocarcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Sebaceous adenoma (C44._)" code="8410/0" check="">
+	<subTerm name="Sebaceous epithelioma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Sebaceous adenocarcinoma (C44._)" code="8410/3" check="">
+	<subTerm name="Sebaceous carcinoma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Eccrine adenocarcinoma (C44._)" code="8413/3" check="">
+  </mainTerm>
+  <mainTerm name="Ceruminous adenoma (C44.2)" code="8420/0" check="">
+  </mainTerm>
+  <mainTerm name="Ceruminous adenocarcinoma (C44.2)" code="8420/3" check="">
+	<subTerm name="Ceruminous carcinoma (C44.2)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucoepidermoid tumor [obs]" code="8430/1" check="">
+  </mainTerm>
+  <mainTerm name="Mucoepidermoid carcinoma" code="8430/3" check="">
+  </mainTerm>
+  <mainTerm name="Cystadenoma, NOS" code="8440/0" check="">
+	<subTerm name="Cystoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Cystadenocarcinoma, NOS" code="8440/3" check="">
+  </mainTerm>
+  <mainTerm name="Serous cystadenoma, NOS" code="8441/0" check="">
+	<subTerm name="Serous cystoma" check=""/>
+	<subTerm name="Serous microcystic adenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Serous cystadenocarcinoma, NOS (C56.9)" code="8441/3" check="">
+	<subTerm name="Serous adenocarcinoma, NOS" check=""/>
+	<subTerm name="Serous carcinoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Serous cystadenoma, borderline malignancy (C56.9)" code="8442/1" check="">
+	<subTerm name="Serous tumor, NOS, of low malignant potential (C56.9)" check=""/>
+	<subTerm name="Atypical proliferating serous tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Clear cell cystadenoma (C56.9)" code="8443/0" check="">
+  </mainTerm>
+  <mainTerm name="Clear cell cystic tumor of borderline malignancy (C56.9)" code="8444/1" check="">
+	<subTerm name="Atypical proliferating clear cell tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary cystadenoma, NOS (C56.9)" code="8450/0" check="">
+  </mainTerm>
+  <mainTerm name="Papillary cystadenocarcinoma, NOS (C56.9)" code="8450/3" check="">
+	<subTerm name="Papillocystic adenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary cystadenoma, borderline malignancy (C56.9)" code="8451/1" check="">
+  </mainTerm>
+  <mainTerm name="Solid pseudopapillary tumor (C25._)" code="8452/1" check="">
+	<subTerm name="Papillary cystic tumor (C25._)" check=""/>
+	<subTerm name="Solid and papillary epithelial neoplasm (C25._)" check=""/>
+	<subTerm name="Solid and cystic tumor (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Solid pseudopapillary carcinoma (C25._)" code="8452/3" check="">
+  </mainTerm>
+  <mainTerm name="Intraductal papillary-mucinous adenoma (C25._)" code="8453/0" check="">
+	<subTerm name="Intraductal papillary-mucinous tumor with low grade dysplasia (C25._)" check=""/>
+	<subTerm name="Intraductal papillary-mucinous neoplasm with low grade dysplasia (C25._)" check=""/>
+	<subTerm name="Intraductal papillary-mucinous tumor with moderate dysplasia (C25._)" check=""/>
+	<subTerm name="Intraductal papillary-mucinous neoplasm with moderate dysplasia (C25._)" check=""/>
+	<subTerm name="Intraductal papillary-mucinous tumor with intermediate dysplasia (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal papillary-mucinous carcinoma, non-invasive (C25._)" code="8453/2" check="">
+	<subTerm name="Intraductal papillary mucinous neoplasm with high grade dysplasia" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal papillary-mucinous carcinoma, invasive (C25._)" code="8453/3" check="">
+	<subTerm name="Intraductal papillary mucinous neoplasm with an associated invasive carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Cystic tumor of atrio-ventricular node (C38.0)" code="8454/0" check="">
+  </mainTerm>
+  <mainTerm name="Papillary serous cystadenoma, NOS (C56.9)" code="8460/0" check="">
+  </mainTerm>
+  <mainTerm name="Papillary serous cystadenocarcinoma (C56.9)" code="8460/3" check="">
+	<subTerm name="Papillary serous adenocarcinoma (C56.9)" check=""/>
+	<subTerm name="Micropapillary serous carcinoma (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Serous surface papilloma (C56.9)" code="8461/0" check="">
+  </mainTerm>
+  <mainTerm name="Serous surface papillary carcinoma (C56.9)" code="8461/3" check="">
+	<subTerm name="Primary serous papillary carcinoma of peritoneum (C48.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Serous papillary cystic tumor of borderline malignancy (C56.9)" code="8462/1" check="">
+	<subTerm name="Papillary serous cystadenoma, borderline malignancy (C56.9)" check=""/>
+	<subTerm name="Papillary serous tumor of low malignant potential (C56.9)" check=""/>
+	<subTerm name="Atypical proliferative papillary serous tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Serous surface papillary tumor of borderline malignancy (C56.9)" code="8463/1" check="">
+  </mainTerm>
+  <mainTerm name="Mucinous cystadenoma, NOS (C56.9)" code="8470/0" check="">
+	<subTerm name="Mucinous cystoma (C56.9)" check=""/>
+	<subTerm name="Pseudomucinous cystadenoma, NOS (C56.9)" check=""/>
+	<subTerm name="Mucinous cystic tumor with low grade dysplasia (C25._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with low-grade intraepithelial neoplasia (C22._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with intermediate-grade intraepithelial neoplasia (C22._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with low-grade dysplasia (C25._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with intermediate-grade dysplasia (C25._)" check=""/>
+	<subTerm name="Mucinous cystic tumor with moderate dysplasia (C25._)" check=""/>
+	<subTerm name="Mucinous cystic tumor with intermediate dysplasia (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucinous cystadenocarcinoma, non-invasive (C25._)" code="8470/2" check="">
+	<subTerm name="Mucinous cystic tumor with high-grade dysplasia (C25._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with high-grade intraepithelial neoplasia (C22._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with high-grade dysplasia (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucinous cystadenocarcinoma, NOS (C56.9)" code="8470/3" check="">
+	<subTerm name="Pseudomucinous adenocarcinoma (C56.9)" check=""/>
+	<subTerm name="Pseudomucinous cystadenocarcinoma, NOS (C56.9)" check=""/>
+	<subTerm name="Mucinous cystic tumor with an associated invasive carcinoma (C25._)" check=""/>
+	<subTerm name="Mucinous cystic neoplasm with an associated invasive carcinoma (C25._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary mucinous cystadenoma, NOS (C56.9)" code="8471/0" check="">
+	<subTerm name="Papillary pseudomucinous cystadenoma, NOS (C56.9)" check=""/>
+  </mainTerm>	
+  
+  <mainTerm name="Papillary mucinous cystadenocarcinoma (C56.9)" code="8471/3" check="">
+	<subTerm name="Papillary pseudomucinous cystadenocarcinoma (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucinous cystic tumor of borderline malignancy (C56.9)" code="8472/1" check="">
+	<subTerm name="Mucinous cystadenoma, borderline malignancy (C56.9)" check=""/>
+	<subTerm name="Pseudomucinous cystadenoma, borderline malignancy (C56.9)" check=""/>
+	<subTerm name="Mucinous tumor, NOS, of low malignant potential (C56.9)" check=""/>
+	<subTerm name="Atypical proliferative mucinous tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Papillary mucinous cystadenoma, borderline malignancy (C56.9)" code="8473/1" check="">
+	<subTerm name="Papillary pseudomucinous cystadenoma, borderline malignancy (C56.9)" check=""/>
+	<subTerm name="Papillary mucinous tumor of low malignant potential (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucinous adenoma" code="8480/0" check="">
+  </mainTerm>
+  <mainTerm name="Low grade appendiceal mucinous neoplasm (C18.1)" code="8480/1" check="">
+  </mainTerm>
+  <mainTerm name="Mucinous adenocarcinoma" code="8480/3" check="">
+	<subTerm name="Mucinous carcinoma" check=""/>
+	<subTerm name="Colloid adenocarcinoma" check=""/>
+	<subTerm name="Colloid carcinoma" check=""/>
+	<subTerm name="Gelatinous adenocarcinoma [obs]" check=""/>
+	<subTerm name="Gelatinous carcinoma [obs]" check=""/>
+	<subTerm name="Mucoid adenocarcinoma" check=""/>
+	<subTerm name="Mucoid carcinoma" check=""/>
+	<subTerm name="Mucous adenocarcinoma" check=""/>
+	<subTerm name="Mucous carcinoma" check=""/>
+	<subTerm name="Pseudomyxoma peritonei with unknown primary site (C80.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pseudomyxoma peritonei" code="8480/6" check="">
+  </mainTerm>
+  <mainTerm name="Mucin-producing adenocarcinoma" code="8481/3" check="">
+	<subTerm name="Mucin-producing carcinoma" check=""/>
+	<subTerm name="Mucin-secreting adenocarcinoma" check=""/>
+	<subTerm name="Mucin-secreting carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucinous adenocarcinoma, endocervical type" code="8482/3" check="">
+  </mainTerm>
+  <mainTerm name="Signet ring cell carcinoma" code="8490/3" check="">
+	<subTerm name="Signet ring cell adenocarcinoma" check=""/>
+	<subTerm name="Poorly cohesive carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Metastatic signet ring cell carcinoma" code="8490/6" check="">
+	<subTerm name="Krukenberg tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal carcinoma, noninfiltrating, NOS" code="8500/2" check="">
+	<subTerm name="Intraductal adenocarcinoma, noninfiltrating, NOS" check=""/>
+	<subTerm name="Intraductal carcinoma, NOS" check=""/>
+	<subTerm name="Ductal carcinoma in situ, NOS (C50._)" check=""/>
+	<subTerm name="DCIS, NOS (C50._)" check=""/>
+	<subTerm name="DIN 3 (C50._)" check=""/>
+	<subTerm name="Ductal intraepithelial neoplasia 3 (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Infiltrating duct carcinoma, NOS (C50._)" code="8500/3" check="">
+	<subTerm name="Infiltrating duct adenocarcinoma (C50._)" check=""/>
+	<subTerm name="Duct adenocarcinoma, NOS" check=""/>
+	<subTerm name="Duct carcinoma, NOS" check=""/>
+	<subTerm name="Duct cell carcinoma" check=""/>
+	<subTerm name="Ductal carcinoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Comedocarcinoma, noninfiltrating (C50._)" code="8501/2" check="">
+	<subTerm name="Ductal carcinoma in situ, comedo type (C50._)" check=""/>
+	<subTerm name="DCIS, comedo type (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Comedocarcinoma, NOS (C50._)" code="8501/3" check="">
+  </mainTerm>
+  <mainTerm name="Secretory carcinoma of breast (C50._)" code="8502/3" check="">
+	<subTerm name="Juvenile carcinoma of breast (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal papilloma" code="8503/0" check="">
+	<subTerm name="Duct adenoma, NOS" check=""/>
+	<subTerm name="Ductal papilloma" check=""/>
+	<subTerm name="Intraductal papillary neoplasm, NOS" check=""/>
+	<subTerm name="Intraductal papillary neoplasm with low grade intraepithelial neoplasia (C22._, C24.0)" check=""/>
+	<subTerm name="Intraductal papillary neoplasm with intermediate grade neoplasia (C22._, C24.0)" check=""/>
+	<subTerm name="Intracystic papillary neoplasm with low grade intraepithelial neoplasia (C23.9)" check=""/>
+	<subTerm name="Intracystic papillary neoplasm with intermediate grade intraepithelial neoplasia (C23.9)" check=""/>
+	<subTerm name="Intraglandular papillary neoplasm with low grade intraepithelial neoplasia (C22.1, C24.0)" check=""/>
+	<subTerm name="Intraductal tubular-papillary neoplasm, low grade" check=""/>
+  </mainTerm>
+  <mainTerm name="Noninfiltrating intraductal papillary adenocarcinoma (C50._)" code="8503/2" check="">
+	<subTerm name="Noninfiltrating intraductal papillary carcinoma (C50._)" check=""/>
+	<subTerm name="Intraductal papillary adenocarcinoma, NOS (C50._)" check=""/>
+	<subTerm name="Intraductal papillary carcinoma (C50._)" check=""/>
+	<subTerm name="DCIS, papillary (C50._)" check=""/>
+	<subTerm name="Ductal carcinoma in situ, papillary (C50._)" check=""/>
+	<subTerm name="Intraductal papillary neoplasm with high grade intraepithelial neoplasia" check=""/>
+	<subTerm name="Intraductal papillary neoplasm with high grade dysplasia" check=""/>
+	<subTerm name="Intraductal papillary tumor with high grade intraepithelial neoplasia" check=""/>
+	<subTerm name="Intraductal papillary tumor with high grade dysplasia" check=""/>
+	<subTerm name="Intracystic papillary neoplasm with high grade intraepithelial neoplasia (C23.9)" check=""/>
+	<subTerm name="Intracystic papillary tumor with high grade intraepithelial neoplasia (C23.9)" check=""/>
+	<subTerm name="Intracystic papillary tumor with high grade dysplasia (C23.9)" check=""/>
+	<subTerm name="Intracystic papillary tumor with high grade entraepithelial neoplasia (C23.9)" check=""/>
+	<subTerm name="Intraductal tubular-papillary neoplasm, high grade" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal papillary adenocarcinoma with invasion (C50._)" code="8503/3" check="">
+	<subTerm name="Infiltrating papillary adenocarcinoma" check=""/>
+	<subTerm name="Infiltrating and papillary adenocarcinoma" check=""/>
+	<subTerm name="Intraductal papillary neoplasm with associated invasive carcinoma" check=""/>
+	<subTerm name="Intracystic papillary neoplasm with associated invasive carcinoma (C23.9)" check=""/>
+  </mainTerm>	
+  
+  <mainTerm name="Intracystic papillary adenoma" code="8504/0" check="">
+	<subTerm name="Intracystic papilloma" check=""/>
+  </mainTerm>
+  <mainTerm name="Noninfiltrating intracystic carcinoma" code="8504/2" check="">
+  </mainTerm>
+  <mainTerm name="Intracystic carcinoma, NOS" code="8504/3" check="">
+	<subTerm name="Intracystic papillary adenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal papillomatosis, NOS" code="8505/0" check="">
+	<subTerm name="Diffuse intraductal papillomatosis" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenoma of nipple (C50.0)" code="8506/0" check="">
+	<subTerm name="Subareolar duct papillomatosis (C50.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Intraductal micropapillary carcinoma (C50._)" code="8507/2" check="">
+	<subTerm name="Ductal carcinoma in situ, micropapillary (C50._)" check=""/>
+	<subTerm name="Intraductal carcinoma, clinging (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Cystic hypersecretory carcinoma (C50._)" code="8508/3" check="">
+  </mainTerm>
+  <mainTerm name="Medullary carcinoma, NOS" code="8510/3" check="">
+	<subTerm name="Medullary adenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Medullary carcinoma with lymphoid stroma" code="8512/3" check="">
+  </mainTerm>
+  <mainTerm name="Atypical medullary carcinoma (C50._)" code="8513/3" check="">
+  </mainTerm>
+  <mainTerm name="Duct carcinoma, desmoplastic type" code="8514/3" check="">
+  </mainTerm>
+  <mainTerm name="Lobular carcinoma in situ, NOS (C50._)" code="8520/2" check="">
+	<subTerm name="Lobular carcinoma, noninfiltrating (C50._)" check=""/>
+	<subTerm name="LCIS, NOS (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Lobular carcinoma, NOS (C50._)" code="8520/3" check="">
+	<subTerm name="Lobular adenocarcinoma (C50._)" check=""/>
+	<subTerm name="Infiltrating lobular carcinoma, NOS (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Infiltrating ductular carcinoma (C50._)" code="8521/3" check="">
+  </mainTerm>
+  <mainTerm name="Intraductal carcinoma and lobular carcinoma in situ (C50._)" code="8522/2" check="">
+  </mainTerm>
+  <mainTerm name="Infiltrating duct and lobular carcinoma (C50._)" code="8522/3" check="">
+	<subTerm name="Lobular and ductal carcinoma (C50._)" check=""/>
+	<subTerm name="Infiltrating duct and lobular carcinoma in situ (C50._)" check=""/>
+	<subTerm name="Intraductal and lobular carcinoma (C50._)" check=""/>
+	<subTerm name="Infiltrating lobular carcinoma and ductal carcinoma in situ (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Infiltrating duct mixed with other types of carcinoma (C50._)" code="8523/3" check="">
+	<subTerm name="Infiltrating duct and cribriform carcinoma (C50._)" check=""/>
+	<subTerm name="Infiltrating duct and mucinous carcinoma (C50._)" check=""/>
+	<subTerm name="Infiltrating duct and tubular carcinoma (C50._)" check=""/>
+	<subTerm name="Infiltrating duct and colloid carcinoma (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Infiltrating lobular mixed with other types of carcinoma (C50._)" code="8524/3" check="">
+  </mainTerm>
+  <mainTerm name="Polymorphous low grade adenocarcinoma" code="8525/3" check="">
+	<subTerm name="Terminal duct adenocarcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Inflammatory carcinoma (C50._)" code="8530/3" check="">
+	<subTerm name="Inflammatory adenocarcinoma (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Paget disease, mammary (C50._)" code="8540/3" check="">
+	<subTerm name="Paget disease of breast (C50._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Paget disease and infiltrating duct carcinoma of breast (C50._)" code="8541/3" check="">
+  </mainTerm>
+  <mainTerm name="Paget disease, extramammary (except Paget disease of bone)" code="8542/3" check="">
+  </mainTerm>
+  <mainTerm name="Paget disease and intraductal carcinoma of breast (C50._)" code="8543/3" check="">
+  </mainTerm>
+  <mainTerm name="Acinar cell adenoma" code="8550/0" check="">
+	<subTerm name="Acinar adenoma" check=""/>
+	<subTerm name="Acinic cell adenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Acinar cell tumour [obs]" code="8550/1" check="">
+	<subTerm name="Acinic cell tumor [obs]" check=""/>
+  </mainTerm>
+  <mainTerm name="Acinar cell carcinoma" code="8550/3" check="">
+	<subTerm name="Acinic cell adenocarcinoma" check=""/>
+	<subTerm name="Acinar adenocarcinoma" check=""/>
+	<subTerm name="Acinar carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Acinar cell cystadenocarcinoma" code="8551/3" check="">
+  </mainTerm>
+  <mainTerm name="Mixed acinar-ductal carcinoma" code="8552/3" check="">
+  </mainTerm>
+  <mainTerm name="Mixed squamous cell and glandular papilloma" code="8560/0" check="">
+  </mainTerm>
+  <mainTerm name="Adenosquamous carcinoma" code="8560/3" check="">
+	<subTerm name="Mixed adenocarcinoma and squamous cell carcinoma" check=""/>
+	<subTerm name="Mixed adenocarcinoma and epidermoid carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenolymphoma (C07._, C08._)" code="8561/0" check="">
+	<subTerm name="Papillary cystadenoma lymphomatosum (C07._, C08._)" check=""/>
+	<subTerm name="Warthin tumor (C07._, C08._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Epithelial-myoepithelial carcinoma" code="8562/3" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma with squamous metaplasia" code="8570/3" check="">
+	<subTerm name="Adenoacanthoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma with cartilaginous and osseous metaplasia" code="8571/3" check="">
+	<subTerm name="Adenocarcinoma with cartilaginous metaplasia" check=""/>
+	<subTerm name="Adenocarcinoma with osseous metaplasia" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma with spindle cell metaplasia" code="8572/3" check="">
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma with apocrine metaplasia" code="8573/3" check="">
+	<subTerm name="Carcinoma with apocrine metaplasia" check=""/>
+  </mainTerm>
+  <mainTerm name="Adenocarcinoma with neuroendocrine differentiation" code="8574/3" check="">
+	<subTerm name="Carcinoma with neuroendocrine differentiation" check=""/>
+  </mainTerm>
+  <mainTerm name="Metaplastic carcinoma, NOS" code="8575/3" check="">
+  </mainTerm>
+  <mainTerm name="Hepatoid adenocarcinoma" code="8576/3" check="">
+	<subTerm name="Hepatoid carcinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, benign (C37.9)" code="8580/0" check="">
+  </mainTerm>
+  <mainTerm name="Thymoma, NOS (C37.9)" code="8580/1" check="">
+  </mainTerm>
+  <mainTerm name="Thymoma, malignant, NOS (C37.9)" code="8580/3" check="">
+  </mainTerm>
+  <mainTerm name="Thymoma, type A, NOS (C37.9)" code="8581/1" check="">
+	<subTerm name="Thymoma, spindle cell, NOS (C37.9)" check=""/>
+	<subTerm name="Thymoma, medullary, NOS (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type A, malignant (C37.9)" code="8581/3" check="">
+	<subTerm name="Thymoma, spindle cell, malignant (C37.9)" check=""/>
+	<subTerm name="Thymoma, medullary, malignant (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type AB, NOS (C37.9)" code="8582/1" check="">
+	<subTerm name="Thymoma, mixed type, NOS (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type AB, malignant (C37.9)" code="8582/3" check="">
+	<subTerm name="Thymoma, mixed type, malignant (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type B1, NOS (C37.9)" code="8583/1" check="">
+	<subTerm name="Thymoma, lymphocyte-rich, NOS (C37.9)" check=""/>
+	<subTerm name="Thymoma, lymphocytic, NOS (C37.9)" check=""/>
+	<subTerm name="Thymoma, predominantly cortical, NOS (C37.9)" check=""/>
+	<subTerm name="Thymoma, organoid, NOS (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type B1, malignant (C37.9)" code="8583/3" check="">
+	<subTerm name="Thymoma, lymphocyte-rich, malignant (C37.9)" check=""/>
+	<subTerm name="Thymoma, lymphocytic, malignant (C37.9)" check=""/>
+	<subTerm name="Thymoma, predominantly cortical, malignant (C37.9)" check=""/>
+	<subTerm name="Thymoma, organoid, malignant (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type B2, NOS (C37.9)" code="8584/1" check="">
+	<subTerm name="Thymoma, cortical, NOS (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type B2, malignant (C37.9)" code="8584/3" check="">
+	<subTerm name="Thymoma, cortical, malignant (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type B3, NOS (C37.9)" code="8585/1" check="">
+	<subTerm name="Thymoma, epithelial, NOS (C37.9)" check=""/>
+	<subTerm name="Thymoma, atypical, NOS (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymoma, type B3, malignant (C37.9)" code="8585/3" check="">
+	<subTerm name="Thymoma, epithelial, malignant (C37.9)" check=""/>
+	<subTerm name="Thymoma, atypical, malignant (C37.9)" check=""/>
+	<subTerm name="Well differentiated thymic carcinoma (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thymic carcinoma, NOS (C37.9)" code="8586/3" check="">
+	<subTerm name="Thymoma, type C (C37.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Ectopic hamartomatous thymoma" code="8587/0" check="">
+  </mainTerm>
+  
+  <mainTerm name="Spindle epithelial tumor with thymus-like element" code="8588/3" check="">
+	<subTerm name="Spindle epithelial tumor with thymus-like differentiation" check=""/>
+	<subTerm name="SETTLE" check=""/>
+  </mainTerm>
+  <mainTerm name="Carcinoma showing thymus-like element" code="8589/3" check="">
+	<subTerm name="Carcinoma showing thymus-like differentiation" check=""/>
+	<subTerm name="CASTLE" check=""/>
+  </mainTerm>
+  <mainTerm name="Sex cord-gonadal stromal tumor, NOS" code="8590/1" check="">
+	<subTerm name="Gonadal stromal tumor, NOS" check=""/>
+	<subTerm name="Testicular stromal tumor (C62._)" check=""/>
+	<subTerm name="Ovarian stromal tumor (C56.9)" check=""/>
+	<subTerm name="Sex cord tumor, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Sex cord-gonadal stromal tumor, incompletely differentiated" code="8591/1" check="">
+  </mainTerm>
+  <mainTerm name="Sex cord-gonadal stromal tumor, mixed forms" code="8592/1" check="">
+  </mainTerm>
+  <mainTerm name="Stromal tumor with minor sex cord elements (C56.9)" code="8593/1" check="">
+  </mainTerm>
+  <mainTerm name="Thecoma, NOS (C56.9)" code="8600/0" check="">
+	<subTerm name="Theca cell tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Thecoma, malignant (C56.9)" code="8600/3" check="">
+  </mainTerm>
+  <mainTerm name="Thecoma, luteinized (C56.9)" code="8601/0" check="">
+  </mainTerm>
+  <mainTerm name="Sclerosing stromal tumor (C56.9)" code="8602/0" check="">
+  </mainTerm>
+  <mainTerm name="Luteoma, NOS (C56.9)" code="8610/0" check="">
+	<subTerm name="Luteinoma (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Granulosa cell tumor, adult type (C56.9)" code="8620/1" check="">
+	<subTerm name="Granulosa cell tumor, NOS (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Granulosa cell tumor, malignant (C56.9)" code="8620/3" check="">
+	<subTerm name="Granulosa cell carcinoma (C56.9)" check=""/>
+	<subTerm name="Granulosa cell tumor, sarcomatoid (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Granulosa cell-theca cell tumor (C56.9)" code="8621/1" check="">
+	<subTerm name="Theca cell-granulosa cell tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Granulosa cell tumor, juvenile (C56.9)" code="8622/1" check="">
+  </mainTerm>
+  <mainTerm name="Sex cord tumor with annular tubules (C56.9)" code="8623/1" check="">
+  </mainTerm>
+  <mainTerm name="Androblastoma, benign" code="8630/0" check="">
+	<subTerm name="Arrhenoblastoma, benign" check=""/>
+  </mainTerm>
+  <mainTerm name="Androblastoma, NOS" code="8630/1" check="">
+	<subTerm name="Arrhenoblastoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Androblastoma, malignant" code="8630/3" check="">
+	<subTerm name="Arrhenoblastoma, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Sertoli-Leydig cell tumor, well differentiated" code="8631/0" check="">
+  </mainTerm>
+  <mainTerm name="Sertoli-Leydig cell tumor of intermediate differentiation" code="8631/1" check="">
+	<subTerm name="Sertoli-Leydig cell tumor, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Sertoli-Leydig cell tumor, poorly differentiated" code="8631/3" check="">
+	<subTerm name="Sertoli-Leydig cell tumor, sarcomatoid" check=""/>
+  </mainTerm>
+  <mainTerm name="Gynandroblastoma (C56.9)" code="8632/1" check="">
+  </mainTerm>
+  <mainTerm name="Sertoli-Leydig cell tumor, retiform" code="8633/1" check="">
+  </mainTerm>
+  <mainTerm name="Sertoli-Leydig cell tumor, intermediate differentiation, with heterologous elements" code="8634/1" check="">
+	<subTerm name="Sertoli-Leydig cell tumor, retiform, with heterologous elements" check=""/>
+  </mainTerm>
+  <mainTerm name="Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements" code="8634/3" check="">
+  </mainTerm>
+  <mainTerm name="Sertoli cell tumor, NOS" code="8640/1" check="">
+	<subTerm name="Pick tubular adenoma" check=""/>
+	<subTerm name="Sertoli cell adenoma" check=""/>
+	<subTerm name="Tubular androblastoma, NOS" check=""/>
+	<subTerm name="Testicular adenoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Sertoli cell carcinoma (C62._)" code="8640/3" check="">
+  </mainTerm>
+  <mainTerm name="Sertoli cell tumor with lipid storage" code="8641/0" check="">
+	<subTerm name="Folliculome lipidique (C56.9)" check=""/>
+	<subTerm name="Tubular androblastoma with lipid storage (C56.9)" check=""/>
+	<subTerm name="Lipid-rich Sertoli cell tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Large cell calcifying Sertoli cell tumor" code="8642/1" check="">
+  </mainTerm>
+  <mainTerm name="Leydig cell tumor, benign (C62._)" code="8650/0" check="">
+	<subTerm name="Interstitial cell tumor, benign" check=""/>
+  </mainTerm>
+  <mainTerm name="Leydig cell tumor, NOS (C62._)" code="8650/1" check="">
+	<subTerm name="Interstitial cell tumor, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Leydig cell tumor, malignant (C62._)" code="8650/3" check="">
+	<subTerm name="Interstitial cell tumor, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Hilus cell tumor (C56.9)" code="8660/0" check="">
+	<subTerm name="Hilar cell tumor (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Lipid cell tumor of ovary (C56.9)" code="8670/0" check="">
+	<subTerm name="Steroid cell tumor, NOS" check=""/>
+	<subTerm name="Lipoid cell tumor of ovary (C56.9)" check=""/>
+	<subTerm name="Masculinovoblastoma (C56.9)" check=""/>
+  </mainTerm>
+  <mainTerm name="Steroid cell tumor, malignant" code="8670/3" check="">
+  </mainTerm>
+  <mainTerm name="Adrenal rest tumor" code="8671/0" check="">
+  </mainTerm>
+  <mainTerm name="Paraganglioma, benign" code="8680/0" check="">
+  </mainTerm>
+  <mainTerm name="Paraganglioma, NOS" code="8680/1" check="">
+  </mainTerm>
+  <mainTerm name="Paraganglioma, malignant" code="8680/3" check="">
+  </mainTerm>
+  <mainTerm name="Sympathetic paraganglioma" code="8681/1" check="">
+  </mainTerm>
+  <mainTerm name="Parasympathetic paraganglioma" code="8682/1" check="">
+  </mainTerm>
+  <mainTerm name="Gangliocytic paraganglioma (C17.0)" code="8683/0" check="">
+  </mainTerm>
+  <mainTerm name="Glomus jugulare tumor, NOS (C75.5)" code="8690/1" check="">
+	<subTerm name="Jugular paraganglioma (C75.5)" check=""/>
+	<subTerm name="Jugulotympanic paraganglioma (C75.5)" check=""/>
+  </mainTerm>
+  <mainTerm name="Aortic body tumor (C75.5)" code="8691/1" check="">
+	<subTerm name="Aortic body paraganglioma (C75.5)" check=""/>
+	<subTerm name="Aorticopulmonary paraganglioma (C75.5)" check=""/>
+  </mainTerm>
+  <mainTerm name="Carotid body tumor (C75.4)" code="8692/1" check="">
+	<subTerm name="Carotid body paraganglioma (C75.4)" check=""/>
+  </mainTerm>
+  <mainTerm name="Extra-adrenal paraganglioma, NOS" code="8693/1" check="">
+	<subTerm name="Nonchromaffin paraganglioma, NOS" check=""/>
+	<subTerm name="Chemodectoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Extra-adrenal paraganglioma, malignant" code="8693/3" check="">
+	<subTerm name="Nonchromaffin paraganglioma, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Pheochromocytoma, NOS (C74.1)" code="8700/0" check="">
+	<subTerm name="Adrenal medullary paraganglioma (C74.1)" check=""/>
+	<subTerm name="Chromaffin paraganglioma" check=""/>
+	<subTerm name="Chromaffin tumor" check=""/>
+	<subTerm name="Chromaffinoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Pheochromocytoma, malignant (C74.1)" code="8700/3" check="">
+	<subTerm name="Adrenal medullary paraganglioma, malignant (C74.1)" check=""/>
+	<subTerm name="Pheochromoblastoma (C74.1)" check=""/>
+  </mainTerm>
+  <mainTerm name="Glomangiosarcoma" code="8710/3" check="">
+	<subTerm name="Glomoid sarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Glomus tumor, NOS" code="8711/0" check="">
+  </mainTerm>
+  <mainTerm name="Glomus tumor, malignant" code="8711/3" check="">
+  </mainTerm>
+  <mainTerm name="Glomangioma" code="8712/0" check="">
+  </mainTerm>
+  <mainTerm name="Glomangiomyoma" code="8713/0" check="">
+  </mainTerm>
+  <mainTerm name="Pigmented nevus, NOS (C44._)" code="8720/0" check="">
+	<subTerm name="Nevus, NOS (C44._)" check=""/>
+	<subTerm name="Melanocytic nevus (C44._)" check=""/>
+	<subTerm name="Hairy nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Melanoma in situ" code="8720/2" check="">
+  </mainTerm>
+  <mainTerm name="Malignant melanoma, NOS (except juvenile melanoma M-8770/0)" code="8720/3" check="">
+	<subTerm name="Melanoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Nodular melanoma (C44._)" code="8721/3" check="">
+  </mainTerm>
+  <mainTerm name="Balloon cell nevus (C44._)" code="8722/0" check="">
+  </mainTerm>
+  <mainTerm name="Balloon cell melanoma (C44._)" code="8722/3" check="">
+  </mainTerm>
+  <mainTerm name="Halo nevus (C44._)" code="8723/0" check="">
+	<subTerm name="Regressing nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Malignant melanoma, regressing (C44._)" code="8723/3" check="">
+  </mainTerm>
+  <mainTerm name="Neuronevus (C44._)" code="8725/0" check="">
+  </mainTerm>
+  
+  <mainTerm name="Magnocellular nevus (C69.4)" code="8726/0" check="">
+	<subTerm name="Melanocytoma, eyeball (C69.4)" check=""/>
+	<subTerm name="Melanocytoma, NOS" check=""/>
+  </mainTerm>
+  <mainTerm name="Dysplastic nevus (C44._)" code="8727/0" check="">
+  </mainTerm>
+  <mainTerm name="Diffuse melanocytosis (C70.9)" code="8728/0" check="">
+  </mainTerm>
+  <mainTerm name="Meningeal melanocytoma (C70.9)" code="8728/1" check="">
+  </mainTerm>
+  <mainTerm name="Meningeal melanomatosis (C70.9)" code="8728/3" check="">
+  </mainTerm>
+  <mainTerm name="Nonpigmented nevus (C44._)" code="8730/0" check="">
+	<subTerm name="Achromic nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Amelanotic melanoma (C44._)" code="8730/3" check="">
+  </mainTerm>
+  <mainTerm name="Junctional nevus, NOS (C44._)" code="8740/0" check="">
+	<subTerm name="Junction nevus (C44._)" check=""/>
+	<subTerm name="Intraepidermal nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Malignant melanoma in junctional nevus (C44._)" code="8740/3" check="">
+  </mainTerm>
+  <mainTerm name="Precancerous melanosis, NOS (C44._)" code="8741/2" check="">
+  </mainTerm>
+  <mainTerm name="Malignant melanoma in precancerous melanosis (C44._)" code="8741/3" check="">
+  </mainTerm>
+  <mainTerm name="Lentigo maligna (C44._)" code="8742/2" check="">
+	<subTerm name="Hutchinson melanotic freckle, NOS (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Lentigo maligna melanoma (C44._)" code="8742/3" check="">
+	<subTerm name="Malignant melanoma in Hutchinson melanotic freckle (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Superficial spreading melanoma (C44._)" code="8743/3" check="">
+  </mainTerm>
+  <mainTerm name="Acral lentiginous melanoma, malignant (C44._)" code="8744/3" check="">
+  </mainTerm>
+  <mainTerm name="Desmoplastic melanoma, malignant (C44._)" code="8745/3" check="">
+	<subTerm name="Neurotropic melanoma, malignant (C44._)" check=""/>
+	<subTerm name="Desmoplastic melanoma, amelanotic (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mucosal lentiginous melanoma" code="8746/3" check="">
+  </mainTerm>
+  <mainTerm name="Intradermal nevus (C44._)" code="8750/0" check="">
+	<subTerm name="Dermal nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Compound nevus (C44._)" code="8760/0" check="">
+	<subTerm name="Dermal and epidermal nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Small congenital nevus (C44._)" code="8761/0" check="">
+  </mainTerm>
+  <mainTerm name="Giant pigmented nevus, NOS (C44._)" code="8761/1" check="">
+	<subTerm name="Intermediate and giant congenital nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Malignant melanoma in giant pigmented nevus (C44._)" code="8761/3" check="">
+	<subTerm name="Malignant melanoma in congenital melanocytic nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Proliferative dermal lesion in congenital nevus (C44._)" code="8762/1" check="">
+  </mainTerm>
+  <mainTerm name="Epithelioid and spindle cell nevus (C44._)" code="8770/0" check="">
+	<subTerm name="Juvenile nevus (C44._)" check=""/>
+	<subTerm name="Juvenile melanoma (C44._)" check=""/>
+	<subTerm name="Spitz nevus (C44._)" check=""/>
+	<subTerm name="Pigmented spindle cell nevus of Reed (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Mixed epithelioid and spindle cell melanoma" code="8770/3" check="">
+  </mainTerm>
+  <mainTerm name="Epithelioid cell nevus (C44._)" code="8771/0" check="">
+  </mainTerm>
+  <mainTerm name="Epithelioid cell melanoma" code="8771/3" check="">
+  </mainTerm>
+  <mainTerm name="Spindle cell nevus, NOS (C44._)" code="8772/0" check="">
+  </mainTerm>
+  <mainTerm name="Spindle cell melanoma, NOS" code="8772/3" check="">
+  </mainTerm>
+  <mainTerm name="Spindle cell melanoma, type A (C69._)" code="8773/3" check="">
+  </mainTerm>
+  <mainTerm name="Spindle cell melanoma, type B (C69._)" code="8774/3" check="">
+  </mainTerm>
+  <mainTerm name="Blue nevus, NOS (C44._)" code="8780/0" check="">
+	<subTerm name="Jadassohn blue nevus (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Blue nevus, malignant (C44._)" code="8780/3" check="">
+  </mainTerm>
+  <mainTerm name="Cellular blue nevus (C44._)" code="8790/0" check="">
+  </mainTerm>
+  <mainTerm name="Soft tissue tumor, benign" code="8800/0" check="">
+  </mainTerm>
+  <mainTerm name="Sarcoma, NOS" code="8800/3" check="">
+	<subTerm name="Soft tissue sarcoma" check=""/>
+	<subTerm name="Soft tissue tumor, malignant" check=""/>
+	<subTerm name="Mesenchymal tumor, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Sarcomatosis, NOS" code="8800/9" check="">
+  </mainTerm>
+  <mainTerm name="Spindle cell sarcoma" code="8801/3" check="">
+  </mainTerm>
+  <mainTerm name="Giant cell sarcoma (except of bone M-9250/3)" code="8802/3" check="">
+	<subTerm name="Pleomorphic cell sarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Small cell sarcoma" code="8803/3" check="">
+	<subTerm name="Round cell sarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Epithelioid sarcoma" code="8804/3" check="">
+	<subTerm name="Epithelioid cell sarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Undifferentiated sarcoma" code="8805/3" check="">
+  </mainTerm>
+  <mainTerm name="Desmoplastic small round cell tumor" code="8806/3" check="">
+  </mainTerm>
+  <mainTerm name="Fibroma, NOS" code="8810/0" check="">
+  </mainTerm>
+  <mainTerm name="Cellular fibroma (C56.9)" code="8810/1" check="">
+  </mainTerm>
+  <mainTerm name="Fibrosarcoma, NOS" code="8810/3" check="">
+  </mainTerm>
+  <mainTerm name="Fibromyxoma" code="8811/0" check="">
+	<subTerm name="Myxoid fibroma" check=""/>
+	<subTerm name="Myxofibroma, NOS" check=""/>
+	<subTerm name="Plexiform fibromyxoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Fibromyxosarcoma" code="8811/3" check="">
+  </mainTerm>
+  <mainTerm name="Periosteal fibroma (C40._, C41._)" code="8812/0" check="">
+  </mainTerm>
+  <mainTerm name="Periosteal fibrosarcoma (C40._, C41._)" code="8812/3" check="">
+	<subTerm name="Periosteal sarcoma, NOS (C40._, C41._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Fascial fibroma" code="8813/0" check="">
+  </mainTerm>
+  <mainTerm name="Fascial fibrosarcoma" code="8813/3" check="">
+  </mainTerm>
+  <mainTerm name="Infantile fibrosarcoma" code="8814/3" check="">
+	<subTerm name="Congenital fibrosarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Solitary fibrous tumor" code="8815/0" check="">
+	<subTerm name="Localized fibrous tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Solitary fibrous tumor, malignant" code="8815/3" check="">
+  </mainTerm>
+  <mainTerm name="Elastofibroma" code="8820/0" check="">
+  </mainTerm>
+  <mainTerm name="Aggressive fibromatosis" code="8821/1" check="">
+	<subTerm name="Extra-abdominal desmoid" check=""/>
+	<subTerm name="Desmoid, NOS" check=""/>
+	<subTerm name="Invasive fibroma" check=""/>
+  </mainTerm>
+  <mainTerm name="Abdominal fibromatosis" code="8822/1" check="">
+	<subTerm name="Abdominal desmoid" check=""/>
+	<subTerm name="Mesenteric fibromatosis (C48.1)" check=""/>
+	<subTerm name="Retroperitoneal fibromatosis (C48.0)" check=""/>
+  </mainTerm>
+  <mainTerm name="Desmoplastic fibroma" code="8823/0" check="">
+  </mainTerm>
+  <mainTerm name="Myofibroma" code="8824/0" check="">
+  </mainTerm>
+  <mainTerm name="Myofibromatosis" code="8824/1" check="">
+	<subTerm name="Congenital generalized fibromatosis" check=""/>
+	<subTerm name="Infantile myofibromatosis" check=""/>
+  </mainTerm>
+  <mainTerm name="Myofibroblastoma" code="8825/0" check="">
+  </mainTerm>
+  <mainTerm name="Myofibroblastic tumor, NOS" code="8825/1" check="">
+	<subTerm name="Inflammatory myofibroblastic tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Angiomyofibroblastoma" code="8826/0" check="">
+  </mainTerm>
+  <mainTerm name="Myofibroblastic tumor, peribronchial (C34._)" code="8827/1" check="">
+	<subTerm name="Congenital peribronchial myofibroblastic tumor (C34._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Benign fibrous histiocytoma" code="8830/0" check="">
+	<subTerm name="Fibrous histiocytoma, NOS" check=""/>
+	<subTerm name="Fibroxanthoma, NOS" check=""/>
+	<subTerm name="Xanthofibroma" check=""/>
+  </mainTerm>
+  <mainTerm name="Atypical fibrous histiocytoma" code="8830/1" check="">
+	<subTerm name="Atypical fibroxanthoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Malignant fibrous histiocytoma" code="8830/3" check="">
+	<subTerm name="Fibroxanthoma, malignant" check=""/>
+  </mainTerm>
+  <mainTerm name="Histiocytoma, NOS" code="8831/0" check="">
+	<subTerm name="Deep histiocytoma" check=""/>
+	<subTerm name="Juvenile histiocytoma" check=""/>
+	<subTerm name="Reticulohistiocytoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Dermatofibroma, NOS (C44._)" code="8832/0" check="">
+	<subTerm name="Cutaneous histiocytoma, NOS (C44._)" check=""/>
+	<subTerm name="Dermatofibroma lenticulare (C44._)" check=""/>
+	<subTerm name="Subepidermal nodular fibrosis (C44._)" check=""/>
+	<subTerm name="Sclerosing hemangioma (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Dermatofibrosarcoma, NOS (C44._)" code="8832/3" check="">
+	<subTerm name="Dermatofibrosarcoma protuberans, NOS (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Pigmented dermatofibrosarcoma protuberans (C44._)" code="8833/3" check="">
+	<subTerm name="Bednar tumor (C44._)" check=""/>
+  </mainTerm>
+  <mainTerm name="Giant cell fibroblastoma" code="8834/1" check="">
+  </mainTerm>
+  <mainTerm name="Plexiform fibrohistiocytic tumor" code="8835/1" check="">
+  </mainTerm>
+  <mainTerm name="Angiomatoid fibrous histiocytoma" code="8836/1" check="">
+  </mainTerm>
+  <mainTerm name="Myxoma, NOS" code="8840/0" check="">
+  </mainTerm>
+  <mainTerm name="Myxosarcoma" code="8840/3" check="">
+  </mainTerm>
+  <mainTerm name="Angiomyxoma" code="8841/1" check="">
+	<subTerm name="Aggressive angiomyxoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Ossifying fibromyxoid tumor" code="8842/0" check="">
+  </mainTerm>
+  <mainTerm name="Lipoma, NOS" code="8850/0" check="">
+  </mainTerm>
+  <mainTerm name="Atypical lipoma" code="8850/1" check="">
+	<subTerm name="Superficial well differentated liposarcoma" check=""/>
+	<subTerm name="Well differentiated liposarcoma of superficial soft tissue" check=""/>
+  </mainTerm>
+  <mainTerm name="Liposarcoma, NOS" code="8850/3" check="">
+	<subTerm name="Fibroliposarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Fibrolipoma" code="8851/0" check="">
+  </mainTerm>
+  <mainTerm name="Lipoarcoma, well differentiated" code="8851/3" check="">
+	<subTerm name="Liposarcoma, differentiated" check=""/>
+	<subTerm name="Lipoma-like liposarcoma" check=""/>
+	<subTerm name="Sclerosing liposarcoma" check=""/>
+	<subTerm name="Inflammatory liposarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Fibromyxolipoma" code="8852/0" check="">
+	<subTerm name="Myxolipoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Myxoid liposarcoma" code="8852/3" check="">
+	<subTerm name="Myxoliposarcoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Round cell liposarcoma" code="8853/3" check="">
+  </mainTerm>
+  <mainTerm name="Pleomorphic lipoma" code="8854/0" check="">
+  </mainTerm>
+  <mainTerm name="Pleomorphic liposarcoma" code="8854/3" check="">
+  </mainTerm>
+  <mainTerm name="Mixed liposarcoma" code="8855/3" check="">
+  </mainTerm>
+  <mainTerm name="Intramuscular lipoma" code="8856/0" check="">
+	<subTerm name="Infiltrating lipoma" check=""/>
+	<subTerm name="Infiltrating angiolipoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Spindle cell lipoma" code="8857/0" check="">
+  </mainTerm>
+  <mainTerm name="Fibroblastic liposarcoma" code="8857/3" check="">
+  </mainTerm>
+  <mainTerm name="Dedifferentiated liposarcoma" code="8858/3" check="">
+  </mainTerm>
+  <mainTerm name="Angiomyolipoma" code="8860/0" check="">
+  </mainTerm>
+  <mainTerm name="Angiolipoma, NOS" code="8861/0" check="">
+  </mainTerm>
+  <mainTerm name="Chondroid lipoma" code="8862/0" check="">
+  </mainTerm>
+  <mainTerm name="Myelolipoma" code="8870/0" check="">
+  </mainTerm>
+  <mainTerm name="Hibernoma" code="8880/0" check="">
+	<subTerm name="Fetal fat cell lipoma" check=""/>
+	<subTerm name="Brown fat tumor" check=""/>
+  </mainTerm>
+  <mainTerm name="Lipoblastomatosis" code="8881/0" check="">
+	<subTerm name="Fetal lipoma, NOS" check=""/>
+	<subTerm name="Fetal lipomatosis" check=""/>
+	<subTerm name="Lipoblastoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Leiomyoma, NOS" code="8890/0" check="">
+	<subTerm name="Fibroid uterus (C55.9)" check=""/>
+	<subTerm name="Fibromyoma" check=""/>
+	<subTerm name="Leiomyofibroma" check=""/>
+	<subTerm name="Plexiform leiomyoma" check=""/>
+	<subTerm name="Lipoleiomyoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Leiomyomatosis, NOS" code="8890/1" check="">
+	<subTerm name="Intravascular leiomyomatosis" check=""/>
+  </mainTerm>
+  <mainTerm name="Leiomyosarcoma, NOS" code="8890/3" check="">
+  </mainTerm>
+  <mainTerm name="Epithelioid leiomyoma" code="8891/0" check="">
+	<subTerm name="Leiomyoblastoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Epithelioid leiomyosarcoma" code="8891/3" check="">
+  </mainTerm>
+  <mainTerm name="Cellular leiomyoma" code="8892/0" check="">
+  </mainTerm>
+  <mainTerm name="Bizarre leiomyoma" code="8893/0" check="">
+	<subTerm name="Symplastic leiomyoma" check=""/>
+	<subTerm name="Atypical leiomyoma" check=""/>
+	<subTerm name="Pleomorphic leiomyoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Angiomyoma" code="8894/0" check="">
+	<subTerm name="Vascular leiomyoma" check=""/>
+	<subTerm name="Angioleiomyoma" check=""/>
+  </mainTerm>
+  <mainTerm name="Angiomyosarcoma" code="8894/3" check="">
+  </mainTerm>
+  <mainTerm name="Myoma" code="8895/0" check="">
+  </mainTerm>
+  <mainTerm name="Myosarcoma" code="8895/3" check="">
+  </mainTerm>
+  <mainTerm name="Myxoid leiomyosarcoma" code="8896/" check="">
+  </mainTerm>
+
+	<mainTerm name="Smooth muscle tumor of uncertain malignant potential" code="8897/1" check="">
+	<subTerm name="Smooth muscle tumor, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Metastasizing leiomyoma" code="8898/1" check="">
+	</mainTerm>
+	<mainTerm name="Rhabdomyoma, NOS" code="8900/0" check="">
+	</mainTerm>
+	<mainTerm name="Rhabdomyosarcoma, NOS" code="8900/3" check="">
+	<subTerm name="Rhabdosarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Pleomorphic rhabdomyosarcoma, adult type" code="8901/3" check="">
+	<subTerm name="Pleomorphic rhabdomyosarcoma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Mixed type rhabdomyosarcoma" code="8902/3" check="">
+	<subTerm name="Mixed embryonal rhabdomyosarcoma and alveolar rhabdomyosarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Fetal rhabdomyoma" code="8903/0" check="">
+	</mainTerm>
+	<mainTerm name="Adult rhabdomyoma" code="8904/0" check="">
+	<subTerm name="Glycogenic rhabdomyoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Genital rhabdomyoma (C51._, C52.9)" code="8905/0" check="">
+	</mainTerm>
+	<mainTerm name="Embryonal rhabdomyosarcoma, NOS" code="8910/3" check="">
+	<subTerm name="Embryonal rhabdomyosarcoma, pleomorphic" check=""/>
+	<subTerm name="Sarcoma botryoides" check=""/>
+	<subTerm name="Botryoid sarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Spindle cell rhabdomyosarcoma" code="8912/3" check="">
+	</mainTerm>
+	<mainTerm name="Alveolar rhabdomyosarcoma" code="8920/3" check="">
+	</mainTerm>
+	<mainTerm name="Rhabdomyosarcoma with ganglionic differentiation" code="8921/3" check="">
+	<subTerm name="Ectomesenchymoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Endometrial stromal nodule (C54.1)" code="8930/0" check="">
+	</mainTerm>
+	<mainTerm name="Endometrial stromal sarcoma, NOS (C54.1)" code="8930/3" check="">
+	<subTerm name="Endometrial sarcoma, NOS (C54.1)" check=""/>
+	<subTerm name="Endometrial stromal sarcoma, high grade (C54.1)" check=""/>
+	</mainTerm>
+	<mainTerm name="Endometrial stromal sarcoma, low grade (C54.1)" code="8931/3" check="">
+	<subTerm name="Endolymphatic stromal myosis (C54.1)" check=""/>
+	<subTerm name="Endometrial stromatosis (C54.1)" check=""/>
+	<subTerm name="Stromal endometriosis (C54.1)" check=""/>
+	<subTerm name="Stromal myosis, NOS (C54.1)" check=""/>
+	</mainTerm>
+	<mainTerm name="Adenomyoma" code="8932/0" check="">
+	<subTerm name="Atypical polypoid adenomyoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Adenosarcoma" code="8933/3" check="">
+	</mainTerm>
+	<mainTerm name="Carcinofibroma" code="8934/3" check="">
+	</mainTerm>
+	<mainTerm name="Stromal tumor, benign" code="8935/0" check="">
+	</mainTerm>
+	<mainTerm name="Stromal tumor, NOS" code="8935/1" check="">
+	</mainTerm>
+	<mainTerm name="Stromal sarcoma, NOS" code="8935/3" check="">
+	</mainTerm>
+	<mainTerm name="Gastrointestinal stromal tumor, benign" code="8936/0" check="">
+	<subTerm name="GIST, benign" check=""/>
+	</mainTerm>
+	<mainTerm name="Gastrointestinal stromal tumor, NOS" code="8936/1" check="">
+	<subTerm name="GIST, NOS" check=""/>
+	<subTerm name="Gastrointestinal stromal tumor, uncertain malignant potential" check=""/>
+	<subTerm name="Gastrointestinal autonomic nerve tumor" check=""/>
+	<subTerm name="GANT" check=""/>
+	<subTerm name="Gastrointestinal pacemaker cell tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Gastrointestinal stromal sarcoma" code="8936/3" check="">
+	<subTerm name="Gastrointestinal stromal tumor, malignant" check=""/>
+	<subTerm name="GIST, malignant" check=""/>
+	</mainTerm>
+	<mainTerm name="Pleomorphic adenoma" code="8940/0" check="">
+	<subTerm name="Mixed tumor, NOS" check=""/>
+	<subTerm name="Mixed tumor, salivary gland type, NOS (C07._, C08._)" check=""/>
+	<subTerm name="Chondroid syringoma (C44._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Mixed tumor, malignant, NOS" code="8940/3" check="">
+	<subTerm name="Mixed tumor, salivary gland type, malignant (C07._, C08._)" check=""/>
+	<subTerm name="Malignant chondroid syringoma (C44._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Carcinoma in pleomorphic adenoma (C07._, C08._)" code="8941/3" check="">
+	</mainTerm>
+	<mainTerm name="Mullerian mixed tumor (C54._)" code="8950/3" check="">
+	</mainTerm>
+	<mainTerm name="Mesodermal mixed tumor" code="8951/3" check="">
+	</mainTerm>
+	<mainTerm name="Benign cystic nephroma (C64.9)" code="8959/0" check="">
+	</mainTerm>
+	<mainTerm name="Cystic partially differentiated nephroblastoma (C64.9)" code="8959/1" check="">
+	</mainTerm>
+	<mainTerm name="Malignant cystic nephroma (C64.9)" code="8959/3" check="">
+	<subTerm name="Malignant multilocular cystic nephroma (C64.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Mesoblastic nephroma" code="8960/1" check="">
+	</mainTerm>
+	<mainTerm name="Nephroblastoma, NOS (C64.9)" code="8960/3" check="">
+	<subTerm name="Wilms tumor (C64.9)" check=""/>
+	<subTerm name="Nephroma, NOS (C64.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant rhabdoid tumor" code="8963/3" check="">
+	<subTerm name="Rhabdoid tumor, NOS" check=""/>
+	<subTerm name="Rhabdoid sarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Clear cell sarcoma of kidney (C64.9)" code="8964/3" check="">
+	</mainTerm>
+	<mainTerm name="Nephrogenic adenofibroma (C64.9)" code="8965/0" check="">
+	</mainTerm>
+	<mainTerm name="Renomedullary interstitial cell tumor (C64.9)" code="8966/0" check="">
+	<subTerm name="Renomedullary fibroma (C64.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Ossifying renal tumor (C64.9)" code="8967/0" check="">
+	</mainTerm>
+	<mainTerm name="Hepatoblastoma (C22.0)" code="8970/3" check="">
+	<subTerm name="Embryonal hepatoma (C22.0)" check=""/>
+	<subTerm name="Hepatoblastoma, epithelioid (C22.0)" check=""/>
+	<subTerm name="Hepatoblastoma, mixed epithelial-mesenchymal (C22.0)" check=""/>
+	</mainTerm>
+	<mainTerm name="Pancreatoblastoma (C25._)" code="8971/3" check="">
+	</mainTerm>
+	<mainTerm name="Pulmonary blastoma (C34._)" code="8972/3" check="">
+	<subTerm name="Pneumoblastoma (C34._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Pleuropulmonary blastoma" code="8973/3" check="">
+	</mainTerm>
+	<mainTerm name="Sialoblastoma" code="8974/1" check="">
+	</mainTerm>
+	<mainTerm name="Calcifying nested epithelial stromal tumor (C22.0)" code="8975/1" check="">
+	</mainTerm>
+	<mainTerm name="Carcinosarcoma, NOS" code="8980/3" check="">
+	</mainTerm>
+	<mainTerm name="Carcinosarcoma, embryonal" code="8981/3" check="">
+	</mainTerm>
+	<mainTerm name="Myoepithelioma" code="8982/0" check="">
+	<subTerm name="Myoepithelial tumor" check=""/>
+	<subTerm name="Myoepithelial adenoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant myoepithelioma" code="8982/3" check="">
+	<subTerm name="Myoepithelial carcinoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Adenomyoepithelioma (C50._)" code="8983/0" check="">
+	</mainTerm>
+	<mainTerm name="Mesenchymoma, benign" code="8990/0" check="">
+	</mainTerm>
+	<mainTerm name="Mesenchymoma, NOS" code="8990/1" check="">
+	<subTerm name="Mixed mesenchymal tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Mesenchymoma, malignant" code="8990/3" check="">
+	<subTerm name="Mixed mesenchymal sarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Embryonal sarcoma" code="8991/3" check="">
+	</mainTerm>
+	<mainTerm name="Brenner tumor, NOS (C56.9)" code="9000/0" check="">
+	</mainTerm>
+	<mainTerm name="Brenner tumor, borderline malignancy (C56.9)" code="9000/1" check="">
+	<subTerm name="Brenner tumor, proliferating (C56.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Brenner tumor, malignant (C56.9)" code="9000/3" check="">
+	</mainTerm>
+	<mainTerm name="Fibroadenoma, NOS (C50._)" code="9010/0" check="">
+	</mainTerm>
+	<mainTerm name="Intracanalicular fibroadenoma (C50._)" code="9011/0" check="">
+	</mainTerm>
+	<mainTerm name="Pericanalicular fibroadenoma (C50._)" code="9012/0" check="">
+	</mainTerm>
+	<mainTerm name="Adenofibroma, NOS" code="9013/0" check="">
+	<subTerm name="Cystadenofibroma, NOS" check=""/>
+	<subTerm name="Papillary adenofibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Serous adenofibroma, NOS" code="9014/0" check="">
+	<subTerm name="Serous cystadenofibroma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Serous adenofibroma of borderline malignancy" code="9014/1" check="">
+	<subTerm name="Serous cystadenofibroma of borderline malignancy" check=""/>
+	</mainTerm>
+	<mainTerm name="Serous adenocarcinofibroma" code="9014/3" check="">
+	<subTerm name="Malignant serous adenofibroma" check=""/>
+	<subTerm name="Serous cystadenocarcinofibroma" check=""/>
+	<subTerm name="Malignant serous cystadenofibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Mucinous adenofibroma, NOS" code="9015/0" check="">
+	<subTerm name="Mucinous cystadenofibroma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Mucinous adenofibroma of borderline malignancy" code="9015/1" check="">
+	<subTerm name="Mucinous cystadenofibroma of borderline malignancy" check=""/>
+	</mainTerm>
+	<mainTerm name="Mucinous adenocarcinofibroma" code="9015/3" check="">
+	<subTerm name="Malignant mucinous adenofibroma" check=""/>
+	<subTerm name="Mucinous cystadenocarcinofibroma" check=""/>
+	<subTerm name="Malignant mucinous cystadenofibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Giant fibroadenoma (C50._)" code="9016/0" check="">
+	</mainTerm>
+	<mainTerm name="Phyllodes tumor, benign (C50._)" code="9020/0" check="">
+	<subTerm name="Cystosarcoma phyllodes, benign (C50._) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Phyllodes tumor, borderline (C50._)" code="9020/1" check="">
+	<subTerm name="Cystosarcoma phyllodes, NOS (C50._)" check=""/>
+	<subTerm name="Phyllodes tumor, NOS (C50._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Phyllodes tumor, malignant (C50._)" code="9020/3" check="">
+	<subTerm name="Cystosarcoma phyllodes, malignant (C50._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Juvenile fibroadenoma (C50._)" code="9030/0" check="">
+	</mainTerm>
+	<mainTerm name="Synovioma, benign" code="9040/0" check="">
+	</mainTerm>
+	<mainTerm name="Synovial sarcoma, NOS" code="9040/3" check="">
+	<subTerm name="Synovioma, NOS" check=""/>
+	<subTerm name="Synovioma, malignant" check=""/>
+	</mainTerm>
+	<mainTerm name="Synovial sarcoma, spindle cell" code="9041/3" check="">
+	<subTerm name="Synovial sarcoma, monophasic fibrous" check=""/>
+	</mainTerm>
+	<mainTerm name="Synovial sarcoma, epithelioid cell" code="9042/3" check="">
+	</mainTerm>
+	<mainTerm name="Synovial sarcoma, biphasic" code="9043/3" check="">
+	</mainTerm>
+	<mainTerm name="Clear cell sarcoma, NOS (except of kidney M-8964/3)" code="9044/3" check="">
+	<subTerm name="Clear cell sarcoma, of tendons and aponeuroses (C49._)" check=""/>
+	<subTerm name="Melanoma, malignant, of soft parts (C49._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Mesothelioma, benign" code="9050/0" check="">
+	</mainTerm>
+	
+	<mainTerm name="Mesothelioma, malignant" code="9050/3" check="">
+	<subTerm name="Mesothelioma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Fibrous mesothelioma, benign" code="9051/0" check="">
+	</mainTerm>
+	<mainTerm name="Fibrous mesothelioma, malignant" code="9051/3" check="">
+	<subTerm name="Fibrous mesothelioma, NOS" check=""/>
+	<subTerm name="Spindled mesothelioma" check=""/>
+	<subTerm name="Sarcomatoid mesothelioma" check=""/>
+	<subTerm name="Desmoplastic mesothelioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Epithelioid mesothelioma, benign" code="9052/0" check="">
+	<subTerm name="Well differentiated papillary mesothelioma, benign" check=""/>
+	<subTerm name="Mesothelial papilloma" check=""/>
+	</mainTerm>
+	<mainTerm name="Epithelioid mesothelioma, malignant" code="9052/3" check="">
+	<subTerm name="Epithelioid mesothelioma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Mesothelioma, biphasic, malignant" code="9053/3" check="">
+	<subTerm name="Mesothelioma, biphasic, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Adenomatoid tumor, NOS" code="9054/0" check="">
+	</mainTerm>
+	<mainTerm name="Multicystic mesothelioma, benign" code="9055/0" check="">
+	<subTerm name="Cystic mesothelioma, benign (C48._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Cystic mesothelioma, NOS (C48._)" code="9055/1" check="">
+	</mainTerm>
+	<mainTerm name="Dysgerminoma" code="9060/3" check="">
+	</mainTerm>
+	<mainTerm name="Seminoma, NOS (C62._)" code="9061/3" check="">
+	</mainTerm>
+	<mainTerm name="Seminoma, anaplastic (C62._)" code="9062/3" check="">
+	<subTerm name="Seminoma with high mitotic index (C62._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Spermatocytic seminoma (C62._)" code="9063/3" check="">
+	<subTerm name="Spermatocytoma (C62._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Intratubular malignant germ cells (C62._)" code="9064/2" check="">
+	<subTerm name="Intratubular germ cell neoplasia (C62._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Germinoma" code="9064/3" check="">
+	<subTerm name="Germ cell tumor, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Germ cell tumor, nonseminomatous (C62._)" code="9065/3" check="">
+	</mainTerm>
+	<mainTerm name="Embryonal carcinoma, NOS" code="9070/3" check="">
+	<subTerm name="Embryonal adenocarcinoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Yolk sac tumor" code="9071/3" check="">
+	<subTerm name="Endodermal sinus tumor" check=""/>
+	<subTerm name="Polyvesicular vitelline tumor" check=""/>
+	<subTerm name="Orchioblastoma (C62._)" check=""/>
+	<subTerm name="Embryonal carcinoma, infantile" check=""/>
+	<subTerm name="Hepatoid yolk sac tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Polyembryoma" code="9072/3" check="">
+	<subTerm name="Embryonal carcinoma, polyembryonal type" check=""/>
+	</mainTerm>
+	<mainTerm name="Gonadoblastoma" code="9073/1" check="">
+	<subTerm name="Gonocytoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Teratoma, benign" code="9080/0" check="">
+	<subTerm name="Adult cystic teratoma" check=""/>
+	<subTerm name="Adult teratoma, NOS" check=""/>
+	<subTerm name="Cystic teratoma, NOS" check=""/>
+	<subTerm name="Teratoma, differentiated" check=""/>
+	<subTerm name="Mature teratoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Teratoma, NOS" code="9080/1" check="">
+	<subTerm name="Solid teratoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Teratoma, malignant, NOS" code="9080/3" check="">
+	<subTerm name="Embryonal teratoma" check=""/>
+	<subTerm name="Teratoblastoma, malignant" check=""/>
+	<subTerm name="Immature teratoma, malignant" check=""/>
+	<subTerm name="Immature teratoma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Teratocarcinoma" code="9081/3" check="">
+	<subTerm name="Mixed embryonal carcinoma and teratoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant teratoma, undifferentiated" code="9082/3" check="">
+	<subTerm name="Malignant teratoma, anaplastic" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant teratoma, intermediate" code="9083/3" check="">
+	</mainTerm>
+	<mainTerm name="Dermoid cyst, NOS" code="9084/0" check="">
+	<subTerm name="Dermoid, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Teratoma with malignant transformation" code="9084/3" check="">
+	<subTerm name="Dermoid cyst with malignant transformation (C56.9)" check=""/>
+	<subTerm name="Dermoid cyst with secondary tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Mixed germ cell tumor" code="9085/3" check="">
+	<subTerm name="Mixed teratoma and seminoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Struma ovarii, NOS (C56.9)" code="9090/0" check="">
+	</mainTerm>
+	<mainTerm name="Struma ovarii, malignant (C56.9)" code="9090/3" check="">
+	</mainTerm>
+	<mainTerm name="Strumal carcinoid (C56.9)" code="9091/1" check="">
+	<subTerm name="Struma ovarii and carcinoid (C56.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Hydatidiform mole, NOS (C58.9)" code="9100/0" check="">
+	<subTerm name="Hydatid mole (C58.9)" check=""/>
+	<subTerm name="Complete hydatidiform mole (C58.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Invasive hydatidiform mole (C58.9)" code="9100/1" check="">
+	<subTerm name="Chorioadenoma destruens (C58.9)" check=""/>
+	<subTerm name="Chorioadenoma (C58.9)" check=""/>
+	<subTerm name="Invasive mole, NOS (C58.9)" check=""/>
+	<subTerm name="Malignant hydatidiform mole (C58.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Choriocarcinoma, NOS" code="9100/3" check="">
+	<subTerm name="Chorionepithelioma" check=""/>
+	<subTerm name="Chorioepithelioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Choriocarcinoma combined with other germ cell elements" code="9101/3" check="">
+	<subTerm name="Choriocarcinoma combined with teratorna" check=""/>
+	<subTerm name="Choriocarcinoma combined with embryonal carcinoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant teratoma, trophoblastic" code="9102/3" check="">
+	</mainTerm>
+	<mainTerm name="Partial hydatidiform mole (C58.9)" code="9103/0" check="">
+	</mainTerm>
+	<mainTerm name="Placental site trophoblastic tumor (C58.9)" code="9104/1" check="">
+	</mainTerm>
+	<mainTerm name="Trophoblastic tumor, epithelioid" code="9105/3" check="">
+	</mainTerm>
+	<mainTerm name="Mesonephroma, benign" code="9110/0" check="">
+	<subTerm name="Mesonephric adenoma" check=""/>
+	<subTerm name="Wolffian duct adenoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Mesonephric tumor, NOS" code="9110/1" check="">
+	<subTerm name="Wolffian duct tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Mesonephroma, malignant" code="9110/3" check="">
+	<subTerm name="Mesonephric adenocarcinoma" check=""/>
+	<subTerm name="Mesonephroma, NOS" check=""/>
+	<subTerm name="Wolffian duct carcinoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Hemangioma, NOS" code="9120/0" check="">
+	<subTerm name="Angioma, NOS" check=""/>
+	<subTerm name="Chorioangioma (C58.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Haemangiosarcoma" code="9120/3" check="">
+	<subTerm name="Angiosarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Cavernous hemangioma" code="9121/0" check="">
+	</mainTerm>
+	<mainTerm name="Venous hemangioma" code="9122/0" check="">
+	</mainTerm>
+	<mainTerm name="Racemose hemangioma" code="9123/0" check="">
+	<subTerm name="Arteriovenous hemangioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Kupffer cell sarcoma (C22.0)" code="9124/3" check="">
+	</mainTerm>
+	<mainTerm name="Epithelioid hemangioma" code="9125/0" check="">
+	<subTerm name="Histiocytoid hemangioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Hemangioendothelioma, benign" code="9130/0" check="">
+	</mainTerm>
+	<mainTerm name="Hemangioendothelioma, NOS" code="9130/1" check="">
+	<subTerm name="Angioendothelioma" check=""/>
+	<subTerm name="Kaposiform hemangioendothelioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Hemangioendothelioma, malignant" code="9130/3" check="">
+	<subTerm name="Hemangioendothelial sarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Capillary hemangioma" code="9131/0" check="">
+	<subTerm name="Hemangioma simplex" check=""/>
+	<subTerm name="Infantile hemangioma" check=""/>
+	<subTerm name="Plexiform hemangioma" check=""/>
+	<subTerm name="Juvenile hemangioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Intramuscular hemangioma" code="9132/0" check="">
+	</mainTerm>
+	<mainTerm name="Epithelioid hemangioendothelioma, NOS" code="9133/1" check="">
+	</mainTerm>
+	<mainTerm name="Epithelioid hemangioendothelioma, malignant" code="9133/3" check="">
+	<subTerm name="Intravascular bronchial alveolar tumor (C34._) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Endovascular papillary angioendothelioma" code="9135/1" check="">
+	<subTerm name="Dabska tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Spindle cell hemangioendothelioma" code="9136/1" check="">
+	<subTerm name="Spindle cell angioendothelioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Kaposi sarcoma" code="9140/3" check="">
+	<subTerm name="Multiple hemorrhagic sarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Angiokeratoma" code="9141/0" check="">
+	</mainTerm>
+	<mainTerm name="Verrucous keratotic hemangioma" code="9142/0" check="">
+	</mainTerm>
+	<mainTerm name="Hemangiopericytoma, benign" code="9150/0" check="">
+	</mainTerm>
+	<mainTerm name="Hemangiopericytoma, NOS" code="9150/1" check="">
+	<subTerm name="Hemangiopericytic meningioma (C70._) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Hemangiopericytoma, malignant" code="9150/3" check="">
+	</mainTerm>
+	<mainTerm name="Angiofibroma, NOS" code="9160/0" check="">
+	<subTerm name="Juvenile angiofibroma" check=""/>
+	<subTerm name="Fibrous papule of nose (C44.3) [obs]" check=""/>
+	<subTerm name="Involuting nevus (C44._) [obs]" check=""/>
+	<subTerm name="Giant cell angiofibroma" check=""/>
+	<subTerm name="Cellular angiofibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Acquired tufted hemangioma" code="9161/0" check="">
+	</mainTerm>
+	<mainTerm name="Haemangioblastoma" code="9161/1" check="">
+	<subTerm name="Angioblastoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Lymphangioma, NOS" code="9170/0" check="">
+	<subTerm name="Lymphangioendothelioma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Lymphangiosarcoma" code="9170/3" check="">
+	<subTerm name="Lymphangioendothelial sarcoma" check=""/>
+	<subTerm name="Lymphangioendothelioma, malignant" check=""/>
+	</mainTerm>
+	<mainTerm name="Capillary lymphangioma" code="9171/0" check="">
+	</mainTerm>
+	<mainTerm name="Cavernous lymphangioma" code="9172/0" check="">
+	</mainTerm>
+	<mainTerm name="Cystic lymphangioma" code="9173/0" check="">
+	<subTerm name="Hygroma, NOS" check=""/>
+	<subTerm name="Cystic hygroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Lymphangiomyoma" code="9174/0" check="">
+	</mainTerm>
+	<mainTerm name="Lymphangiomyomatosis" code="9174/1" check="">
+	<subTerm name="Lymphangioleiomyomatosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Hemolymphangioma" code="9175/0" check="">
+	</mainTerm>
+	<mainTerm name="Osteoma, NOS (C40._,C41._)" code="9180/0" check="">
+	</mainTerm>
+	<mainTerm name="Osteosarcoma, NOS (C40._,C41._)" code="9180/3" check="">
+	<subTerm name="Osteogenic sarcoma, NOS (C40._,C41._)" check=""/>
+	<subTerm name="Osteoblastic sarcoma (C40._,C41._)" check=""/>
+	<subTerm name="Osteochondrosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>	
+	
+	<mainTerm name="Chondroblastic osteosarcoma (C40._,C41._)" code="9181/3" check="">
+	</mainTerm>
+	<mainTerm name="Fibroblastic osteosarcoma (C40._,C41._)" code="9182/3" check="">
+	<subTerm name="Osteofibrosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Telangiectatic osteosarcoma (C40._,C41._)" code="9183/3" check="">
+	</mainTerm>
+	<mainTerm name="Osteosarcoma in Paget disease of bone (C40._,C41._)" code="9184/3" check="">
+	</mainTerm>
+	<mainTerm name="Small cell osteosarcoma (C40._,C41._)" code="9185/3" check="">
+	<subTerm name="Round cell osteosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Central osteosarcoma (C40._,C41._)" code="9186/3" check="">
+	<subTerm name="Conventional central osteosarcoma (C40._,C41._)" check=""/>
+	<subTerm name="Medullary osteosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Intraosseous well differentiated osteosarcoma (C40._,C41._)" code="9187/3" check="">
+	<subTerm name="Intraosseous low grade osteosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Osteoid osteoma, NOS (C40._,C41._)" code="9191/0" check="">
+	</mainTerm>
+	<mainTerm name="Parosteal osteosarcoma (C40._,C41._)" code="9192/3" check="">
+	<subTerm name="Juxtacortical osteosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Periosteal osteosarcoma (C40._,C41._)" code="9193/3" check="">
+	</mainTerm>
+	<mainTerm name="High grade surface osteosarcoma (C40._,C41._)" code="9194/3" check="">
+	</mainTerm>
+	<mainTerm name="Intracortical osteosarcoma (C40._,C41._)" code="9195/3" check="">
+	</mainTerm>
+	<mainTerm name="Osteoblastoma, NOS (C40._,C41._)" code="9200/0" check="">
+	<subTerm name="Giant osteoid osteoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Aggressive osteoblastoma (C40._,C41._)" code="9200/1" check="">
+	</mainTerm>
+	<mainTerm name="Osteochondroma (C40._,C41._)" code="9210/0" check="">
+	<subTerm name="Cartilaginous exostosis (C40._,C41._)" check=""/>
+	<subTerm name="Osteocartilaginous exostosis (C40._,C41._)" check=""/>
+	<subTerm name="Ecchondroma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Osteochondromatosis, NOS (C40._,C41._)" code="9210/1" check="">
+	<subTerm name="Ecchondrosis (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Chondroma, NOS (C40._,C41._)" code="9220/0" check="">
+	<subTerm name="Enchondroma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Chondromatosis, NOS" code="9220/1" check="">
+	</mainTerm>
+	<mainTerm name="Chondrosarcoma, NOS (C40._,C41._)" code="9220/3" check="">
+	<subTerm name="Fibrochondrosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Juxtacortical chondroma (C40._,C41._)" code="9221/0" check="">
+	<subTerm name="Periosteal chondroma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Juxtacortical chondrosarcoma (C40._,C41._)" code="9221/3" check="">
+	<subTerm name="Periosteal chondrosarcoma (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Chondroblastoma, NOS (C40._,C41._)" code="9230/0" check="">
+	<subTerm name="Chondromatous giant cell tumor (C40._,C41._)" check=""/>
+	<subTerm name="Codman tumor (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Chondroblastoma, malignant (C40._,C41._)" code="9230/3" check="">
+	</mainTerm>
+	<mainTerm name="Myxoid chondrosarcoma" code="9231/3" check="">
+	</mainTerm>
+	<mainTerm name="Mesenchymal chondrosarcoma" code="9240/3" check="">
+	</mainTerm>
+	<mainTerm name="Chondromyxoid fibroma (C40._,C41._)" code="9241/0" check="">
+	</mainTerm>
+	<mainTerm name="Clear cell chondrosarcoma (C40._,C41._)" code="9242/3" check="">
+	</mainTerm>
+	<mainTerm name="Dedifferentiated chondrosarcoma (C40._,C41._)" code="9243/3" check="">
+	</mainTerm>
+	<mainTerm name="Giant cell tumor of bone, NOS (C40._,C41._)" code="9250/1" check="">
+	<subTerm name="Osteoblastoma, NOS (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Giant cell tumor of bone, malignant (C40._,C41._)" code="9250/3" check="">
+	<subTerm name="Osteoblastoma, malignant (C40._,C41._)" check=""/>
+	<subTerm name="Giant cell sarcoma of bone (C40._,C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Giant cell tumor of soft parts, NOS" code="9251/1" check="">
+	</mainTerm>
+	<mainTerm name="Malignant giant cell tumor of soft parts" code="9251/3" check="">
+	</mainTerm>
+	<mainTerm name="Tenosynovial giant cell tumor (C49._)" code="9252/0" check="">
+	<subTerm name="Fibrous histiocytoma of tendon sheath (C49._)" check=""/>
+	<subTerm name="Giant cell tumor of tendon sheath (C49._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant tenosynovial giant cell tumor (C49._)" code="9252/3" check="">
+	<subTerm name="Giant cell tumor of tendon sheath, malignant (C49._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Ewing sarcoma" code="9260/3" check="">
+	<subTerm name="Ewing tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Adamantinoma of long bones (C40._)" code="9261/3" check="">
+	<subTerm name="Tibial adamantinoma (C40.2)" check=""/>
+	</mainTerm>
+	<mainTerm name="Ossifying fibroma" code="9262/0" check="">
+	<subTerm name="Fibro-osteoma" check=""/>
+	<subTerm name="Osteofibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Odontogenic tumor, benign" code="9270/0" check="">
+	</mainTerm>
+	<mainTerm name="Odontogenic tumor, NOS" code="9270/1" check="">
+	</mainTerm>
+	<mainTerm name="Odontogenic tumor, malignant" code="9270/3" check="">
+	<subTerm name="Odontogenic carcinoma" check=""/>
+	<subTerm name="Odontogenic sarcoma" check=""/>
+	<subTerm name="Primary intraosseous carcinoma" check=""/>
+	<subTerm name="Ameloblastic carcinoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Ameloblastic fibrodentinoma" code="9271/0" check="">
+	<subTerm name="Dentinoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Cementoma, NOS" code="9272/0" check="">
+	<subTerm name="Periapical cemental dysplasia" check=""/>
+	<subTerm name="Periapical cemento-osseous dysplasia" check=""/>
+	</mainTerm>
+	<mainTerm name="Cementoblastoma, benign" code="9273/0" check="">
+	</mainTerm>
+	<mainTerm name="Cementifying fibroma" code="9274/0" check="">
+	<subTerm name="Cemento-ossifying fibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Gigantiform cementoma" code="9275/0" check="">
+	<subTerm name="Florid osseous dysplasia" check=""/>
+	</mainTerm>
+	<mainTerm name="Odontoma, NOS" code="9280/0" check="">
+	</mainTerm>
+	<mainTerm name="Compound odontoma" code="9281/0" check="">
+	</mainTerm>
+	<mainTerm name="Complex odontoma" code="9282/0" check="">
+	</mainTerm>
+	<mainTerm name="Ameloblastic fibro-odontoma" code="9290/0" check="">
+	<subTerm name="Fibroameloblastic odontoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Ameloblastic odontosarcoma" code="9290/3" check="">
+	<subTerm name="Ameloblastic fibrodentinosarcoma" check=""/>
+	<subTerm name="Ameloblastic fibro-odontosarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Adenomatoid odontogenic tumor" code="9300/0" check="">
+	<subTerm name="Adenoameloblastoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Calcifying odontogenic cyst" code="9301/0" check="">
+	</mainTerm>
+	<mainTerm name="Odontogenic ghost cell tumor" code="9302/0" check="">
+	</mainTerm>
+	<mainTerm name="Ameloblastoma, NOS" code="9310/0" check="">
+	<subTerm name="Adamantinoma, NOS (except of long bones M9261/3)" check=""/>
+	</mainTerm>
+	<mainTerm name="Ameloblastoma, malignant" code="9310/3" check="">
+	<subTerm name="Adamantinoma, malignant (except of long bones M9261/3)" check=""/>
+	</mainTerm>
+	<mainTerm name="Odontoameloblastoma" code="9311/0" check="">
+	</mainTerm>
+	<mainTerm name="Squamous odontogenic tumor" code="9312/0" check="">
+	</mainTerm>
+	<mainTerm name="Odontogenic myxoma" code="9320/0" check="">
+	<subTerm name="Odontogenic myxofibroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Central odontogenic fibroma" code="9321/0" check="">
+	<subTerm name="Odontogenic fibroma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Peripheral odontogenic fibroma" code="9322/0" check="">
+	</mainTerm>
+	<mainTerm name="Ameloblastic fibroma" code="9330/0" check="">
+	</mainTerm>
+	<mainTerm name="Ameloblastic fibrosarcoma" code="9330/3" check="">
+	<subTerm name="Ameloblastic sarcoma" check=""/>
+	<subTerm name="Odontogenic fibrosarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Calcifying epithelial odontogenic tumor" code="9340/0" check="">
+	<subTerm name="Pindborg tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Clear cell odontogenic tumor" code="9341/1" check="">
+	</mainTerm>
+	<mainTerm name="Odontogenic carcinosarcoma" code="9342/3" check="">
+	</mainTerm>
+	<mainTerm name="Craniopharyngioma (C75.2)" code="9350/1" check="">
+	<subTerm name="Rathke pouch tumor (C75.1)" check=""/>
+	</mainTerm>
+	<mainTerm name="Craniopharyngioma, adamantinomatous (C75.2)" code="9351/1" check="">
+	</mainTerm>
+	<mainTerm name="Craniopharyngioma, papillary (C75.2)" code="9352/1" check="">
+	</mainTerm>
+	<mainTerm name="Pinealoma (C75.3)" code="9360/1" check="">
+	</mainTerm>
+	<mainTerm name="Pineocytoma (C75.3)" code="9361/1" check="">
+	</mainTerm>
+
+	<mainTerm name="Pineoblastoma (C75.3)" code="9362/3" check="">
+	<subTerm name="Mixed pineal tumor (C75.3)" check=""/>
+	<subTerm name="Mixed pineocytoma-pineoblastoma (C75.3)" check=""/>
+	<subTerm name="Pineal parenchymal tumor of intermediate differentiation (C75.3)" check=""/>
+	<subTerm name="Transitional pineal tumor (C75.3)" check=""/>
+	</mainTerm>
+	<mainTerm name="Melanotic neuroectodermal tumor" code="9363/0" check="">
+	<subTerm name="Retinal anlage tumor" check=""/>
+	<subTerm name="Melanoameloblastoma" check=""/>
+	<subTerm name="Melanotic progonoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Peripheral neuroectodermal tumor" code="9364/3" check="">
+	<subTerm name="Neuroectodermal tumor, NOS" check=""/>
+	<subTerm name="Peripheral primitive neuroectodermal tumor, NOS" check=""/>
+	<subTerm name="PPNET" check=""/>
+	</mainTerm>
+	<mainTerm name="Askin tumor" code="9365/3" check="">
+	</mainTerm>
+	<mainTerm name="Chordoma, NOS" code="9370/3" check="">
+	</mainTerm>
+	<mainTerm name="Chondroid chordoma" code="9371/3" check="">
+	</mainTerm>
+	<mainTerm name="Dedifferentiated chordoma" code="9372/3" check="">
+	</mainTerm>
+	<mainTerm name="Parachordoma" code="9373/0" check="">
+	</mainTerm>
+	<mainTerm name="Glioma, malignant (C71._)" code="9380/3" check="">
+	<subTerm name="Glioma, NOS (C71._) (except nasal glioma, not neoplastic)" check=""/>
+	</mainTerm>
+	<mainTerm name="Gliomatosis cerebri (C71._)" code="9381/3" check="">
+	</mainTerm>
+	<mainTerm name="Mixed glioma (C71._)" code="9382/3" check="">
+	<subTerm name="Oligoastrocytoma (C71._)" check=""/>
+	<subTerm name="Anaplastic oligoastrocytoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Subependymoma (C71._)" code="9383/1" check="">
+	<subTerm name="Subependymal glioma (C71._)" check=""/>
+	<subTerm name="Subependymal astrocytoma, NOS (C71._)" check=""/>
+	<subTerm name="Mixed subependymoma-ependymoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Subependymal giant cell astrocytoma (C71._)" code="9384/1" check="">
+	</mainTerm>
+	<mainTerm name="Choroid plexus papilloma, NOS (C71.5)" code="9390/0" check="">
+	</mainTerm>
+	<mainTerm name="Atypical choroid plexus papilloma (C71.5)" code="9390/1" check="">
+	</mainTerm>
+	<mainTerm name="Choroid plexus carcinoma (C71.5)" code="9390/3" check="">
+	<subTerm name="Choroid plexus papilloma, malignant (C71.5)" check=""/>
+	<subTerm name="Choroid plexus papilloma, anaplastic (C71.5)" check=""/>
+	</mainTerm>
+	<mainTerm name="Ependymoma, NOS (C71._)" code="9391/3" check="">
+	<subTerm name="Epithelial ependymoma (C71._)" check=""/>
+	<subTerm name="Cellular ependymoma (C71._)" check=""/>
+	<subTerm name="Clear cell ependymoma (C71._)" check=""/>
+	<subTerm name="Tanycytic ependymoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Ependymoma, anaplastic (C71._)" code="9392/3" check="">
+	<subTerm name="Ependymoblastoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Papillary ependymoma (C71._)" code="9393/3" check="">
+	</mainTerm>
+	<mainTerm name="Myxopapillary ependymoma (C72.0)" code="9394/1" check="">
+	</mainTerm>
+	<mainTerm name="Papillary tumor of the pineal region" code="9395/3" check="">
+	</mainTerm>
+	<mainTerm name="Astrocytoma, NOS (C71._)" code="9400/3" check="">
+	<subTerm name="Astroglioma (C71._) [obs]" check=""/>
+	<subTerm name="Astrocytic glioma (C71._)" check=""/>
+	<subTerm name="Diffuse astrocytoma (C71._)" check=""/>
+	<subTerm name="Astrocytoma, low grade (C71._)" check=""/>
+	<subTerm name="Cystic astrocytoma (C71._) [obs]" check=""/>
+	<subTerm name="Diffuse astrocytoma, low grade (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Astrocytoma, anaplastic (C71._)" code="9401/3" check="">
+	</mainTerm>
+	<mainTerm name="Protoplasmic astrocytoma (C71._)" code="9410/3" check="">
+	</mainTerm>
+	<mainTerm name="Gemistocytic astrocytoma (C71._)" code="9411/3" check="">
+	<subTerm name="Gemistocytoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Desmoplastic infantile astrocytoma (C71._)" code="9412/1" check="">
+	<subTerm name="Desmoplastic infantile ganglioglioma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Dysembryoplastic neuroepithelial tumor" code="9413/0" check="">
+	</mainTerm>
+	<mainTerm name="Fibrillary astrocytoma (C71._)" code="9420/3" check="">
+	<subTerm name="Fibrous astrocytoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Pilocytic astrocytoma (C71._)" code="9421/1" check="">
+	<subTerm name="Piloid astrocytoma (C71._)" check=""/>
+	<subTerm name="Juvenile astrocytoma (C71._)" check=""/>
+	<subTerm name="Spongioblastoma, NOS (C71._) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Polar spongioblastoma (C71._)" code="9423/3" check="">
+	<subTerm name="Spongioblastoma polare (C71._)" check=""/>
+	<subTerm name="Primitive polar spongioblastoma (C71._) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Pleomorphic xanthoastrocytoma (C71._)" code="9424/3" check="">
+	</mainTerm>
+	<mainTerm name="Pilomyxoid astrocytoma" code="9425/3" check="">
+	</mainTerm>
+	<mainTerm name="Astroblastoma (C71._)" code="9430/3" check="">
+	</mainTerm>
+	<mainTerm name="Angiocentric glioma" code="9431/1" check="">
+	</mainTerm>
+	<mainTerm name="Pituicytoma" code="9432/1" check="">
+	</mainTerm>
+	<mainTerm name="Glioblastoma (C71._)" code="9440/3" check="">
+	<subTerm name="Glioblastoma multiforme (C71._)" check=""/>
+	<subTerm name="Spongioblastoma multiforme (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Giant cell glioblastoma (C71._)" code="9441/3" check="">
+	<subTerm name="Monstrocellular sarcoma (C71._) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Gliofibroma (C71._)" code="9442/1" check="">
+	</mainTerm>
+	<mainTerm name="Gliosarcoma (C71._)" code="9442/3" check="">
+	<subTerm name="Glioblastoma with sarcomatous component (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Chordoid glioma (C71._)" code="9444/1" check="">
+	<subTerm name="Chordoid glioma of third ventricle (C71.5)" check=""/>
+	</mainTerm>
+	<mainTerm name="Oligodendroglioma, NOS (C71._)" code="9450/3" check="">
+	</mainTerm>
+	<mainTerm name="Oligodendroglioma, anaplastic (C71._)" code="9451/3" check="">
+	</mainTerm>
+	<mainTerm name="Oligodendroblastoma (C71._) [obs]" code="9460/3" check="">
+	</mainTerm>
+	<mainTerm name="Medulloblastoma, NOS (C71.6)" code="9470/3" check="">
+	<subTerm name="Melanotic medulloblastoma (C71.6)" check=""/>
+	</mainTerm>
+	<mainTerm name="Desmoplastic nodular medulloblastoma (C71.6)" code="9471/3" check="">
+	<subTerm name="Desmoplastic medulloblastoma (C71.6)" check=""/>
+	<subTerm name="Circumscribed arachnoidal cerebellar sarcoma (C71.6) [obs]" check=""/>
+	<subTerm name="Medulloblastoma with extensive nodularity" check=""/>
+	</mainTerm>
+	<mainTerm name="Medullomyoblastoma (C71.6)" code="9472/3" check="">
+	</mainTerm>
+	<mainTerm name="Primitive neuroectodermal tumor, NOS" code="9473/3" check="">
+	<subTerm name="PNET, NOS" check=""/>
+	<subTerm name="Central primitive neuroectodermal tumor, NOS (C71._)" check=""/>
+	<subTerm name="CPNET (C71._)" check=""/>
+	<subTerm name="Supratentorial PNET (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Large cell medulloblastoma (C71.6)" code="9474/3" check="">
+	<subTerm name="Anaplastic medulloblastoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Cerebellar sarcoma, NOS (C71.6) [obs]" code="9480/3" check="">
+	</mainTerm>
+	<mainTerm name="Ganglioneuroma" code="9490/0" check="">
+	</mainTerm>
+	<mainTerm name="Ganglioneuroblastoma" code="9490/3" check="">
+	</mainTerm>
+	<mainTerm name="Ganglioneuromatosis" code="9491/0" check="">
+	</mainTerm>
+	<mainTerm name="Gangliocytoma" code="9492/0" check="">
+	</mainTerm>
+	<mainTerm name="Dysplastic gangliocytoma of cerebellum (Lhermitte-Duclos) (C71.6)" code="9493/0" check="">
+	</mainTerm>
+	<mainTerm name="Neuroblastoma, NOS" code="9500/3" check="">
+	<subTerm name="Sympathicoblastoma" check=""/>
+	<subTerm name="Central neuroblastoma (C71._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Medulloepithelioma, benign (C69.4)" code="9501/0" check="">
+	<subTerm name="Diktyoma, benign (C69._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Medulloepithelioma, NOS" code="9501/3" check="">
+	<subTerm name="Diktyoma, malignant (C69._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Teratoid medulloepithelioma, benign (C69.4)" code="9502/0" check="">
+	</mainTerm>
+	<mainTerm name="Teratoid medulloepithelioma" code="9502/3" check="">
+	</mainTerm>
+	<mainTerm name="Neuroepithelioma, NOS" code="9503/3" check="">
+	</mainTerm>
+	<mainTerm name="Spongioneuroblastoma" code="9504/3" check="">
+	</mainTerm>
+	<mainTerm name="Ganglioglioma, NOS" code="9505/1" check="">
+	<subTerm name="Glioneuroma [obs]" check=""/>
+	<subTerm name="Neuroastrocytoma [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Ganglioglioma, anaplastic" code="9505/3" check="">
+	</mainTerm>
+	<mainTerm name="Central neurocytoma" code="9506/1" check="">
+	<subTerm name="Neurocytoma" check=""/>
+	<subTerm name="Cerebellar liponeurocytoma (C71.6)" check=""/>
+	<subTerm name="Lipomatous medulloblastoma (C71.6)" check=""/>
+	<subTerm name="Neurolipocytoma (C71.6)" check=""/>
+	<subTerm name="Medullocytoma (C71.6)" check=""/>
+	<subTerm name="Extraventricular neurocytoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Pacinian tumor" code="9507/0" check="">
+	</mainTerm>
+	<mainTerm name="Atypical teratoid/rhabdoid tumor (C71._)" code="9508/3" check="">
+	</mainTerm>
+	<mainTerm name="Papillary glioneuronal tumor" code="9509/1" check="">
+	<subTerm name="Rosette-forming glioneuronal tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Retinocytoma (C69.2)" code="9510/0" check="">
+	</mainTerm>
+	<mainTerm name="Retinoblastoma, NOS (C69.2)" code="9510/3" check="">
+	</mainTerm>
+	<mainTerm name="Retinoblastoma, differentiated (C69.2)" code="9511/3" check="">
+	</mainTerm>
+	<mainTerm name="Retinoblastoma, undifferentiated (C69.2)" code="9512/3" check="">
+	</mainTerm>
+	<mainTerm name="Retinoblastoma, diffuse (C69.2)" code="9513/3" check="">
+	</mainTerm>
+	<mainTerm name="Retinoblastoma, spontaneously regressed (C69.2)" code="9514/1" check="">
+	</mainTerm>
+	<mainTerm name="Olfactory neurogenic tumor" code="9520/3" check="">
+	</mainTerm>
+
+	<mainTerm name="Olfactory neurocytoma (C30.0)" code="9521/3" check="">
+	<subTerm name="Esthesioneurocytoma (C30.0)" check=""/>
+	</mainTerm>
+	<mainTerm name="Olfactory neuroblastoma (C30.0)" code="9522/3" check="">
+	<subTerm name="Esthesioneuroblastoma (C30.0)" check=""/>
+	</mainTerm>
+	<mainTerm name="Olfactory neuroepithelioma (C30.0)" code="9523/3" check="">
+	<subTerm name="Esthesioneuroepithelioma (C30.0)" check=""/>
+	</mainTerm>
+	<mainTerm name="Meningioma, NOS" code="9530/0" check="">
+	<subTerm name="Microcystic meningioma" check=""/>
+	<subTerm name="Secretory meningioma" check=""/>
+	<subTerm name="Lymphoplasmacyte-rich meningioma" check=""/>
+	<subTerm name="Metaplastic meningioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Meningiomatosis, NOS" code="9530/1" check="">
+	<subTerm name="Diffuse meningiomatosis" check=""/>
+	<subTerm name="Multiple meningiomas" check=""/>
+	</mainTerm>
+	<mainTerm name="Meningioma, malignant" code="9530/3" check="">
+	<subTerm name="Meningioma, anaplastic" check=""/>
+	<subTerm name="Leptomeningeal sarcoma" check=""/>
+	<subTerm name="Meningeal sarcoma" check=""/>
+	<subTerm name="Meningothelial sarcoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Meningothelial meningioma" code="9531/0" check="">
+	<subTerm name="Endotheliomatous meningioma" check=""/>
+	<subTerm name="Syncytial meningioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Fibrous meningioma" code="9532/0" check="">
+	<subTerm name="Fibroblastic meningioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Psammomatous meningioma" code="9533/0" check="">
+	</mainTerm>
+	<mainTerm name="Angiomatous meningioma" code="9534/0" check="">
+	</mainTerm>
+	<mainTerm name="Hemangioblastic meningioma [obs]" code="9535/0" check="">
+	<subTerm name="Angioblastic meningioma [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Transitional meningioma" code="9537/0" check="">
+	<subTerm name="Mixed meningioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Clear cell meningioma" code="9538/1" check="">
+	<subTerm name="Chordoid meningioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Papillary meningioma" code="9538/3" check="">
+	<subTerm name="Rhabdoid meningioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Atypical meningioma" code="9539/1" check="">
+	</mainTerm>
+	<mainTerm name="Meningeal sarcomatosis" code="9539/3" check="">
+	</mainTerm>
+	<mainTerm name="Neurofibroma, NOS" code="9540/0" check="">
+	</mainTerm>
+	<mainTerm name="Neurofibromatosis, NOS" code="9540/1" check="">
+	<subTerm name="Multiple neurofibromatosis" check=""/>
+	<subTerm name="Von Recklinghausen disease (except of bone)" check=""/>
+	<subTerm name="Recklinghausen disease (except of bone)" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant peripheral nerve sheath tumor" code="9540/3" check="">
+	<subTerm name="MPNST, NOS" check=""/>
+	<subTerm name="Neurofibrosarcoma [obs]" check=""/>
+	<subTerm name="Neurogenic sarcoma [obs]" check=""/>
+	<subTerm name="Neurosarcoma [obs]" check=""/>
+	<subTerm name="MPNST with glandular differentiation" check=""/>
+	<subTerm name="Epithelioid MPNST" check=""/>
+	<subTerm name="MPNST with mesenchymal differentiation" check=""/>
+	<subTerm name="Melanotic MPNST" check=""/>
+	<subTerm name="Melanotic psammomatous MPNST" check=""/>
+	</mainTerm>
+	<mainTerm name="Melanotic neurofibroma" code="9541/0" check="">
+	</mainTerm>
+	<mainTerm name="Plexiform neurofibroma" code="9550/0" check="">
+	<subTerm name="Plexiform neuroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Neurilemoma, NOS" code="9560/0" check="">
+	<subTerm name="Schwannoma, NOS" check=""/>
+	<subTerm name="Neurinoma" check=""/>
+	<subTerm name="Acoustic neuroma (C72.4)" check=""/>
+	<subTerm name="Pigmented schwannoma" check=""/>
+	<subTerm name="Melanotic schwannoma" check=""/>
+	<subTerm name="Plexiform schwannoma" check=""/>
+	<subTerm name="Cellular schwannoma" check=""/>
+	<subTerm name="Degenerated schwannoma" check=""/>
+	<subTerm name="Ancient schwannoma" check=""/>
+	<subTerm name="Psammomatous schwannoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Neurinomatosis" code="9560/1" check="">
+	</mainTerm>
+	<mainTerm name="Neurilemoma, malignant [obs]" code="9560/3" check="">
+	<subTerm name="Malignant schwannoma, NOS [obs]" check=""/>
+	<subTerm name="Neurilemosarcoma [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentation" code="9561/3" check="">
+	<subTerm name="MPNST with rhabdomyoblastic differentiation" check=""/>
+	<subTerm name="Triton tumor, malignant" check=""/>
+	<subTerm name="Malignant schwannoma with rhabdomyoblastic differentiation" check=""/>
+	</mainTerm>
+	<mainTerm name="Neurothekeoma" code="9562/0" check="">
+	<subTerm name="Nerve sheath myxoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Neuroma, NOS" code="9570/0" check="">
+	</mainTerm>
+	<mainTerm name="Perineurioma, NOS" code="9571/0" check="">
+	<subTerm name="Intraneural perineurioma" check=""/>
+	<subTerm name="Soft tissue perineurioma" check=""/>
+	</mainTerm>
+	<mainTerm name="Perineurioma, malignant" code="9571/3" check="">
+	<subTerm name="Perineural MPNST" check=""/>
+	</mainTerm>
+	<mainTerm name="Granular cell tumor, NOS" code="9580/0" check="">
+	<subTerm name="Granular cell myoblastoma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Granular cell tumor, malignant" code="9580/3" check="">
+	<subTerm name="Granular cell myoblastoma, malignant" check=""/>
+	</mainTerm>
+	<mainTerm name="Alveolar soft part sarcoma" code="9581/3" check="">
+	</mainTerm>
+	<mainTerm name="Granular cell tumor of the sellar region (C75.1)" code="9582/0" check="">
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, NOS" code="9590/3" check="">
+	<subTerm name="Microglioma (C71._) [obs]" check=""/>
+	<subTerm name="Lymphoma, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, non-Hodgkin, NOS" code="9591/3" check="">
+	<subTerm name="Non-Hodgkin lymphoma, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, diffuse, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, non-cleaved cell, NOS" check=""/>
+	<subTerm name="B cell lymphoma, NOS" check=""/>
+	<subTerm name="Lymphosarcoma, NOS [obs]" check=""/>
+	<subTerm name="Lymphosarcoma, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, small cell, noncleaved, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, undifferentiated cell type, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, undifferentiated cell, non-Burkitt [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytic, intermediate differentiation, nodular [obs]" check=""/>
+	<subTerm name="Reticulum cell sarcoma, NOS [obs]" check=""/>
+	<subTerm name="Reticulum cell sarcoma, diffuse [obs]" check=""/>
+	<subTerm name="Reticulosarcoma, NOS [obs]" check=""/>
+	<subTerm name="Reticulosarcoma, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, small cleaved cell, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytic, poorly differentiated, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, small cleaved cell, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, cleaved cell, NOS [obs]" check=""/>
+	<subTerm name="Splenic B-cell lymphoma/leukemia, unclassifiable" check=""/>
+	<subTerm name="Splenic diffuse red pulp small B-cell lymphoma" check=""/>
+	<subTerm name="Hairy cell leukemia variant" check=""/>
+	</mainTerm>
+	<mainTerm name="Composite Hodgkin and non-Hodgkin lymphoma" code="9596/3" check="">
+	<subTerm name="B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and classical Hodgkin lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Primary cutaneous follicle centre lymphoma" code="9597/3" check="">
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, NOS" code="9650/3" check="">
+	<subTerm name="Hodgkin disease, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, Hodgkin" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, lymphocyte-rich" code="9651/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, lymphocyte-rich" check=""/>
+	<subTerm name="Hodgkin disease, lymphocyte predominance, NOS [obs]" check=""/>
+	<subTerm name="Hodgkin disease, lymphocytic-histiocytic predominance [obs]" check=""/>
+	<subTerm name="Hodgkin disease, lymphocyte predominance, diffuse [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, mixed cellularity, NOS" code="9652/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, mixed cellularity, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, lymphocyte depletion, NOS" code="9653/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, lymphocyte depletion, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis" code="9654/3" check="">
+	<subTerm name="Classical Hodggkin lymphoma, lymphocyte depletion, diffuse fibrosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, lymphocyte depletion, reticular" code="9655/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, lymphocyte depletion, reticular" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, nodular lymphocyte predominance" code="9659/3" check="">
+	<subTerm name="Hodgkin lymphoma, lymphocyte predominance, nodular" check=""/>
+	<subTerm name="Hodgkin paragranuloma, NOS [obs]" check=""/>
+	<subTerm name="Hodgkin paragranuloma, nodular [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin granuloma [obs]" code="9661/3" check="">
+	</mainTerm>
+	<mainTerm name="Hodgkin sarcoma [obs]" code="9662/3" check="">
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, nodular sclerosis, NOS" code="9663/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, nodular sclerosis, NOS" check=""/>
+	<subTerm name="Hodgkin disease, nodular sclerosis, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, nodular sclerosis, cellular phase" code="9664/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, nodular sclerosis, cellular phase" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, nodular sclerosis, grade 1" code="9665/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, nodular sclerosis, grade 1" check=""/>
+	<subTerm name="Hodgkin disease, nodular sclerosis, lymphocyte predominance" check=""/>
+	<subTerm name="Hodgkin disease, nodular sclerosis, mixed cellularity" check=""/>
+	</mainTerm>
+	<mainTerm name="Hodgkin lymphoma, nodular sclerosis, grade 2" code="9667/3" check="">
+	<subTerm name="Classical Hodgkin lymphoma, nodular sclerosis, grade 2" check=""/>
+	<subTerm name="Hodgkin disease, nodular sclerosis, lymphocyte depletion" check=""/>
+	<subTerm name="Hodgkin disease, nodular sclerosis, syncytial variant" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, small B lymphocytic, NOS (see also M-9823/3)" code="9670/3" check="">
+	<subTerm name="Malignant lymphoma, small lymphocytic, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytic, well differentiated, diffuse" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytic, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytic, diffuse, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, small cell, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, small lymphocytic, diffuse" check=""/>
+	<subTerm name="Malignant lymphoma, small cell diffuse" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, lymphoplasmacytic (see also M-9761/3)" code="9671/3" check="">
+	<subTerm name="Malignant lymphoma, lymphoplasmacytoid" check=""/>
+	<subTerm name="Immunocytoma [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, plasmacytoid [obs]" check=""/>
+	<subTerm name="Plasmacytic lymphoma [obs]" check=""/>
+	</mainTerm>
+
+	<mainTerm name="Mantle cell lymphoma (Includes all variants: blastic, pleomorphic, small cell)" code="9673/3" check="">
+	<subTerm name="Mantle zone lymphoma [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytic, intermediate differentiation, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, centrocytic [obs]" check=""/>
+	<subTerm name="Malignant lymphomatous polyposis" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, mixed small and large cell, diffuse (see also M-9690/3) [obs]" code="9675/3" check="">
+	<subTerm name="Malignant lymphoma, mixed lymphocytic-histiocytic, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, mixed cell type, diffuse [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, centroblasticcentrocytic, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, centroblasticcentrocytic, diffuse [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Primary effusion lymphoma" code="9678/3" check="">
+	</mainTerm>
+	<mainTerm name="Mediastinal (thymic) large B-cell lymphoma (C38.3)" code="9679/3" check="">
+	<subTerm name="Thymic large B-cell lymphoma (C37.9)" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, large B-cell, diffuse, NOS" code="9680/3" check="">
+	<subTerm name="Diffuse large B-cell lymphoma, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, large B-cell, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, histiocytic, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, histiocytic, diffuse" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, cleaved and noncleaved [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, diffuse, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, large cleaved cell, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, cleaved, diffuse" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, cleaved, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, noncleaved, diffuse" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, noncleaved, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, noncleaved, diffuse, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, noncleaved, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, large B-cell, diffuse, centroblastic, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, centroblastic, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, centroblastic, diffuse" check=""/>
+	<subTerm name="Anaplastic large B-cell lymphoma" check=""/>
+	<subTerm name="Diffuse large B-cell lymphoma associated with chronic inflammation" check=""/>
+	<subTerm name="B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and Burkitt lymphoma" check=""/>
+	<subTerm name="EBV positive diffuse large B-cell lymphoma of the elderly" check=""/>
+	<subTerm name="Primary diffuse large B-cell lymphoma of the CNS (C70._, C71._, C72._)" check=""/>
+	<subTerm name="Primary cutaneous DLBCL, leg type (C44.7)" check=""/>
+	</mainTerm>
+	<mainTerm name="Malignant lymphoma, large B-cell, diffuse, immunoblastic, NOS" code="9684/3" check="">
+	<subTerm name="Malignant lymphoma, immunoblastic, NOS" check=""/>
+	<subTerm name="Immunoblastic sarcoma [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, immunoblastic" check=""/>
+	</mainTerm>
+	<mainTerm name="Burkitt lymphoma, NOS (Includes all variants, see also M-9826/3)" code="9687/3" check="">
+	<subTerm name="Burkitt tumor [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, undifferentiated, Burkitt type [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, small noncleaved, Burkitt type [obs]" check=""/>
+	<subTerm name="Burkitt-like lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="T-cell rich large B-cell lymphoma" code="9688/3" check="">
+	<subTerm name="Histiocyte-rich large B-cell lymphoma" check=""/>
+	<subTerm name="T-cell rich/histiocyte-rich large B-cell lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Splenic marginal zone B-cell lymphoma (C42.2)" code="9689/3" check="">
+	<subTerm name="Splenic marginal zone lymphoma, NOS (C42.2)" check=""/>
+	<subTerm name="Splenic lymphoma with villous lymphocytes (C42.2)" check=""/>
+	</mainTerm>
+	<mainTerm name="Follicular lymphoma, NOS (see also M-9675/3)" code="9690/3" check="">
+	<subTerm name="Malignant lymphoma, follicular, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, follicle center, follicular" check=""/>
+	<subTerm name="Malignant lymphoma, follicle center, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, centroblasticcentrocytic, follicular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, nodular, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytec, nodular, NOS [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Follicular lymphoma, grade 2" code="9691/3" check="">
+	<subTerm name="Malignant lymphoma, mixed lymphocytec-histiocytic, nodular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, mixed small cleaved and large cell, follicular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, mixed cell type, follicular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, mixed cell type, nodular [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Follicular lymphoma, grade 1" code="9695/3" check="">
+	<subTerm name="Malignant lymphoma, small cleaved cell, follicular [obs]" check=""/>
+	<subTerm name="Follicular lymphoma, small cleaved cell" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytec, poorly differentiated, nodular [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Follicular lymphoma, grade 3" code="9698/3" check="">
+	<subTerm name="Malignant lymphoma, large cell, follicular, NOS" check=""/>
+	<subTerm name="Malignant lymphoma, large cell, noncleaved, follicular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, histiocytic, nodular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, noncleaved cell, follicular, NOS [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, large cleaved cell, follicular [obs]" check=""/>
+	<subTerm name="Malignant lymphoma, centroblastic, follicular" check=""/>
+	<subTerm name="Malignant lymphoma, lymphocytec, well differentiated, nodular [obs]" check=""/>
+	<subTerm name="Follicular lymphoma, grade 3A" check=""/>
+	<subTerm name="Follicular lymphoma, grade 3B" check=""/>
+	</mainTerm>
+	<mainTerm name="Marginal zone B-cell lymphoma, NOS" code="9699/3" check="">
+	<subTerm name="Marginal zone lymphoma, NOS" check=""/>
+	<subTerm name="Mucosal-associated lymphoid tissue lymphoma" check=""/>
+	<subTerm name="MALT lymphoma" check=""/>
+	<subTerm name="Bronchial-associated lymphoid tussue lymphoma" check=""/>
+	<subTerm name="BALT lymphoma" check=""/>
+	<subTerm name="Skin-associated lymphoid tissue lymphoma" check=""/>
+	<subTerm name="SALT lymphoma" check=""/>
+	<subTerm name="Monocytoid B-cell lymphoma" check=""/>
+	<subTerm name="Nodal marginal zone lymphoma" check=""/>
+	<subTerm name="Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue" check=""/>
+	</mainTerm>
+	<mainTerm name="Mycosis fungoides (C44._)" code="9700/3" check="">
+	<subTerm name="Pagetoid reticulosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Sezary syndrome" code="9701/3" check="">
+	<subTerm name="Sezary disease" check=""/>
+	</mainTerm>
+	<mainTerm name="Mature T-cell lymphoma, NOS" code="9702/3" check="">
+	<subTerm name="Peripheral T-cell lymphoma, NOS" check=""/>
+	<subTerm name="T-cell lymphoma, NOS" check=""/>
+	<subTerm name="Peripheral T-cell lymphoma, pleomorphic small cell" check=""/>
+	<subTerm name="Peripheral T-cell lymphoma, pleomorphic medium and large cell" check=""/>
+	<subTerm name="Peripheral T-cell lymphoma, large cell" check=""/>
+	<subTerm name="T-zone lymphoma" check=""/>
+	<subTerm name="Lymphoepithelioid lymphoma" check=""/>
+	<subTerm name="Lennert lymphoma" check=""/>
+	<subTerm name="Anaplastic large cell lymphoma, ALK negative" check=""/>
+	</mainTerm>
+	<mainTerm name="Angioimmunoblastic T-cell lymphoma" code="9705/3" check="">
+	<subTerm name="Peripheral T-cell lymphoma, AILD (Angioimmunoblastic Lymphadenopathy with Dysproteinemia) [obs]" check=""/>
+	<subTerm name="Angioimmunoblastic lymphoma [obs]" check=""/>
+	</mainTerm>	
+
+	<mainTerm name="Subcutaneous panniculitis-like T-cell lymphoma" code="9708/3" check="">
+	</mainTerm>
+	<mainTerm name="Cutaneous T-cell lymphoma, NOS (C44._)" code="9709/3" check="">
+	<subTerm name="Cutaneous lymphoma, NOS (C44._) [obs]" check=""/>
+	<subTerm name="Primary cutaneous CD8-positive aggressive epidermotropic cytotoxic T-cell lymphoma" check=""/>
+	<subTerm name="Primary cutaneous CD4-positive small/medium T-cell lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Intravascular large B-cell lymphoma (C49.9)" code="9712/3" check="">
+	<subTerm name="Intravascular B-cell lymphoma" check=""/>
+	<subTerm name="Angioendotheliomatosis" check=""/>
+	<subTerm name="Angiotropic lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Anaplastic large cell lymphoma, T cell and Null cell type" code="9714/3" check="">
+	<subTerm name="Large cell (Ki-1+) lymphoma [obs]" check=""/>
+	<subTerm name="Anaplastic large cell lymphoma, NOS" check=""/>
+	<subTerm name="Anaplastic large cell lymphoma, CD30+" check=""/>
+	<subTerm name="Anaplastic large cell lymphoma, ALK positive" check=""/>
+	</mainTerm>
+	<mainTerm name="Hepatosplenic T-cell lymphoma" code="9716/3" check="">
+	<subTerm name="Hepatosplenic γδ (gamma-delta) cell lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Intestinal T-cell lymphoma" code="9717/3" check="">
+	<subTerm name="Enteropathy type intestinal T-cell lymphoma" check=""/>
+	<subTerm name="Enteropathy associated T-cell lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Primary cutaneous CD30+ T-cell lymphoproliferative disorder (C44._)" code="9718/3" check="">
+	<subTerm name="Lymphomatoid papulosis (C44._)" check=""/>
+	<subTerm name="Primary cutaneous anaplastic large cell lymphoma (C44._)" check=""/>
+	<subTerm name="Primary cutaneous CD30+ large T-cell lymphoma (C44._)" check=""/>
+	</mainTerm>
+	<mainTerm name="NK/T-cell lymphoma, nasal and nasal-type" code="9719/3" check="">
+	<subTerm name="Angiocentric T-cell lymphoma [obs]" check=""/>
+	<subTerm name="Malignant reticulosis, NOS [obs]" check=""/>
+	<subTerm name="Malignant midline reticulosis [obs]" check=""/>
+	<subTerm name="T/NK-cell lymphoma" check=""/>
+	<subTerm name="Polymorphic reticulosis [obs]" check=""/>
+	<subTerm name="Extranodal NK/T-cell lymphoma, nasal type" check=""/>
+	</mainTerm>
+	<mainTerm name="Systemic EBV positive T-cell lymphoproliferative disease of childhood" code="9724/3" check="">
+	</mainTerm>
+	<mainTerm name="Hydroa vacciniforme-like lymphoma" code="9725/3" check="">
+	</mainTerm>
+	<mainTerm name="Primary cutaneous gamma-delta T-cell lymphoma" code="9726/3" check="">
+	</mainTerm>
+	<mainTerm name="Precursor cell lymphoblastic lymphoma, NOS (see also M-9835/3)" code="9727/3" check="">
+	<subTerm name="Malignant lymphoma, lymphoblastic, NOS (see also M-9835/3)" check=""/>
+	<subTerm name="Malignant lymphoma, convoluted cell [obs]" check=""/>
+	<subTerm name="Lymphoblastoma [obs]" check=""/>
+	<subTerm name="Blastic plasmacytoid dendritic cell neoplasm" check=""/>
+	<subTerm name="Blastic NK cell lymphoma [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Precursor B-cell lymphoblastic lymphoma (see also M-9836/3)" code="9728/3" check="">
+	</mainTerm>
+	<mainTerm name="Precursor T-cell lymphoblastic lymphoma (see also M-9837/3)" code="9729/3" check="">
+	</mainTerm>
+	<mainTerm name="Plasmacytoma, NOS" code="9731/3" check="">
+	<subTerm name="Plasma cell tumor" check=""/>
+	<subTerm name="Solitary myeloma" check=""/>
+	<subTerm name="Solitary plasmacytoma" check=""/>
+	<subTerm name="Plasmacytoma of bone (C40._, C41._)" check=""/>
+	</mainTerm>
+	<mainTerm name="Multiple myeloma (C42.1)" code="9732/3" check="">
+	<subTerm name="Myelomatosis (C42.1)" check=""/>
+	<subTerm name="Plasma cell myeloma (C42.1)" check=""/>
+	<subTerm name="Myeloma, NOS (C42.1)" check=""/>
+	</mainTerm>
+	<mainTerm name="Plasma cell leukemia (C42.1)" code="9733/3" check="">
+	<subTerm name="Plasmacytic leukemia (C42.1)" check=""/>
+	</mainTerm>
+	<mainTerm name="Plasmacytoma, extramedullary (not occurring in bone)" code="9734/3" check="">
+	<subTerm name="Extraosseous plasmacytoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Plasmablastic lymphoma" code="9735/3" check="">
+	</mainTerm>
+	<mainTerm name="ALK positive large B-cell lymphoma" code="9737/3" check="">
+	</mainTerm>
+	<mainTerm name="Large B-cell lymphoma arising in HHV8-associated multicentric Castleman disease" code="9738/3" check="">
+	</mainTerm>
+	<mainTerm name="Mastocytoma, NOS" code="9740/1" check="">
+	<subTerm name="Mast cell tumor, NOS" check=""/>
+	<subTerm name="Cutaneous mastocytosis" check=""/>
+	<subTerm name="Urticaria pigmentosa" check=""/>
+	<subTerm name="Diffuse cutaneous mastocytosis" check=""/>
+	<subTerm name="Solitary mastocytoma of skin" check=""/>
+	<subTerm name="Extracutaneous mastocytoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Mast cell sarcoma" code="9740/3" check="">
+	<subTerm name="Malignant mast cell tumor" check=""/>
+	<subTerm name="Malignant mastocytoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Indolent systemic mastocytosis" code="9741/1" check="">
+	</mainTerm>
+	<mainTerm name="Malignant mastocytosis" code="9741/3" check="">
+	<subTerm name="Systemic tissue mast cell disease" check=""/>
+	<subTerm name="Systemic mastocytosis with associated hematological clonal non-mast cell disorder" check=""/>
+	<subTerm name="Systemic mastocytosis with AHNMD" check=""/>
+	<subTerm name="Aggressive systemic mastocytosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Mast cell leukaemia (C42.1)" code="9742/3" check="">
+	</mainTerm>
+
+	<mainTerm name="Malignant histiocytosis" code="9750/3" check="">
+	<subTerm name="Histiocytic medullary reticulosis [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Langerhans cell histiocytosis, NOS (use 9751/3) [obs]" code="9751/1" check="">
+	<subTerm name="Langerhans cell granulomatosis (use 9751/3) [obs]" check=""/>
+	<subTerm name="Histiocytosis X, NOS (use 9751/3) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Langerhans cell histiocytosis, NOS" code="9751/3" check="">
+	</mainTerm>
+	<mainTerm name="Langerhans cell histiocytosis, unifocal (use 9751/3) [obs]" code="9752/1" check="">
+	<subTerm name="Langerhans cell granulomatosis, unifocal (use 9751/3) [obs]" check=""/>
+	<subTerm name="Langerhans cell histiocytosis, mono-ostotic (use 9751/3) [obs]" check=""/>
+	<subTerm name="Eosinophilic granuloma" check=""/>
+	</mainTerm>
+	<mainTerm name="Langerhans cell histiocytosis, multifocal (use 9751/3) [obs]" code="9753/1" check="">
+	<subTerm name="Langerhans cell histiocytosis, poly-ostotic (use 9751/3) [obs]" check=""/>
+	<subTerm name="Hand-Schuller-Christian disease (use 9751/3) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Langerhans cell histiocytosis, disseminated (use 9751/3) [obs]" code="9754/3" check="">
+	<subTerm name="Langerhans cell histiocytosis, generalized (use 9751/3) [obs]" check=""/>
+	<subTerm name="Letterer-Siwe disease (use 9751/3) [obs]" check=""/>
+	<subTerm name="Acute progressive histiocytosis X (use 9751/3) [obs]" check=""/>
+	<subTerm name="Nonlipid reticuloendotheliosis (use 9751/3) [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Histiocytic sarcoma" code="9755/3" check="">
+	<subTerm name="True histiocytic lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Langerhans cell sarcoma" code="9756/3" check="">
+	</mainTerm>
+	<mainTerm name="Interdigitating dendritic cell sarcoma" code="9757/3" check="">
+	<subTerm name="Interdigitating cell sarcoma" check=""/>
+	<subTerm name="Dendritic cell sarcoma, NOS" check=""/>
+	<subTerm name="Indeterminate dendritic cell tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Follicular dendritic cell sarcoma" code="9758/3" check="">
+	<subTerm name="Follicular dendritic cell tumor" check=""/>
+	</mainTerm>
+	<mainTerm name="Fibroblastic reticular cell tumor" code="9759/3" check="">
+	</mainTerm>
+	<mainTerm name="Immunoproliferative disease, NOS" code="9760/3" check="">
+	</mainTerm>
+	<mainTerm name="Waldenstrom macroglobulinemia (C42.0) (see also M-9671/3)" code="9761/3" check="">
+	</mainTerm>
+	<mainTerm name="Heavy chain disease, NOS" code="9762/3" check="">
+	<subTerm name="Alpha heavy chain disease" check=""/>
+	<subTerm name="Mu heavy chain disease" check=""/>
+	<subTerm name="Gamma heavy chain disease" check=""/>
+	<subTerm name="Franklin disease" check=""/>
+	</mainTerm>
+	<mainTerm name="Immunoproliferative small intestinal disease (C17._)" code="9764/3" check="">
+	<subTerm name="Mediterranean lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Monoclonal gammopathy of undetermined significance" code="9765/1" check="">
+	<subTerm name="MGUS" check=""/>
+	<subTerm name="Monoclonal gammopathy, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Angiocentric immunoproliferative lesion" code="9766/1" check="">
+	<subTerm name="Lymphomatoid granulomatosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Angioimmunoblastic lymphadenopathy" code="9767/1" check="">
+	</mainTerm>
+	<mainTerm name="T-gamma lymphoproliferative disease" code="9768/1" check="">
+	</mainTerm>
+	<mainTerm name="Immunoglobulin deposition disease" code="9769/1" check="">
+	<subTerm name="Systemic light chain disease" check=""/>
+	<subTerm name="Primary amyloidosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Leukemia, NOS" code="9800/3" check="">
+	<subTerm name="Subacute leukemia, NOS [obs]" check=""/>
+	<subTerm name="Chronic leukemia, NOS [obs]" check=""/>
+	<subTerm name="Aleukemic leukemia, NOS [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute leukemia, NOS" code="9801/3" check="">
+	<subTerm name="Blast cell leukemia" check=""/>
+	<subTerm name="Stem cell leukemia" check=""/>
+	<subTerm name="Undifferentiated leukaemia" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute biphenotypic leukemia" code="9805/3" check="">
+	<subTerm name="Acute mixed lineage leukemia" check=""/>
+	<subTerm name="Acute bilineal leukemia" check=""/>
+	</mainTerm>
+	<mainTerm name="Mixed phenotype acute leukemia with t(9;22)(q34;q11.2); BCR-ABL1" code="9806/3" check="">
+	</mainTerm>
+	<mainTerm name="Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged" code="9807/3" check="">
+	</mainTerm>
+	<mainTerm name="Mixed phenotype acute leukemia, B/myeloid, NOS" code="9808/3" check="">
+	</mainTerm>
+	<mainTerm name="Mixed phenotype acute leukemia, T/myeloid, NOS" code="9809/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma, NOS" code="9811/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1" code="9812/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged" code="9813/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with t(12;21)(p13;q22); TEL-AML1 (ETV6-RUNX1)" code="9814/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with hyperdiploidy" code="9815/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with hypodiploidy (Hypodiploid ALL)" code="9816/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with t(5;14)(q31;q32); IL3-IGH" code="9817/3" check="">
+	</mainTerm>
+	<mainTerm name="B lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)" code="9818/3" check="">
+	</mainTerm>
+	<mainTerm name="Lymphoid leukemia, NOS" code="9820/3" check="">
+	<subTerm name="Lymphocytic leukemia, NOS [obs]" check=""/>
+	<subTerm name="Lymphatic leukemis, NOS [obs]" check=""/>
+	<subTerm name="Subacute lymphoid leukemia [obs]" check=""/>
+	<subTerm name="Subacute lymphocytic leukemia [obs]" check=""/>
+	<subTerm name="Subacute lymphatic leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic lymphoid leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic lymphocytic leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic lymphatic leukemia [obs]" check=""/>
+	<subTerm name="Lymphosarcoma cell leukemia [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="B-cell lymphocytic leukemia/small lymphocytic lymphoma (see also M-9670/3)" code="9823/3" check="">
+	<subTerm name="Chronic lymphocytic leukemia, B-cell type (includes all variants of BCLL)" check=""/>
+	<subTerm name="Chronic lymphocytic leukemia" check=""/>
+	<subTerm name="Chronic lymphoid leukemia" check=""/>
+	<subTerm name="Chronic lymphatic leukemia" check=""/>
+	</mainTerm>
+	<mainTerm name="Burkitt cell leukemia (see also M-9687/3)" code="9826/3" check="">
+	<subTerm name="Acute leukemia, Burkitt type [obs]" check=""/>
+	<subTerm name="B-ALL [obs]" check=""/>
+	<subTerm name="FAB L3 [obs]" check=""/>
+	<subTerm name="Burkitt cell leukemia" check=""/>
+	<subTerm name="Acute lymphoblastic leukemia, mature B-cell type" check=""/>
+	</mainTerm>
+	<mainTerm name="Adult T-cell leukemia/lymphoma (HTLV-1 positive) (includes all variants)" code="9827/3" check="">
+	<subTerm name="Adult T-cell lymphoma/leukemia" check=""/>
+	<subTerm name="Adult T-cell lymphoma" check=""/>
+	<subTerm name="Adult T-cell leukemia" check=""/>
+	</mainTerm>
+	<mainTerm name="T-cell large granular lymphocytic leukemia" code="9831/3" check="">
+	<subTerm name="T-cell large granular lymphocytosis" check=""/>
+	<subTerm name="NK-cell large granular lymphocytic leukemia" check=""/>
+	<subTerm name="Large granular lymphocytosis, NOS" check=""/>
+	<subTerm name="Chronic lymphoproliferative disorder of NK cells" check=""/>
+	</mainTerm>
+	<mainTerm name="Prolymphocytic leukemia, NOS" code="9832/3" check="">
+	</mainTerm>
+	<mainTerm name="Prolymphocytic leukemia, B-cell type" code="9833/3" check="">
+	</mainTerm>
+	<mainTerm name="Prolymphocytic leukemia, T-cell type" code="9834/3" check="">
+	</mainTerm>
+	<mainTerm name="Precursor cell lymphoblastic leukemia, NOS (see also M-9727/3)" code="9835/3" check="">
+	<subTerm name="Precursor cell lymphoblastic leukemia, not phenotyped" check=""/>
+	<subTerm name="Acute lymphoblastic leukemia, NOS (see also M-9727/3)" check=""/>
+	<subTerm name="Acute lymphoblastic leukemia, precursorcell type" check=""/>
+	<subTerm name="Acute lymphoblastic leukemia-lymphoma, NOS" check=""/>
+	<subTerm name="Acute lymphocytic leukemia" check=""/>
+	<subTerm name="Acute lymphoid leukemia" check=""/>
+	<subTerm name="Acute lymphatic leukemia" check=""/>
+	<subTerm name="Lymphoblastic leukemia, NOS" check=""/>
+	<subTerm name="FAB Ll [obs]" check=""/>
+	<subTerm name="Acute lymphoblastic leukemia, L2 type, NOS" check=""/>
+	<subTerm name="FAB L2" check=""/>
+	</mainTerm>
+	<mainTerm name="Precursor B-cell lymphoblastic leukemia (see also M-9728/3)" code="9836/3" check="">
+	<subTerm name="Pro-B ALL" check=""/>
+	<subTerm name="Common precursor B ALL" check=""/>
+	<subTerm name="Pre-B ALL" check=""/>
+	<subTerm name="Pre-pre-B ALL" check=""/>
+	<subTerm name="Common ALL" check=""/>
+	<subTerm name="c-ALL" check=""/>
+	</mainTerm>
+	<mainTerm name="Precursor T-cell lymphoblastic leukemia (see also M-9729/3)" code="9837/3" check="">
+	<subTerm name="Pro-T ALL" check=""/>
+	<subTerm name="Pre-T ALL" check=""/>
+	<subTerm name="Cortical T ALL" check=""/>
+	<subTerm name="Mature T ALL" check=""/>
+	<subTerm name="T lymphoblastic leukemia/lymphoma" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia, M6 type" code="9840/3" check="">
+	<subTerm name="Acute erythroid leukaemia" check=""/>
+	<subTerm name="Erythroleukemia" check=""/>
+	<subTerm name="FAB M6" check=""/>
+	<subTerm name="AML M6" check=""/>
+	<subTerm name="Erythremic myelosis, NOS" check=""/>
+	<subTerm name="Acute erythremia [obs]" check=""/>
+	<subTerm name="Di Guglielmo disease [obs]" check=""/>
+	<subTerm name="Acute erythremic myelosis [obs]" check=""/>
+	<subTerm name="M6B" check=""/>
+	<subTerm name="M6A" check=""/>
+	</mainTerm>
+	<mainTerm name="Myeloid leukemia, NOS" code="9860/3" check="">
+	<subTerm name="Non-lymphocytic leukemia, NOS" check=""/>
+	<subTerm name="Granulocytic leukemia, NOS" check=""/>
+	<subTerm name="Myelogenous leukemia, NOS" check=""/>
+	<subTerm name="Myelomonocytic leukemia, NOS" check=""/>
+	<subTerm name="Myelocytic leukemia, NOS" check=""/>
+	<subTerm name="Subacute myeloid leukemia [obs]" check=""/>
+	<subTerm name="Subacute granulocytic leukemia [obs]" check=""/>
+	<subTerm name="Subacute myelogenous leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic myeloid leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic granulocytic leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic myelogenous leukemia [obs]" check=""/>
+	<subTerm name="Eosinophilic leukemia" check=""/>
+	<subTerm name="Monocytic leukemia, NOS" check=""/>
+	<subTerm name="Subacute monocytic leukemia [obs]" check=""/>
+	<subTerm name="Chronic monocytic leukemia [obs]" check=""/>
+	<subTerm name="Aleukemic monocytic leukemia [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia, NOS (FAB or WHO type not specified, see also M-9930/3)" code="9861/3" check="">
+	<subTerm name="Acute non-lymphocytic leukemia" check=""/>
+	<subTerm name="Acute granulocytic leukemia" check=""/>
+	<subTerm name="Acute myelogenous leukemia" check=""/>
+	<subTerm name="Acute myelocytic leukemia" check=""/>
+	<subTerm name="Acute myeloid leukemia with mutated NPM1" check=""/>
+	<subTerm name="Acute myeloid leukemia with mutated CEBPA" check=""/>
+	</mainTerm>
+	<mainTerm name="Chronic myeloid leukemia, NOS" code="9863/3" check="">
+	<subTerm name="Chronic granulocytic leukemia, NOS" check=""/>
+	<subTerm name="Chronic granulocytic leukemia, NOS" check=""/>
+	<subTerm name="Chronic myelocytic leukemia, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia with t(6;9)(p23;q34); DEK-NUP214" code="9865/3" check="">
+	</mainTerm>
+
+	<mainTerm name="Acute promyelocytic leukaemia, t(15;17)(q22;q11-12)" code="9866/3" check="">
+	<subTerm name="Acute promyelocytic leukemia, NOS" check=""/>
+	<subTerm name="FAB M3 (includes all variants)" check=""/>
+	<subTerm name="Acute myeloid leukemia, PML/RAR-alpha" check=""/>
+	<subTerm name="Acute myeloid leukemia, t(15:17)(g22;q11-12)" check=""/>
+	<subTerm name="Acute promyelocytic leukaemia, PML-RAR-alpha" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myelomonocytic leukemia" code="9867/3" check="">
+	<subTerm name="FAB M4" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1" code="9869/3" check="">
+	</mainTerm>
+	<mainTerm name="Acute basophilic leukaemia" code="9870/3" check="">
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia with abnormal marrow eosinophils (includes all variants)" code="9871/3" check="">
+	<subTerm name="Acute myeloid leukemia, t(16;16)(p 13;q 11)" check=""/>
+	<subTerm name="Acute myeloid leukemia, CBF-beta/MYH11" check=""/>
+	<subTerm name="Acute myelomonocytic leukemia with abnormal eosinophils" check=""/>
+	<subTerm name="FAB M4Eo" check=""/>
+	<subTerm name="Acute myeloid leukaemia, inv(16)(p13;q22)" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia, minimal differentiation" code="9872/3" check="">
+	<subTerm name="Acute myeloblastic leukemia" check=""/>
+	<subTerm name="FAB MO" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia without maturation" code="9873/3" check="">
+	<subTerm name="FAB M1" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia with maturation" code="9874/3" check="">
+	<subTerm name="FAB M2, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Chronic myelogenous leukemia, BCR-ABL positive" code="9875/3" check="">
+	<subTerm name="Chronic myelogenous leukemia, Philadelphia chromosome (Ph 1) positive" check=""/>
+	<subTerm name="Chronic myelogenous leukemia, t(9;22)(q34;q11)" check=""/>
+	<subTerm name="Chronic granulocytic leukemia, Philadelphia chromosome (Ph1) positive" check=""/>
+	<subTerm name="Chronic granulocytic leukemia, t(9;22)(q34;q11)" check=""/>
+	<subTerm name="Chronic granulocytic leukemia, BCR/ABL" check=""/>
+	</mainTerm>
+	<mainTerm name="Atypical chronic myeloid leukemia, BCR/ABL negative" code="9876/3" check="">
+	<subTerm name="Atypical chronic myeloid leukemia, Philadelphia chromosome (Ph1) negative" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute monocytic leukemia" code="9891/3" check="">
+	<subTerm name="Acute monoblastic leukemia" check=""/>
+	<subTerm name="FAB M5 (includes all variants)" check=""/>
+	<subTerm name="Monoblastic leukemia, Nos" check=""/>
+	<subTerm name="Acute monoblastic and monocytic leukemia" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia with myelodysplasia-related changes" code="9895/3" check="">
+	<subTerm name="Acute myeloid leukemia with multilineage dysplasia" check=""/>
+	<subTerm name="Acute myeloid leukemia with prior myelodysplastic syndrome" check=""/>
+	<subTerm name="Acute myeloid leukemia without prior myelodysplastic syndrome" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukaemia, t(8;21)(q22;q22)" code="9896/3" check="">
+	<subTerm name="Acute myeloid leukemia, AML1(CBF-alpha)/ETO" check=""/>
+	<subTerm name="FAB M2, t(8;21)(q22;q22)" check=""/>
+	<subTerm name="FAB M2, AML1(CBF-alpha)/ETO" check=""/>
+	<subTerm name="Acute myeloid leukemia with t(8;21)(q22;q22); RUNX1-RUNX1T1" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myloid leukemia, 11q23 abnormalities" code="9897/3" check="">
+	<subTerm name="Acute myloid leukemia, MLL" check=""/>
+	<subTerm name="Acute myeloid leukemia with t(9;11)(p22;q23); MLLT3-MLL" check=""/>
+	</mainTerm>
+	<mainTerm name="Transient abnormal myelopoiesis" code="9898/1" check="">
+	</mainTerm>
+	<mainTerm name="Myeloid leukemia associated with Down Syndrome" code="9898/3" check="">
+	</mainTerm>
+	<mainTerm name="Acute megakaryoblastic leukaemia" code="9910/3" check="">
+	<subTerm name="Megakaryocytic leukemia" check=""/>
+	<subTerm name="FAB M7" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute myeloid leukemia (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1" code="9911/3" check="">
+	</mainTerm>
+	<mainTerm name="Therapy related myeloid neoplasm" code="9920/3" check="">
+	<subTerm name="Therapy-related acute myeloid leukemia, NOS" check=""/>
+	<subTerm name="Therapy-related acute myeloid leukemia, alkylating agent related" check=""/>
+	<subTerm name="Therapy-related acute myeloid leukemia, epipodophyllotoxin-related" check=""/>
+	</mainTerm>
+	<mainTerm name="Myeloid sarcoma (see also M-9861/3)" code="9930/3" check="">
+	<subTerm name="Granulocytic sarcoma" check=""/>
+	<subTerm name="Chloroma" check=""/>
+	</mainTerm>
+	<mainTerm name="Acute panmyelosis with myelofibrosis (C42.1)" code="9931/3" check="">
+	<subTerm name="Malignant myelosclerosis [obs]" check=""/>
+	<subTerm name="Acute myelofibrosis" check=""/>
+	<subTerm name="Acute myelosclerosis, NOS" check=""/>
+	<subTerm name="Acute panmyelosis, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Hairy cell leukemia (C42.1)" code="9940/3" check="">
+	<subTerm name="Hairy cell leukaemia variant" check=""/>
+	<subTerm name="Leukaemic reticuloendotheliosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Chronic myelomonocytic leukemia, NOS" code="9945/3" check="">
+	<subTerm name="Chronic myelomonocytic leukemia, Type 1" check=""/>
+	<subTerm name="Chronic myelomonocytic leukemia, Type II" check=""/>
+	<subTerm name="Chronic myelomonocytic leukemia in transformation [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Juvenile myelomonocytic leukemia" code="9946/3" check="">
+	<subTerm name="Juvenile chronic myelomonocytic leukemia" check=""/>
+	</mainTerm>
+	<mainTerm name="Aggressive NK-cell leukaemia" code="9948/3" check="">
+	</mainTerm>
+	<mainTerm name="Polycythemia vera" code="9950/3" check="">
+	<subTerm name="Polycythemia rubra vera" check=""/>
+	<subTerm name="Proliferative polycythemia" check=""/>
+	<subTerm name="Chronic erythremia [obs]" check=""/>
+	</mainTerm>
+	<mainTerm name="Myeloproliferative neoplasm, NOS" code="9960/3" check="">
+	<subTerm name="Chronic myeloproliferative disease, NOS" check=""/>
+	<subTerm name="Chronic myeloproliferative disorder" check=""/>
+	<subTerm name="Myeloproliferative disease, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Primary myelofibrosis" code="9961/3" check="">
+	<subTerm name="Myelosclerosis with myeloid metaplasia" check=""/>
+	<subTerm name="Megakaryocytic myelosclerosis" check=""/>
+	<subTerm name="Myelofibrosis with myeloid metaplasia" check=""/>
+	<subTerm name="Agnogenic myeloid metaplasia" check=""/>
+	<subTerm name="Chronic idiopathic myelofibrosis" check=""/>
+	<subTerm name="Myelofibrosis as a result of myeloproliferative disease" check=""/>
+	</mainTerm>
+	<mainTerm name="Essential thrombocythemia" code="9962/3" check="">
+	<subTerm name="Essential hemorrhagic thrombocythaemia" check=""/>
+	<subTerm name="Idiopathic hemorrhagic thrombocythaemia" check=""/>
+	<subTerm name="Idiopathic thrombocythemia" check=""/>
+	</mainTerm>
+	<mainTerm name="Chronic neutrophilic leukemia" code="9963/3" check="">
+	</mainTerm>
+	<mainTerm name="Chronic eosinophilic leukemia, NOS" code="9964/3" check="">
+	<subTerm name="Hypereosinophilic syndrome" check=""/>
+	</mainTerm>
+	<mainTerm name="Myeloid and lymphoid neoplasms with PDGFRA rearrangement" code="9965/3" check="">
+	</mainTerm>
+	<mainTerm name="Myeloid neoplasms with PDGFRB rearrangement" code="9966/3" check="">
+	</mainTerm>
+	<mainTerm name="Myeloid and lymphoid neoplasms with FGFR1 abnormalities" code="9967/3" check="">
+	</mainTerm>
+	<mainTerm name="Lymphoproliferative disorder, NOS" code="9970/1" check="">
+	<subTerm name="Lymphoproliferative disease, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Post transplant lymphoproliferative disorder, NOS" code="9971/1" check="">
+	<subTerm name="PTLD, NOS" check=""/>
+	</mainTerm>
+	<mainTerm name="Polymorphic post transplant lymphoproliferative disorder" code="9971/3" check="">
+	</mainTerm>
+	<mainTerm name="Myloproliferative neoplasm, unclassifiable" code="9975/3" check="">
+	<subTerm name="Myelodysplastic/myeloproliferative neoplasm, unclassifiable" check=""/>
+	</mainTerm>
+	<mainTerm name="Refractory anemia" code="9980/3" check="">
+	<subTerm name="Refractory anemia without sideroblasts" check=""/>
+	</mainTerm>
+	<mainTerm name="Refractory anemia with sideroblasts" code="9982/3" check="">
+	<subTerm name="Refractory anemia with ringed sideroblasts" check=""/>
+	<subTerm name="RARS" check=""/>
+	<subTerm name="Refractory anemia with ring sideroblasts associated with marked thrombocytosis" check=""/>
+	</mainTerm>
+	<mainTerm name="Refractory anemia with excess blasts" code="9983/3" check="">
+	<subTerm name="RAEB" check=""/>
+	<subTerm name="RAEB I" check=""/>
+	<subTerm name="RAEB II" check=""/>
+	</mainTerm>
+	<mainTerm name="Refractory anemia with excess blasts in transformation [obs]" code="9984/3" check="">
+	<subTerm name="RAEB-T" check=""/>
+	</mainTerm>
+	<mainTerm name="Refractory cytopenia with multilineage dysplasia" code="9985/3" check="">
+	<subTerm name="Refractory cytopenia of childhood" check=""/>
+	</mainTerm>
+	<mainTerm name="Myelodysplastic syndrome with 5q deletion (5q-) syndrome" code="9986/3" check="">
+	<subTerm name="Myelodysplastic syndrome with isolated del (5q)" check=""/>
+	</mainTerm>
+	<mainTerm name="Therapy-related myelodysplastic syndrome, NOS" code="9987/3" check="">
+	<subTerm name="Therapy-related myelodysplastic syndrome, alkylating agent related" check=""/>
+	<subTerm name="Therapy-related myelodysplastic syndrome, epipodophyllotoxin-related" check=""/>
+	</mainTerm>
+	<mainTerm name="Myelodysplastic syndrome, NOS" code="9989/3" check="">
+	<subTerm name="Preleukaemia [obs]" check=""/>
+	<subTerm name="Preleukemic syndrome [obs]" check=""/>
+	<subTerm name="Myelodysplastic syndrome, unclassifiable" check=""/>
+	</mainTerm>
+	<mainTerm name="Refractory neutropenia" code="9991/3" check="">
+	</mainTerm>
+ 
+</root>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="mSlideViewer.ImageInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mSlideViewer"
+        mc:Ignorable="d"
+        Title="ImageInfo" Height="300" Width="300">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Information">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="imageInfo" HorizontalAlignment="Left" Height="352" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="604"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Thumbnail">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Label">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Macro">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
